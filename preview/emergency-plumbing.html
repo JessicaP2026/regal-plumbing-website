@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emergency Plumbing Services — Regal Plumbing &amp; Rooter | (909) 600-4561</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --red: #B91C1C; --red-dark: #991B1B; --navy: #1E3A6E; --dark-grey: #2D2D2D; --light-grey: #F3F4F6; --white: #FFFFFF; }
+    body { font-family: 'Open Sans', sans-serif; color: var(--dark-grey); line-height: 1.6; }
+    a { text-decoration: none; color: inherit; }
+
+    .emergency-bar { background: var(--dark-grey); color: var(--white); text-align: center; padding: 9px 16px; font-size: 13.5px; font-weight: 600; }
+    .emergency-bar a { color: #fca5a5; text-decoration: underline; text-underline-offset: 2px; }
+
+    .site-header { position: sticky; top: 0; z-index: 1000; background: var(--white); box-shadow: 0 2px 12px rgba(0,0,0,0.10); }
+    .header-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; gap: 24px; height: 72px; }
+    .logo { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+    .site-nav { display: flex; align-items: center; gap: 6px; }
+    .site-nav a { font-family: 'Oswald', sans-serif; font-weight: 500; font-size: 14px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--dark-grey); padding: 8px 12px; border-radius: 4px; transition: color 0.2s, background 0.2s; }
+    .site-nav a:hover, .site-nav a.active { color: var(--red); background: #FEF2F2; }
+    .header-right { display: flex; align-items: center; gap: 14px; flex-shrink: 0; }
+    .header-phone { font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 16px; color: var(--navy); }
+
+    .btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 10px 22px; border-radius: 4px; font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 1px; text-transform: uppercase; cursor: pointer; transition: background 0.2s, transform 0.15s, box-shadow 0.2s; border: 2px solid transparent; }
+    .btn-red { background: var(--red); color: var(--white); border-color: var(--red); }
+    .btn-red:hover { background: var(--red-dark); box-shadow: 0 4px 14px rgba(185,28,28,0.4); transform: translateY(-1px); }
+    .btn-outline-red { background: transparent; color: var(--red); border-color: var(--red); }
+    .btn-outline-red:hover { background: var(--red); color: var(--white); transform: translateY(-1px); }
+    .btn-white-red { background: var(--white); color: var(--red); border: 2px solid var(--white); font-size: 15px; padding: 14px 32px; }
+    .btn-white-red:hover { background: transparent; color: var(--white); transform: translateY(-2px); }
+
+    .page-hero { position: relative; overflow: hidden; min-height: 320px; display: flex; align-items: center; }
+    .page-hero-bg-img { position: absolute; inset: 0; }
+    .page-hero-bg-img img { width: 100%; height: 100%; object-fit: cover; }
+    .page-hero-overlay { position: absolute; inset: 0; background: linear-gradient(105deg, rgba(0,0,0,0.85) 0%, rgba(30,58,110,0.65) 60%, rgba(185,28,28,0.25) 100%); }
+    .page-hero-inner { position: relative; z-index: 2; max-width: 1200px; margin: 0 auto; padding: 72px 24px; width: 100%; }
+    .breadcrumb { display: flex; align-items: center; gap: 8px; font-size: 13px; color: #9CA3AF; margin-bottom: 14px; }
+    .breadcrumb a { color: #9CA3AF; transition: color 0.2s; }
+    .breadcrumb a:hover { color: var(--white); }
+    .breadcrumb-sep { color: #4B5563; }
+    .breadcrumb-current { color: #fca5a5; }
+    .page-hero h1 { font-family: 'Oswald', sans-serif; font-weight: 700; font-size: clamp(30px, 4vw, 52px); color: var(--white); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+    .page-hero-sub { font-size: 17px; color: #D1D5DB; max-width: 600px; line-height: 1.6; }
+    .page-hero-badge { display: inline-block; background: var(--red); color: var(--white); font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; padding: 5px 14px; border-radius: 3px; margin-bottom: 16px; }
+
+    .section { padding: 80px 24px; }
+    .section-inner { max-width: 1200px; margin: 0 auto; }
+    .section-eyebrow { font-family: 'Oswald', sans-serif; font-weight: 500; font-size: 12px; letter-spacing: 3px; text-transform: uppercase; color: var(--red); margin-bottom: 8px; }
+    .section-title { font-family: 'Oswald', sans-serif; font-weight: 700; font-size: clamp(24px, 3vw, 38px); color: var(--dark-grey); text-transform: uppercase; letter-spacing: 0.5px; line-height: 1.15; }
+    .section-title.white { color: var(--white); }
+    .red-divider { width: 56px; height: 4px; background: var(--red); border-radius: 2px; margin: 14px 0 24px; }
+    .red-divider.centered { margin-left: auto; margin-right: auto; }
+
+    .overview-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: center; }
+    .overview-photo { border-radius: 10px; overflow: hidden; box-shadow: 0 12px 40px rgba(0,0,0,0.15); }
+    .overview-photo img { width: 100%; height: 420px; object-fit: cover; display: block; }
+    .overview-body { font-size: 15.5px; color: #4B5563; line-height: 1.8; margin-bottom: 18px; }
+    .feature-list { list-style: none; margin: 0 0 28px; display: flex; flex-direction: column; gap: 10px; }
+    .feature-list li { display: flex; align-items: flex-start; gap: 10px; font-size: 15px; color: var(--dark-grey); }
+    .feature-list li::before { content: '\2713'; color: var(--red); font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+
+    .covers-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+    .cover-card { background: var(--white); border-radius: 8px; padding: 28px 24px; border-top: 3px solid var(--red); box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+    .cover-icon { font-size: 28px; margin-bottom: 14px; }
+    .cover-title { font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 16px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--dark-grey); margin-bottom: 8px; }
+    .cover-desc { font-size: 14px; color: #6B7280; line-height: 1.7; }
+
+    .why-section { background: var(--navy); padding: 80px 24px; }
+    .why-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+    .why-card { text-align: center; padding: 32px 24px; }
+    .why-icon { font-size: 36px; display: block; margin-bottom: 16px; }
+    .why-title { font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 18px; color: var(--white); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 10px; }
+    .why-desc { font-size: 14px; color: #93C5FD; line-height: 1.7; }
+
+    .other-services-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+    .other-service-card { background: var(--light-grey); border: 1px solid #E5E7EB; border-radius: 8px; padding: 22px 20px; transition: box-shadow 0.2s, border-color 0.2s; }
+    .other-service-card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.10); border-color: var(--red); }
+    .other-service-name { font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 15px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--dark-grey); margin-bottom: 6px; }
+    .other-service-desc { font-size: 13px; color: #6B7280; line-height: 1.6; margin-bottom: 12px; }
+    .other-service-link { font-family: 'Oswald', sans-serif; font-weight: 500; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; color: var(--red); }
+
+    .cta-section { background: var(--red); padding: 64px 24px; text-align: center; position: relative; overflow: hidden; }
+    .cta-section::before { content: ''; position: absolute; inset: 0; background: repeating-linear-gradient(-45deg, transparent, transparent 8px, rgba(0,0,0,0.04) 8px, rgba(0,0,0,0.04) 10px); }
+    .cta-inner { position: relative; z-index: 2; max-width: 700px; margin: 0 auto; }
+    .cta-inner h2 { font-family: 'Oswald', sans-serif; font-weight: 700; font-size: clamp(26px, 4vw, 42px); color: var(--white); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 12px; }
+    .cta-sub { font-size: 16px; color: rgba(255,255,255,0.85); margin-bottom: 24px; }
+    .cta-phone { font-family: 'Oswald', sans-serif; font-weight: 700; font-size: clamp(30px, 5vw, 50px); color: var(--white); letter-spacing: 2px; margin-bottom: 28px; display: block; }
+
+    .site-footer { background: var(--dark-grey); color: var(--white); padding: 64px 24px 0; }
+    .footer-inner { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1.6fr 1fr 1fr 1.3fr; gap: 48px; padding-bottom: 48px; border-bottom: 1px solid rgba(255,255,255,0.10); }
+    .footer-logo-name { font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 18px; color: var(--white); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px; }
+    .footer-tagline { font-size: 13px; color: #9CA3AF; margin-bottom: 16px; line-height: 1.6; }
+    .footer-license { display: inline-block; background: rgba(185,28,28,0.2); border: 1px solid rgba(185,28,28,0.4); color: #fca5a5; font-size: 11.5px; font-family: 'Oswald', sans-serif; letter-spacing: 1px; padding: 4px 10px; border-radius: 3px; }
+    .footer-col h4 { font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--white); margin-bottom: 18px; padding-bottom: 10px; border-bottom: 2px solid var(--red); display: inline-block; }
+    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 9px; }
+    .footer-links a { font-size: 13.5px; color: #9CA3AF; transition: color 0.2s, padding-left 0.2s; display: flex; align-items: center; gap: 6px; }
+    .footer-links a::before { content: '\203A'; color: var(--red); font-size: 16px; }
+    .footer-links a:hover { color: var(--white); padding-left: 4px; }
+    .footer-contact-list { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+    .footer-contact-list li { display: flex; gap: 10px; font-size: 13.5px; color: #9CA3AF; line-height: 1.5; }
+    .contact-icon { font-size: 15px; flex-shrink: 0; }
+    .footer-contact-list a { color: #9CA3AF; transition: color 0.2s; }
+    .footer-contact-list a:hover { color: var(--white); }
+    .footer-bottom { max-width: 1200px; margin: 0 auto; padding: 18px 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
+    .footer-bottom-text { font-size: 12.5px; color: #6B7280; }
+    .footer-bottom-links { display: flex; gap: 20px; }
+    .footer-bottom-links a { font-size: 12.5px; color: #6B7280; }
+
+    @media (max-width: 900px) {
+      .overview-grid { grid-template-columns: 1fr; gap: 40px; }
+      .covers-grid { grid-template-columns: repeat(2, 1fr); }
+      .why-grid { grid-template-columns: repeat(2, 1fr); }
+      .other-services-grid { grid-template-columns: repeat(2, 1fr); }
+      .footer-inner { grid-template-columns: 1fr 1fr; gap: 32px; }
+    }
+    @media (max-width: 640px) {
+      .site-nav { display: none; }
+      .section { padding: 56px 16px; }
+      .covers-grid { grid-template-columns: 1fr; }
+      .why-grid { grid-template-columns: 1fr; }
+      .other-services-grid { grid-template-columns: repeat(2, 1fr); }
+      .footer-inner { grid-template-columns: 1fr; gap: 28px; }
+      .footer-bottom { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="emergency-bar">
+    24/7 Emergency Service Available — Call <a href="tel:9096004561">(909) 600-4561</a>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <img src="../images/regal-plumbing-logo.png" alt="Regal Plumbing &amp; Rooter" style="height:56px;width:auto;" />
+      </a>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html" class="active">Services</a>
+        <a href="about.html">About</a>
+        <a href="service-area.html">Service Area</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-right">
+        <a href="tel:9096004561" class="header-phone">(909) 600-4561</a>
+        <a href="tel:9096004561" class="btn btn-red">Call Now</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <div class="page-hero">
+    <div class="page-hero-bg-img"><img src="../images/pipe-repair-leak-detection-chino-hills-ca.webp" alt="Emergency plumbing service" /></div>
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-inner">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="breadcrumb-sep">›</span>
+        <a href="services.html">Services</a>
+        <span class="breadcrumb-sep">›</span>
+        <span class="breadcrumb-current">Emergency Plumbing</span>
+      </div>
+      <span class="page-hero-badge">24/7 Available</span>
+      <h1>Emergency Plumbing</h1>
+      <p class="page-hero-sub">Rapid-response emergency plumbing for the Inland Empire — we're on call around the clock</p>
+    </div>
+  </div>
+
+  <!-- Service Overview -->
+  <section class="section">
+    <div class="section-inner">
+      <div class="overview-grid">
+        <div>
+          <div class="section-eyebrow">When Every Minute Counts</div>
+          <h2 class="section-title">24/7 Emergency Plumbing Response</h2>
+          <div class="red-divider"></div>
+          <p class="overview-body">When a plumbing emergency strikes — a burst pipe, major leak, or sewage backup — every minute matters. Regal Plumbing &amp; Rooter provides rapid-response emergency service around the clock, 365 days a year. We mobilize fast, arrive with the right equipment, and get the problem under control before it causes serious damage to your home or property.</p>
+          <ul class="feature-list">
+            <li>Typically on-site within the hour</li>
+            <li>Burst pipe detection and emergency shutoff</li>
+            <li>Sewage backup and overflow response</li>
+            <li>Major leak control and repair</li>
+            <li>24/7 availability including holidays</li>
+            <li>Upfront pricing even in emergencies</li>
+          </ul>
+          <a href="tel:9096004561" class="btn btn-red">📞 Call Now — (909) 600-4561</a>
+        </div>
+        <div class="overview-photo">
+          <img src="../images/sewer-repair-service-truck-inland-empire.webp" alt="Emergency plumbing response" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What We Cover -->
+  <section class="section" style="background: var(--light-grey);">
+    <div class="section-inner">
+      <div style="text-align:center;margin-bottom:48px;">
+        <div class="section-eyebrow">What We Cover</div>
+        <h2 class="section-title">Emergency Services We Provide</h2>
+        <div class="red-divider centered"></div>
+      </div>
+      <div class="covers-grid">
+        <div class="cover-card">
+          <div class="cover-icon">💥</div>
+          <div class="cover-title">Burst Pipes</div>
+          <p class="cover-desc">Immediate shutoff and repair of burst or frozen pipes before water damage spreads to walls, floors, and structural elements.</p>
+        </div>
+        <div class="cover-card">
+          <div class="cover-icon">🚿</div>
+          <div class="cover-title">Sewage Backups</div>
+          <p class="cover-desc">Emergency response to sewage backups and overflow situations that require immediate containment and clearance.</p>
+        </div>
+        <div class="cover-card">
+          <div class="cover-icon">💧</div>
+          <div class="cover-title">Major Leaks</div>
+          <p class="cover-desc">Rapid detection and repair of active leaks — under sinks, behind walls, or at the main line — stopping damage fast.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Regal -->
+  <section class="why-section">
+    <div class="section-inner">
+      <div style="text-align:center;margin-bottom:48px;">
+        <div class="section-eyebrow" style="color:#fca5a5;">Our Promise</div>
+        <h2 class="section-title white">Why Choose Regal?</h2>
+        <div class="red-divider centered"></div>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <span class="why-icon">💰</span>
+          <div class="why-title">Honest Pricing</div>
+          <p class="why-desc">Upfront, transparent quotes before any work begins. No hidden fees, no surprises — even in emergencies.</p>
+        </div>
+        <div class="why-card">
+          <span class="why-icon">⚡</span>
+          <div class="why-title">Fast Response</div>
+          <p class="why-desc">24/7 availability for emergencies. We arrive quickly and work efficiently to minimize damage.</p>
+        </div>
+        <div class="why-card">
+          <span class="why-icon">🔧</span>
+          <div class="why-title">Quality Workmanship</div>
+          <p class="why-desc">Every job backed by our commitment to premium craftsmanship and lasting results.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Other Services -->
+  <section class="section">
+    <div class="section-inner">
+      <div style="text-align:center;margin-bottom:48px;">
+        <div class="section-eyebrow">Explore</div>
+        <h2 class="section-title">Other Services We Offer</h2>
+        <div class="red-divider centered"></div>
+      </div>
+      <div class="other-services-grid">
+        <a href="drain-cleaning.html" class="other-service-card">
+          <div class="other-service-name">Drain Cleaning</div>
+          <p class="other-service-desc">Professional clearing of kitchen, bathroom, and main sewer line blockages.</p>
+          <span class="other-service-link">Learn More →</span>
+        </a>
+        <a href="sewer-line-repair.html" class="other-service-card">
+          <div class="other-service-name">Sewer Line Repair</div>
+          <p class="other-service-desc">Camera inspection, trenchless repair, and full sewer line replacement.</p>
+          <span class="other-service-link">Learn More →</span>
+        </a>
+        <a href="water-heater-services.html" class="other-service-card">
+          <div class="other-service-name">Water Heater Services</div>
+          <p class="other-service-desc">Installation and repair of tank, tankless, and heat pump water heaters.</p>
+          <span class="other-service-link">Learn More →</span>
+        </a>
+        <a href="slab-leak-detection.html" class="other-service-card">
+          <div class="other-service-name">Slab Leak Detection</div>
+          <p class="other-service-desc">Electronic leak detection beneath concrete slabs with minimal disruption.</p>
+          <span class="other-service-link">Learn More →</span>
+        </a>
+        <a href="hydrojetting.html" class="other-service-card">
+          <div class="other-service-name">Hydrojetting</div>
+          <p class="other-service-desc">High-pressure water jetting to scour pipe walls and restore full flow.</p>
+          <span class="other-service-link">Learn More →</span>
+        </a>
+        <a href="gas-leak-detection.html" class="other-service-card">
+          <div class="other-service-name">Gas Leak Detection</div>
+          <p class="other-service-desc">Licensed gas line detection, repair, and pressure testing for safety.</p>
+          <span class="other-service-link">Learn More →</span>
+        </a>
+        <a href="water-filtration.html" class="other-service-card">
+          <div class="other-service-name">Water Filtration</div>
+          <p class="other-service-desc">Whole-home softeners, reverse osmosis, and filtration systems installed.</p>
+          <span class="other-service-link">Learn More →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="cta-inner">
+      <h2>Plumbing Emergency? Call Right Now</h2>
+      <p class="cta-sub">Our emergency team is standing by 24/7 — including weekends and holidays</p>
+      <a href="tel:9096004561" class="cta-phone">(909) 600-4561</a>
+      <br>
+      <a href="tel:9096004561" class="btn btn-white-red">📞 Call Now</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-logo-name">Regal Plumbing &amp; Rooter</div>
+        <p class="footer-tagline">Honest, professional plumbing &amp; rooter services for the Inland Empire &amp; San Gabriel Valley.</p>
+        <span class="footer-license">CA License #1097482</span>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul class="footer-links">
+          <li><a href="emergency-plumbing.html">Emergency Plumbing</a></li>
+          <li><a href="drain-cleaning.html">Drain Cleaning</a></li>
+          <li><a href="sewer-line-repair.html">Sewer Line Repair</a></li>
+          <li><a href="water-heater-services.html">Water Heater Services</a></li>
+          <li><a href="slab-leak-detection.html">Slab Leak Detection</a></li>
+          <li><a href="hydrojetting.html">Hydrojetting</a></li>
+          <li><a href="gas-leak-detection.html">Gas Leak Detection</a></li>
+          <li><a href="water-filtration.html">Water Filtration</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Service Area</h4>
+        <ul class="footer-links">
+          <li><a href="service-area.html">Rancho Cucamonga</a></li>
+          <li><a href="service-area.html">Ontario</a></li>
+          <li><a href="service-area.html">Fontana</a></li>
+          <li><a href="service-area.html">Pomona</a></li>
+          <li><a href="service-area.html">Chino Hills</a></li>
+          <li><a href="service-area.html">Corona</a></li>
+          <li><a href="service-area.html">Upland</a></li>
+          <li><a href="service-area.html">West Covina</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <ul class="footer-contact-list">
+          <li><span class="contact-icon">📍</span><span>2141 E Philadelphia St, Suite R<br>Ontario, CA 91761</span></li>
+          <li><span class="contact-icon">📞</span><a href="tel:9096004561">(909) 600-4561</a></li>
+          <li><span class="contact-icon">✉️</span><a href="mailto:info@regalplumbingservices.com">info@regalplumbingservices.com</a></li>
+          <li><span class="contact-icon">🕐</span><span>24/7 Emergency<br>Mon–Sat: 7am–7pm</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-bottom-text">© 2025 Regal Plumbing &amp; Rooter. All Rights Reserved. CA License #1097482</span>
+      <div class="footer-bottom-links"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Sitemap</a></div>
+    </div>
+  </footer>
+
+</body>
+</html>
