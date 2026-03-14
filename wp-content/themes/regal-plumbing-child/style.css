@@ -1,0 +1,18 @@
+/*
+Theme Name: Regal Plumbing Child
+Theme URI: https://regalplumbingservices.com
+Description: Child theme for Regal Plumbing & Rooter
+Author: Regal Plumbing & Rooter
+Template: hello-elementor
+Version: 1.0.0
+*/
+
+/* ─── TYPOGRAPHY OVERRIDES ─── */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #2D2D2D;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+}

@@ -1,0 +1,15 @@
+# WordPress core — managed by hosting/updates, not git
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/index.php
+/xmlrpc.php
+/license.txt
+/readme.html
+
+# Uploads (large files, managed separately)
+/wp-content/uploads/
+
+# Track only our custom code
+!/wp-content/themes/regal-plumbing-child/
+!/wp-content/plugins/

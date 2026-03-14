@@ -1,0 +1,41 @@
+/* ─── MOBILE STICKY CTA BAR ─── */
+.mobile-sticky-cta {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* z-index 9999: sits above Elementor page content; verify against Elementor popups if added later */
+  z-index: 9999;
+  background-color: #B91C1C;
+  padding: 12px 20px 0;
+  padding-bottom: calc(12px + env(safe-area-inset-bottom));
+  text-align: center;
+}
+
+.mobile-sticky-cta a {
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+  .mobile-sticky-cta {
+    display: block;
+  }
+  /* Add bottom padding to body so sticky bar doesn't overlap content */
+  body {
+    padding-bottom: 56px;
+  }
+}
+
+/* ─── UTILITY CLASSES ─── */
+.regal-text-red    { color: #B91C1C; }
+.regal-text-navy   { color: #1E3A6E; }
+.regal-bg-red      { background-color: #B91C1C; }
+.regal-bg-navy     { background-color: #1E3A6E; }
+.regal-bg-darkgrey { background-color: #2D2D2D; }
+.regal-bg-lightgrey{ background-color: #F3F4F6; }

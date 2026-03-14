@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Service Area — Regal Plumbing & Rooter | Inland Empire & San Gabriel Valley</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --red: #B91C1C; --red-dark: #991B1B; --navy: #1E3A6E; --dark-grey: #2D2D2D; --light-grey: #F3F4F6; --white: #FFFFFF; }
+    body { font-family: 'Open Sans', sans-serif; color: var(--dark-grey); line-height: 1.6; }
+    a { text-decoration: none; color: inherit; }
+
+    .emergency-bar { background: var(--dark-grey); color: var(--white); text-align: center; padding: 9px 16px; font-size: 13.5px; font-weight: 600; letter-spacing: 0.3px; }
+    .emergency-bar a { color: #fca5a5; text-decoration: underline; text-underline-offset: 2px; }
+
+    .site-header { position: sticky; top: 0; z-index: 1000; background: var(--white); box-shadow: 0 2px 12px rgba(0,0,0,0.10); }
+    .header-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; gap: 24px; height: 72px; }
+    .logo { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+    .logo-badge { width: 52px; height: 52px; background: var(--red); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 8px rgba(185,28,28,0.35); position: relative; flex-shrink: 0; }
+    .logo-badge::before { content: ''; position: absolute; inset: 4px; border-radius: 50%; border: 1.5px solid rgba(255,255,255,0.35); }
+    .logo-badge-text { font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 13px; color: var(--white); letter-spacing: 0.5px; }
+    .logo-name { font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 16px; color: var(--red); letter-spacing: 0.8px; line-height: 1.15; text-transform: uppercase; }
+    .logo-tagline { font-size: 10.5px; color: #6B7280; letter-spacing: 0.3px; }
+    .site-nav { display: flex; align-items: center; gap: 6px; }
+    .site-nav a { font-family: 'Oswald', sans-serif; font-weight: 500; font-size: 14px; letter-spacing: 1.2px; text-transform: uppercase; color: var(--dark-grey); padding: 8px 12px; border-radius: 4px; transition: color 0.2s, background 0.2s; }
+    .site-nav a:hover, .site-nav a.active { color: var(--red); background: #FEF2F2; }
+    .header-right { display: flex; align-items: center; gap: 14px; flex-shrink: 0; }
+    .header-phone { font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 16px; color: var(--navy); letter-spacing: 0.5px; }
+    .btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 10px 22px; border-radius: 4px; font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 1px; text-transform: uppercase; cursor: pointer; transition: background 0.2s, transform 0.15s, box-shadow 0.2s; border: 2px solid transparent; }
+    .btn-red { background: var(--red); color: var(--white); border-color: var(--red); }
+    .btn-red:hover { background: var(--red-dark); border-color: var(--red-dark); box-shadow: 0 4px 14px rgba(185,28,28,0.4); transform: translateY(-1px); }
+    .btn-white-red { background: var(--white); color: var(--red); border: 2px solid var(--white); font-size: 15px; padding: 14px 32px; }
+    .btn-white-red:hover { background: transparent; color: var(--white); transform: translateY(-2px); }
+
+    /* PAGE HERO */
+    .page-hero { background: var(--navy); position: relative; overflow: hidden; padding: 64px 24px; }
+    .page-hero::before { content: ''; position: absolute; inset: 0; background: repeating-linear-gradient(45deg, transparent, transparent 2px, rgba(255,255,255,0.015) 2px, rgba(255,255,255,0.015) 4px); }
+    .page-hero-inner { position: relative; z-index: 2; max-width: 1200px; margin: 0 auto; }
+    .breadcrumb { display: flex; align-items: center; gap: 8px; font-size: 13px; color: #93C5FD; margin-bottom: 14px; }
+    .breadcrumb a { color: #93C5FD; transition: color 0.2s; }
+    .breadcrumb a:hover { color: var(--white); }
+    .breadcrumb-sep { color: rgba(255,255,255,0.3); }
+    .breadcrumb-current { color: rgba(255,255,255,0.7); }
+    .page-hero h1 { font-family: 'Oswald', sans-serif; font-weight: 700; font-size: clamp(30px, 4vw, 48px); color: var(--white); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+    .page-hero-sub { font-size: 16px; color: #93C5FD; max-width: 580px; }
+
+    /* SECTION */
+    .section { padding: 80px 24px; }
+    .section-inner { max-width: 1200px; margin: 0 auto; }
+    .section-eyebrow { font-family: 'Oswald', sans-serif; font-weight: 500; font-size: 12px; letter-spacing: 3px; text-transform: uppercase; color: var(--red); margin-bottom: 10px; }
+    .section-title { font-family: 'Oswald', sans-serif; font-weight: 700; font-size: clamp(26px, 3.5vw, 38px); letter-spacing: 0.5px; text-transform: uppercase; line-height: 1.15; margin-bottom: 14px; }
+    .section-title.white { color: var(--white); }
+    .red-divider { width: 56px; height: 4px; background: var(--red); border-radius: 2px; margin: 14px 0 0; }
+    .red-divider.centered { margin: 14px auto 0; }
+
+    /* MAP + INTRO */
+    .map-section { background: var(--white); }
+    .map-layout { display: grid; grid-template-columns: 1.2fr 1fr; gap: 56px; align-items: start; }
+    .map-embed { border-radius: 8px; overflow: hidden; box-shadow: 0 4px 24px rgba(0,0,0,0.12); height: 420px; }
+    .map-embed iframe { width: 100%; height: 100%; border: 0; display: block; }
+    .map-intro p { font-size: 15.5px; color: #4B5563; line-height: 1.8; margin-bottom: 16px; }
+    .map-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 28px; }
+    .map-stat { background: var(--light-grey); border-left: 4px solid var(--red); border-radius: 4px; padding: 14px 18px; }
+    .map-stat-num { font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 28px; color: var(--red); line-height: 1; }
+    .map-stat-label { font-size: 12px; color: #6B7280; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 3px; }
+
+    /* CITIES GRID */
+    .cities-section { background: var(--light-grey); }
+    .cities-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; }
+    .city-card { background: var(--white); border: 1px solid #E5E7EB; padding: 14px 18px; display: flex; align-items: center; gap: 10px; transition: background 0.2s, border-color 0.2s; cursor: default; }
+    .city-card:hover { background: #FEF2F2; border-color: #fca5a5; }
+    .city-dot { width: 8px; height: 8px; background: var(--red); border-radius: 50%; flex-shrink: 0; }
+    .city-name-text { font-family: 'Oswald', sans-serif; font-weight: 500; font-size: 15px; color: var(--dark-grey); letter-spacing: 0.3px; }
+
+    /* SEO CONTENT */
+    .seo-section { background: var(--white); }
+    .seo-body { font-size: 15.5px; color: #4B5563; line-height: 1.85; }
+    .seo-body p { margin-bottom: 18px; }
+    .seo-body strong { color: var(--dark-grey); }
+
+    /* CTA */
+    .cta-section { background: var(--red); padding: 64px 24px; text-align: center; position: relative; overflow: hidden; }
+    .cta-section::before { content: ''; position: absolute; inset: 0; background: repeating-linear-gradient(-45deg, transparent, transparent 8px, rgba(0,0,0,0.04) 8px, rgba(0,0,0,0.04) 10px); }
+    .cta-inner { position: relative; z-index: 2; max-width: 700px; margin: 0 auto; }
+    .cta-inner h2 { font-family: 'Oswald', sans-serif; font-weight: 700; font-size: clamp(26px, 4vw, 42px); color: var(--white); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 12px; }
+    .cta-sub { font-size: 16px; color: rgba(255,255,255,0.85); margin-bottom: 24px; }
+    .cta-phone { font-family: 'Oswald', sans-serif; font-weight: 700; font-size: clamp(30px, 5vw, 50px); color: var(--white); letter-spacing: 2px; margin-bottom: 28px; display: block; }
+
+    /* FOOTER */
+    .site-footer { background: var(--dark-grey); color: var(--white); padding: 64px 24px 0; }
+    .footer-inner { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1.6fr 1fr 1fr 1.3fr; gap: 48px; padding-bottom: 48px; border-bottom: 1px solid rgba(255,255,255,0.10); }
+    .footer-logo-name { font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 18px; color: var(--white); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 6px; }
+    .footer-tagline { font-size: 13px; color: #9CA3AF; margin-bottom: 16px; line-height: 1.6; }
+    .footer-license { display: inline-block; background: rgba(185,28,28,0.2); border: 1px solid rgba(185,28,28,0.4); color: #fca5a5; font-size: 11.5px; font-family: 'Oswald', sans-serif; letter-spacing: 1px; padding: 4px 10px; border-radius: 3px; }
+    .footer-col h4 { font-family: 'Oswald', sans-serif; font-weight: 600; font-size: 14px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--white); margin-bottom: 18px; padding-bottom: 10px; border-bottom: 2px solid var(--red); display: inline-block; }
+    .footer-links { list-style: none; display: flex; flex-direction: column; gap: 9px; }
+    .footer-links a { font-size: 13.5px; color: #9CA3AF; transition: color 0.2s, padding-left 0.2s; display: flex; align-items: center; gap: 6px; }
+    .footer-links a::before { content: '›'; color: var(--red); font-size: 16px; }
+    .footer-links a:hover { color: var(--white); padding-left: 4px; }
+    .footer-contact { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+    .footer-contact li { display: flex; gap: 10px; font-size: 13.5px; color: #9CA3AF; line-height: 1.5; }
+    .footer-contact .contact-icon { font-size: 15px; flex-shrink: 0; margin-top: 1px; }
+    .footer-contact a { color: #9CA3AF; transition: color 0.2s; }
+    .footer-contact a:hover { color: var(--white); }
+    .footer-bottom { max-width: 1200px; margin: 0 auto; padding: 18px 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
+    .footer-bottom-text { font-size: 12.5px; color: #6B7280; }
+    .footer-bottom-links { display: flex; gap: 20px; }
+    .footer-bottom-links a { font-size: 12.5px; color: #6B7280; transition: color 0.2s; }
+    .footer-bottom-links a:hover { color: #9CA3AF; }
+
+    @media (max-width: 900px) {
+      .map-layout { grid-template-columns: 1fr; }
+      .cities-grid { grid-template-columns: repeat(2, 1fr); }
+      .footer-inner { grid-template-columns: 1fr 1fr; gap: 32px; }
+    }
+    @media (max-width: 640px) {
+      .site-nav { display: none; }
+      .section { padding: 56px 16px; }
+      .cities-grid { grid-template-columns: repeat(2, 1fr); }
+      .footer-inner { grid-template-columns: 1fr; gap: 28px; }
+      .footer-bottom { flex-direction: column; text-align: center; }
+      .map-stats { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="emergency-bar">
+    24/7 Emergency Service Available — Call <a href="tel:9096004561">(909) 600-4561</a>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <img src="../images/regal-plumbing-logo.png" alt="Regal Plumbing &amp; Rooter" style="height:56px;width:auto;" />
+      </a>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="service-area.html" class="active">Service Area</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="header-right">
+        <a href="tel:9096004561" class="header-phone">(909) 600-4561</a>
+        <a href="tel:9096004561" class="btn btn-red">Call Now</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <div class="page-hero-inner">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="breadcrumb-sep">›</span>
+        <span class="breadcrumb-current">Service Area</span>
+      </div>
+      <h1>Plumbing Services Across Southern California</h1>
+      <p class="page-hero-sub">Serving 32+ cities in the Inland Empire and San Gabriel Valley — fast, local plumbers available 24/7.</p>
+    </div>
+  </div>
+
+  <!-- MAP + INTRO -->
+  <section class="section map-section">
+    <div class="section-inner">
+      <div class="map-layout">
+        <div class="map-embed">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d422147!2d-117.55!3d34.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="Regal Plumbing Service Area"></iframe>
+        </div>
+        <div class="map-intro">
+          <div class="section-eyebrow">Our Coverage</div>
+          <h2 class="section-title">Your Local Plumbing Experts</h2>
+          <div class="red-divider"></div>
+          <p style="margin-top:20px;">Regal Plumbing &amp; Rooter is based in Ontario, CA and serves a wide coverage area spanning the Inland Empire and San Gabriel Valley. Whether you're in Rancho Cucamonga, Pomona, Chino Hills, or anywhere in between — we have a technician near you.</p>
+          <p>Our service area covers everything from emergency plumbing and drain cleaning to slab leak detection and water heater installation across 32 cities in Southern California.</p>
+          <div class="map-stats">
+            <div class="map-stat">
+              <div class="map-stat-num">32+</div>
+              <div class="map-stat-label">Cities Covered</div>
+            </div>
+            <div class="map-stat">
+              <div class="map-stat-num">24/7</div>
+              <div class="map-stat-label">Emergency Service</div>
+            </div>
+            <div class="map-stat">
+              <div class="map-stat-num">60<span style="font-size:18px">min</span></div>
+              <div class="map-stat-label">Avg. Response Time</div>
+            </div>
+            <div class="map-stat">
+              <div class="map-stat-num">500+</div>
+              <div class="map-stat-label">Jobs Completed</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CITIES GRID -->
+  <section class="section cities-section">
+    <div class="section-inner">
+      <div style="text-align:center; margin-bottom:48px;">
+        <div class="section-eyebrow">Full Coverage List</div>
+        <h2 class="section-title">Cities We Serve</h2>
+        <div class="red-divider centered"></div>
+        <p style="font-size:15px; color:#6B7280; max-width:500px; margin:16px auto 0; line-height:1.65;">Don't see your city? Call us — our service area is always expanding.</p>
+      </div>
+      <div class="cities-grid">
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Azusa</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Bloomington</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Brea</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Charter Oak</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Chino</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Chino Hills</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Citrus</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Claremont</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Colton</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Corona</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Covina</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Diamond Bar</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Eastvale</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Fontana</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Glendora</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Highgrove</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Jurupa Valley</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">La Verne</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Loma Linda</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Mira Loma</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Montclair</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Muscoy</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Norco</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Ontario</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Pomona</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Rancho Cucamonga</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Rowland Heights</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">San Dimas</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Upland</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Walnut</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">West Covina</div></div>
+        <div class="city-card"><div class="city-dot"></div><div class="city-name-text">Yorba Linda</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEO CONTENT BLOCK -->
+  <section class="section seo-section">
+    <div class="section-inner" style="max-width:860px;">
+      <div class="section-eyebrow">Fast, Local Plumbing</div>
+      <h2 class="section-title">Fast, Local Plumbing You Can Count On</h2>
+      <div class="red-divider"></div>
+      <div class="seo-body" style="margin-top:28px;">
+        <p>When a plumbing problem strikes, the last thing you want is to wait hours for a technician from across the county. That's why <strong>Regal Plumbing &amp; Rooter</strong> built our team around fast, local response — with technicians positioned throughout the <strong>Inland Empire and San Gabriel Valley</strong> to reach you quickly, whether you're in <strong>Rancho Cucamonga, Fontana, Ontario, Pomona</strong>, or any of the 32 cities we serve.</p>
+        <p>Our services cover the full range of residential and commercial plumbing needs across Southern California. From <strong>24/7 emergency plumbing</strong> and <strong>drain cleaning</strong> to <strong>slab leak detection</strong>, <strong>water heater installation</strong>, and <strong>hydrojetting</strong> — we bring expert, licensed service directly to your door. Homeowners and property managers throughout <strong>Chino Hills, Corona, Upland, West Covina, Diamond Bar</strong>, and beyond rely on us for honest pricing and quality workmanship.</p>
+        <p>As a <strong>family-owned, CA licensed business (License #1097482)</strong>, we're deeply invested in the communities we serve. We know the plumbing challenges specific to Southern California — hard water buildup, aging infrastructure, and the unique demands of high-density residential areas. That local knowledge, combined with professional-grade equipment and a commitment to doing the job right, is what sets Regal Plumbing &amp; Rooter apart.</p>
+        <p>Need a plumber near you? <strong>Call (909) 600-4561</strong> — we're available 24 hours a day, 7 days a week, for emergencies and scheduled service alike.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="cta-inner">
+      <h2>Need a Plumber in Your Area? We're Ready Now</h2>
+      <p class="cta-sub">Available 24/7 for emergency and scheduled service across 32+ cities</p>
+      <a href="tel:9096004561" class="cta-phone">(909) 600-4561</a><br>
+      <a href="tel:9096004561" class="btn btn-white-red">📞 Call Now</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-logo-name">Regal Plumbing &amp; Rooter</div>
+        <p class="footer-tagline">Honest, professional plumbing &amp; rooter services for the Inland Empire &amp; San Gabriel Valley.</p>
+        <span class="footer-license">CA License #1097482</span>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul class="footer-links">
+          <li><a href="services.html">Emergency Plumbing</a></li>
+          <li><a href="services.html">Drain Cleaning</a></li>
+          <li><a href="services.html">Sewer Line Repair</a></li>
+          <li><a href="services.html">Water Heater Services</a></li>
+          <li><a href="services.html">Slab Leak Detection</a></li>
+          <li><a href="services.html">Hydrojetting</a></li>
+          <li><a href="services.html">Gas Leak Detection</a></li>
+          <li><a href="services.html">Water Filtration</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Service Area</h4>
+        <ul class="footer-links">
+          <li><a href="service-area.html">Rancho Cucamonga</a></li>
+          <li><a href="service-area.html">Ontario</a></li>
+          <li><a href="service-area.html">Fontana</a></li>
+          <li><a href="service-area.html">Pomona</a></li>
+          <li><a href="service-area.html">Chino Hills</a></li>
+          <li><a href="service-area.html">Corona</a></li>
+          <li><a href="service-area.html">Upland</a></li>
+          <li><a href="service-area.html">West Covina</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <ul class="footer-contact">
+          <li><span class="contact-icon">📍</span><span>2141 E Philadelphia St, Suite R<br>Ontario, CA 91761</span></li>
+          <li><span class="contact-icon">📞</span><a href="tel:9096004561">(909) 600-4561</a></li>
+          <li><span class="contact-icon">✉️</span><a href="#">info@regalplumbingservices.com</a></li>
+          <li><span class="contact-icon">🕐</span><span>24/7 Emergency<br>Mon–Sat: 7am–7pm</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-bottom-text">© 2025 Regal Plumbing &amp; Rooter. All Rights Reserved. CA License #1097482</span>
+      <div class="footer-bottom-links"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Sitemap</a></div>
+    </div>
+  </footer>
+
+</body>
+</html>
