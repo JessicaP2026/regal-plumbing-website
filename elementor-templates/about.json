@@ -1,0 +1,1200 @@
+{
+  "version": "0.4",
+  "title": "About",
+  "type": "page",
+  "content": [
+    {
+      "id": "ab01aa01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#2D2D2D",
+        "padding": { "unit": "px", "top": "9", "right": "16", "bottom": "9", "left": "16", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "ab01aa02",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center;color:#ffffff;font-size:13.5px;font-weight:600;\">24/7 Emergency Service Available — Call <a href=\"tel:9096004561\" style=\"color:#fca5a5;\">(909) 600-4561</a></p>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ab01aa03",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "8", "right": "24", "bottom": "8", "left": "24", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "ab01aa04",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": { "unit": "px", "size": 1200 },
+            "flex_direction": "row",
+            "flex_align_items": "center",
+            "flex_justify_content": "space-between"
+          },
+          "elements": [
+            {
+              "id": "ab01aa05",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": { "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/regal-plumbing-logo.png", "alt": "Regal Plumbing & Rooter" },
+                "image_size": "full",
+                "width": { "unit": "px", "size": 180 },
+                "link_to": "custom",
+                "link": { "url": "/" }
+              }
+            },
+            {
+              "id": "ab01aa06",
+              "elType": "widget",
+              "widgetType": "nav-menu",
+              "settings": {
+                "menu": "primary-menu",
+                "layout": "horizontal",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "500",
+                "typography_font_size": { "unit": "px", "size": 14 },
+                "typography_letter_spacing": { "unit": "px", "size": 1.2 },
+                "typography_text_transform": "uppercase",
+                "color": "#2D2D2D",
+                "color_hover": "#B91C1C"
+              }
+            },
+            {
+              "id": "ab01aa07",
+              "elType": "container",
+              "settings": { "flex_direction": "row", "flex_align_items": "center", "gap": { "unit": "px", "size": 14 } },
+              "elements": [
+                {
+                  "id": "ab01aa08",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "(909) 600-4561",
+                    "link": { "url": "tel:9096004561" },
+                    "header_size": "h6",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": { "unit": "px", "size": 16 },
+                    "title_color": "#1E3A6E"
+                  }
+                },
+                {
+                  "id": "ab01aa09",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Call Now",
+                    "link": { "url": "tel:9096004561" },
+                    "background_color": "#B91C1C",
+                    "button_text_color": "#FFFFFF",
+                    "border_radius": { "unit": "px", "top": 4, "right": 4, "bottom": 4, "left": 4, "isLinked": true },
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": { "unit": "px", "size": 14 },
+                    "typography_text_transform": "uppercase",
+                    "padding": { "unit": "px", "top": "10", "right": "22", "bottom": "10", "left": "22", "isLinked": false }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ab01aa10",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#1E3A6E",
+        "padding": { "unit": "px", "top": "64", "right": "24", "bottom": "64", "left": "24", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "ab01aa11",
+          "elType": "container",
+          "settings": { "content_width": "boxed", "width": { "unit": "px", "size": 1200 }, "flex_direction": "column" },
+          "elements": [
+            {
+              "id": "ab01aa12",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "About Regal Plumbing & Rooter",
+                "header_size": "h1",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "700",
+                "typography_font_size": { "unit": "px", "size": 48 },
+                "typography_text_transform": "uppercase",
+                "title_color": "#FFFFFF"
+              }
+            },
+            {
+              "id": "ab01aa13",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:16px;color:#93C5FD;max-width:580px;\">Family-owned and community-focused plumbing for the Inland Empire & San Gabriel Valley — honest service, fair prices, quality work.</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ab01aa14",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "80", "right": "24", "bottom": "80", "left": "24", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "ab01aa15",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": { "unit": "px", "size": 1200 },
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "gap": { "unit": "px", "size": 56 },
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "ab01aa16",
+              "elType": "container",
+              "settings": { "flex_direction": "column", "width": { "unit": "%", "size": 55 } },
+              "elements": [
+                {
+                  "id": "ab01aa17",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Our Story",
+                    "header_size": "h6",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "500",
+                    "typography_font_size": { "unit": "px", "size": 12 },
+                    "typography_letter_spacing": { "unit": "px", "size": 3 },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#B91C1C"
+                  }
+                },
+                {
+                  "id": "ab01aa18",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Built on Honesty. Driven by Community.",
+                    "header_size": "h2",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "700",
+                    "typography_font_size": { "unit": "px", "size": 36 },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#2D2D2D"
+                  }
+                },
+                {
+                  "id": "ab01aa19",
+                  "elType": "widget",
+                  "widgetType": "divider",
+                  "settings": {
+                    "color": "#B91C1C",
+                    "weight": { "unit": "px", "size": 4 },
+                    "width": { "unit": "px", "size": 56 },
+                    "align": "left"
+                  }
+                },
+                {
+                  "id": "ab01aa20",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"font-size:15.5px;color:#4B5563;line-height:1.8;margin-top:20px;\">Regal Plumbing &amp; Rooter was founded with a single mission: to bring honest, professional plumbing to the Inland Empire. Based in Ontario, CA, we serve more than 32 cities across Southern California with a team of licensed, background-checked technicians who take pride in their work and their community.</p><p style=\"font-size:15.5px;color:#4B5563;line-height:1.8;\">We believe plumbing service should be transparent. That means clear pricing before we start, straightforward explanations of what we find, and workmanship you can trust. No upsells, no surprise charges — just quality plumbing done right.</p>"
+                  }
+                },
+                {
+                  "id": "ab01aa21",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_wrap": "wrap",
+                    "gap": { "unit": "px", "size": 24 },
+                    "margin": { "unit": "px", "top": "32", "right": "0", "bottom": "0", "left": "0", "isLinked": false }
+                  },
+                  "elements": [
+                    {
+                      "id": "ab01aa22",
+                      "elType": "widget",
+                      "widgetType": "counter",
+                      "settings": {
+                        "starting_number": 0,
+                        "ending_number": 32,
+                        "suffix": "+",
+                        "title": "Cities Served",
+                        "number_typography_font_family": "Oswald",
+                        "number_typography_font_weight": "700",
+                        "number_typography_font_size": { "unit": "px", "size": 42 },
+                        "number_color": "#B91C1C",
+                        "title_typography_font_size": { "unit": "px", "size": 13 },
+                        "title_color": "#6B7280"
+                      }
+                    },
+                    {
+                      "id": "ab01aa23",
+                      "elType": "widget",
+                      "widgetType": "counter",
+                      "settings": {
+                        "starting_number": 0,
+                        "ending_number": 4,
+                        "suffix": "+",
+                        "title": "Years Experience",
+                        "number_typography_font_family": "Oswald",
+                        "number_typography_font_weight": "700",
+                        "number_typography_font_size": { "unit": "px", "size": 42 },
+                        "number_color": "#B91C1C",
+                        "title_typography_font_size": { "unit": "px", "size": 13 },
+                        "title_color": "#6B7280"
+                      }
+                    },
+                    {
+                      "id": "ab01aa24",
+                      "elType": "widget",
+                      "widgetType": "counter",
+                      "settings": {
+                        "starting_number": 0,
+                        "ending_number": 24,
+                        "suffix": "/7",
+                        "title": "Emergency Service",
+                        "number_typography_font_family": "Oswald",
+                        "number_typography_font_weight": "700",
+                        "number_typography_font_size": { "unit": "px", "size": 42 },
+                        "number_color": "#B91C1C",
+                        "title_typography_font_size": { "unit": "px", "size": 13 },
+                        "title_color": "#6B7280"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ab01aa25",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": { "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/plumber-working-under-sink-ontario-ca.webp", "alt": "Regal Plumbing team at work" },
+                "image_size": "full",
+                "width": { "unit": "%", "size": 40 },
+                "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ab01aa26",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F3F4F6",
+        "padding": { "unit": "px", "top": "80", "right": "24", "bottom": "80", "left": "24", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "ab01aa27",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": { "unit": "px", "size": 1200 },
+            "flex_direction": "column",
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "ab01aa28",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "What We Stand For",
+                "header_size": "h6",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "500",
+                "typography_font_size": { "unit": "px", "size": 12 },
+                "typography_letter_spacing": { "unit": "px", "size": 3 },
+                "typography_text_transform": "uppercase",
+                "title_color": "#B91C1C",
+                "align": "center"
+              }
+            },
+            {
+              "id": "ab01aa29",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Our Core Values",
+                "header_size": "h2",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "700",
+                "typography_font_size": { "unit": "px", "size": 38 },
+                "typography_text_transform": "uppercase",
+                "title_color": "#2D2D2D",
+                "align": "center"
+              }
+            },
+            {
+              "id": "ab01aa30",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "color": "#B91C1C",
+                "weight": { "unit": "px", "size": 4 },
+                "width": { "unit": "px", "size": 56 },
+                "align": "center"
+              }
+            },
+            {
+              "id": "ab01aa31",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "gap": { "unit": "px", "size": 28 },
+                "margin": { "unit": "px", "top": "48", "right": "0", "bottom": "0", "left": "0", "isLinked": false }
+              },
+              "elements": [
+                {
+                  "id": "ab01aa32",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Honesty First",
+                    "description_text": "We tell you what we find, quote you clearly, and only recommend work that's genuinely needed. No upsells, no manufactured urgency.",
+                    "icon": { "value": "fas fa-handshake", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_weight": "600",
+                    "title_typography_font_size": { "unit": "px", "size": 20 },
+                    "title_color": "#2D2D2D",
+                    "description_color": "#4B5563",
+                    "description_typography_font_size": { "unit": "px", "size": 14 },
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#E5E7EB",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "36", "right": "28", "bottom": "36", "left": "28", "isLinked": false },
+                    "width": { "unit": "%", "size": 30 },
+                    "text_align": "center"
+                  }
+                },
+                {
+                  "id": "ab01aa33",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Quality Workmanship",
+                    "description_text": "Every repair and installation is performed to California code standards with quality materials. We stand behind our work with a satisfaction guarantee.",
+                    "icon": { "value": "fas fa-award", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_weight": "600",
+                    "title_typography_font_size": { "unit": "px", "size": 20 },
+                    "title_color": "#2D2D2D",
+                    "description_color": "#4B5563",
+                    "description_typography_font_size": { "unit": "px", "size": 14 },
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#E5E7EB",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "36", "right": "28", "bottom": "36", "left": "28", "isLinked": false },
+                    "width": { "unit": "%", "size": 30 },
+                    "text_align": "center"
+                  }
+                },
+                {
+                  "id": "ab01aa34",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Community Roots",
+                    "description_text": "We live and work in the Inland Empire. Our customers are our neighbors, and we treat every home with the same care we'd want for our own.",
+                    "icon": { "value": "fas fa-heart", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_weight": "600",
+                    "title_typography_font_size": { "unit": "px", "size": 20 },
+                    "title_color": "#2D2D2D",
+                    "description_color": "#4B5563",
+                    "description_typography_font_size": { "unit": "px", "size": 14 },
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#E5E7EB",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "36", "right": "28", "bottom": "36", "left": "28", "isLinked": false },
+                    "width": { "unit": "%", "size": 30 },
+                    "text_align": "center"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ab01aa35",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "80", "right": "24", "bottom": "80", "left": "24", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "ab01aa36",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": { "unit": "px", "size": 1200 },
+            "flex_direction": "column",
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "ab01aa37",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Our Credentials",
+                "header_size": "h6",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "500",
+                "typography_font_size": { "unit": "px", "size": 12 },
+                "typography_letter_spacing": { "unit": "px", "size": 3 },
+                "typography_text_transform": "uppercase",
+                "title_color": "#B91C1C",
+                "align": "center"
+              }
+            },
+            {
+              "id": "ab01aa38",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Licensed, Insured & Qualified",
+                "header_size": "h2",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "700",
+                "typography_font_size": { "unit": "px", "size": 38 },
+                "typography_text_transform": "uppercase",
+                "title_color": "#2D2D2D",
+                "align": "center"
+              }
+            },
+            {
+              "id": "ab01aa39",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "color": "#B91C1C",
+                "weight": { "unit": "px", "size": 4 },
+                "width": { "unit": "px", "size": 56 },
+                "align": "center"
+              }
+            },
+            {
+              "id": "ab01aa40",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "gap": { "unit": "px", "size": 20 },
+                "margin": { "unit": "px", "top": "48", "right": "0", "bottom": "0", "left": "0", "isLinked": false }
+              },
+              "elements": [
+                {
+                  "id": "ab01aa41",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "CA Contractor License #1097482",
+                    "description_text": "State of California licensed plumbing contractor",
+                    "icon": { "value": "fas fa-certificate", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_size": { "unit": "px", "size": 16 },
+                    "title_color": "#2D2D2D",
+                    "description_color": "#6B7280",
+                    "background_color": "#F3F4F6",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20", "isLinked": true },
+                    "width": { "unit": "%", "size": 30 }
+                  }
+                },
+                {
+                  "id": "ab01aa42",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Fully Insured",
+                    "description_text": "Comprehensive liability and worker's compensation insurance",
+                    "icon": { "value": "fas fa-shield-alt", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_size": { "unit": "px", "size": 16 },
+                    "title_color": "#2D2D2D",
+                    "description_color": "#6B7280",
+                    "background_color": "#F3F4F6",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20", "isLinked": true },
+                    "width": { "unit": "%", "size": 30 }
+                  }
+                },
+                {
+                  "id": "ab01aa43",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Background-Checked Technicians",
+                    "description_text": "All technicians pass rigorous background screening",
+                    "icon": { "value": "fas fa-user-check", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_size": { "unit": "px", "size": 16 },
+                    "title_color": "#2D2D2D",
+                    "description_color": "#6B7280",
+                    "background_color": "#F3F4F6",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20", "isLinked": true },
+                    "width": { "unit": "%", "size": 30 }
+                  }
+                },
+                {
+                  "id": "ab01aa44",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "24/7 Emergency Availability",
+                    "description_text": "Around-the-clock emergency dispatch for the Inland Empire",
+                    "icon": { "value": "fas fa-clock", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_size": { "unit": "px", "size": 16 },
+                    "title_color": "#2D2D2D",
+                    "description_color": "#6B7280",
+                    "background_color": "#F3F4F6",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20", "isLinked": true },
+                    "width": { "unit": "%", "size": 30 }
+                  }
+                },
+                {
+                  "id": "ab01aa45",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Upfront Pricing",
+                    "description_text": "Written quotes before any work begins — no surprises",
+                    "icon": { "value": "fas fa-file-invoice-dollar", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_size": { "unit": "px", "size": 16 },
+                    "title_color": "#2D2D2D",
+                    "description_color": "#6B7280",
+                    "background_color": "#F3F4F6",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20", "isLinked": true },
+                    "width": { "unit": "%", "size": 30 }
+                  }
+                },
+                {
+                  "id": "ab01aa46",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "32+ Cities Served",
+                    "description_text": "Serving the Inland Empire & San Gabriel Valley",
+                    "icon": { "value": "fas fa-map-marker-alt", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_size": { "unit": "px", "size": 16 },
+                    "title_color": "#2D2D2D",
+                    "description_color": "#6B7280",
+                    "background_color": "#F3F4F6",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "20", "right": "20", "bottom": "20", "left": "20", "isLinked": true },
+                    "width": { "unit": "%", "size": 30 }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ab01aa47",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F3F4F6",
+        "padding": { "unit": "px", "top": "80", "right": "24", "bottom": "80", "left": "24", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "ab01aa48",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": { "unit": "px", "size": 1200 },
+            "flex_direction": "column",
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "ab01aa49",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Meet Our Team",
+                "header_size": "h6",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "500",
+                "typography_font_size": { "unit": "px", "size": 12 },
+                "typography_letter_spacing": { "unit": "px", "size": 3 },
+                "typography_text_transform": "uppercase",
+                "title_color": "#B91C1C",
+                "align": "center"
+              }
+            },
+            {
+              "id": "ab01aa50",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "The People Behind Regal",
+                "header_size": "h2",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "700",
+                "typography_font_size": { "unit": "px", "size": 38 },
+                "typography_text_transform": "uppercase",
+                "title_color": "#2D2D2D",
+                "align": "center"
+              }
+            },
+            {
+              "id": "ab01aa51",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "color": "#B91C1C",
+                "weight": { "unit": "px", "size": 4 },
+                "width": { "unit": "px", "size": 56 },
+                "align": "center"
+              }
+            },
+            {
+              "id": "ab01aa52",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "gap": { "unit": "px", "size": 24 },
+                "margin": { "unit": "px", "top": "48", "right": "0", "bottom": "0", "left": "0", "isLinked": false },
+                "flex_justify_content": "center"
+              },
+              "elements": [
+                {
+                  "id": "ab01aa53",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Brayden",
+                    "description_text": "Lead Plumber & Co-Founder",
+                    "icon": { "value": "fas fa-user", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_weight": "600",
+                    "title_typography_font_size": { "unit": "px", "size": 18 },
+                    "title_color": "#2D2D2D",
+                    "description_color": "#6B7280",
+                    "background_color": "#FFFFFF",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "28", "right": "24", "bottom": "28", "left": "24", "isLinked": false },
+                    "width": { "unit": "%", "size": 17 },
+                    "text_align": "center"
+                  }
+                },
+                {
+                  "id": "ab01aa54",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Tony",
+                    "description_text": "Senior Plumber",
+                    "icon": { "value": "fas fa-user", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_weight": "600",
+                    "title_typography_font_size": { "unit": "px", "size": 18 },
+                    "title_color": "#2D2D2D",
+                    "description_color": "#6B7280",
+                    "background_color": "#FFFFFF",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "28", "right": "24", "bottom": "28", "left": "24", "isLinked": false },
+                    "width": { "unit": "%", "size": 17 },
+                    "text_align": "center"
+                  }
+                },
+                {
+                  "id": "ab01aa55",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Ashton",
+                    "description_text": "Field Technician",
+                    "icon": { "value": "fas fa-user", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_weight": "600",
+                    "title_typography_font_size": { "unit": "px", "size": 18 },
+                    "title_color": "#2D2D2D",
+                    "description_color": "#6B7280",
+                    "background_color": "#FFFFFF",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "28", "right": "24", "bottom": "28", "left": "24", "isLinked": false },
+                    "width": { "unit": "%", "size": 17 },
+                    "text_align": "center"
+                  }
+                },
+                {
+                  "id": "ab01aa56",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Nick",
+                    "description_text": "Operations & Co-Founder",
+                    "icon": { "value": "fas fa-user", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_weight": "600",
+                    "title_typography_font_size": { "unit": "px", "size": 18 },
+                    "title_color": "#2D2D2D",
+                    "description_color": "#6B7280",
+                    "background_color": "#FFFFFF",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "28", "right": "24", "bottom": "28", "left": "24", "isLinked": false },
+                    "width": { "unit": "%", "size": 17 },
+                    "text_align": "center"
+                  }
+                },
+                {
+                  "id": "ab01aa57",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Natalie",
+                    "description_text": "Office & Scheduling",
+                    "icon": { "value": "fas fa-user", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_weight": "600",
+                    "title_typography_font_size": { "unit": "px", "size": 18 },
+                    "title_color": "#2D2D2D",
+                    "description_color": "#6B7280",
+                    "background_color": "#FFFFFF",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "28", "right": "24", "bottom": "28", "left": "24", "isLinked": false },
+                    "width": { "unit": "%", "size": 17 },
+                    "text_align": "center"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ab01aa58",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#1E3A6E",
+        "padding": { "unit": "px", "top": "80", "right": "24", "bottom": "80", "left": "24", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "ab01aa59",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": { "unit": "px", "size": 860 },
+            "flex_direction": "column",
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "ab01aa60",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "The Regal Promise",
+                "header_size": "h2",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "700",
+                "typography_font_size": { "unit": "px", "size": 36 },
+                "typography_text_transform": "uppercase",
+                "title_color": "#FFFFFF",
+                "align": "center"
+              }
+            },
+            {
+              "id": "ab01aa61",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "color": "#B91C1C",
+                "weight": { "unit": "px", "size": 4 },
+                "width": { "unit": "px", "size": 56 },
+                "align": "center"
+              }
+            },
+            {
+              "id": "ab01aa62",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<ul style=\"list-style:none;padding:0;margin:20px 0 0;display:flex;flex-direction:column;gap:14px;\"><li style=\"color:#93C5FD;font-size:15.5px;\"><strong style=\"color:#ffffff;\">Honest Assessment</strong> — We diagnose accurately and only recommend what your home truly needs.</li><li style=\"color:#93C5FD;font-size:15.5px;\"><strong style=\"color:#ffffff;\">Upfront Pricing</strong> — You get a clear quote before any work begins. Period.</li><li style=\"color:#93C5FD;font-size:15.5px;\"><strong style=\"color:#ffffff;\">Quality Materials</strong> — We use materials built to last, not the cheapest option to protect a margin.</li><li style=\"color:#93C5FD;font-size:15.5px;\"><strong style=\"color:#ffffff;\">Clean Worksite</strong> — We respect your home and leave every job site cleaner than we found it.</li></ul>"
+              }
+            },
+            {
+              "id": "ab01aa63",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<blockquote style=\"border-left:4px solid #B91C1C;padding-left:20px;margin:32px 0 0;\"><p style=\"font-size:17px;color:#FFFFFF;font-style:italic;line-height:1.7;\">\"We started Regal Plumbing because we believed the Inland Empire deserved better — a plumber who shows up on time, tells you the truth, and does the work right the first time. That's what we're here to do.\"</p><footer style=\"margin-top:12px;font-size:13px;color:#93C5FD;\">— Brayden &amp; Nick, Co-Founders</footer></blockquote>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ab01aa64",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#B91C1C",
+        "padding": { "unit": "px", "top": "64", "right": "24", "bottom": "64", "left": "24", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "ab01aa65",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": { "unit": "px", "size": 700 },
+            "flex_direction": "column",
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "ab01aa66",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Ready to Experience the Regal Difference?",
+                "header_size": "h2",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "700",
+                "typography_font_size": { "unit": "px", "size": 42 },
+                "typography_text_transform": "uppercase",
+                "title_color": "#FFFFFF",
+                "align": "center"
+              }
+            },
+            {
+              "id": "ab01aa67",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:16px;color:rgba(255,255,255,0.85);text-align:center;\">24/7 emergency and same-day service across the Inland Empire & San Gabriel Valley</p>"
+              }
+            },
+            {
+              "id": "ab01aa68",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "(909) 600-4561",
+                "link": { "url": "tel:9096004561" },
+                "header_size": "h3",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "700",
+                "typography_font_size": { "unit": "px", "size": 50 },
+                "typography_letter_spacing": { "unit": "px", "size": 2 },
+                "title_color": "#FFFFFF",
+                "align": "center"
+              }
+            },
+            {
+              "id": "ab01aa69",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_justify_content": "center",
+                "gap": { "unit": "px", "size": 16 }
+              },
+              "elements": [
+                {
+                  "id": "ab01aa70",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Call Now",
+                    "link": { "url": "tel:9096004561" },
+                    "background_color": "#FFFFFF",
+                    "button_text_color": "#B91C1C",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "2", "right": "2", "bottom": "2", "left": "2", "isLinked": true },
+                    "border_color": "#FFFFFF",
+                    "border_radius": { "unit": "px", "top": 4, "right": 4, "bottom": 4, "left": 4, "isLinked": true },
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": { "unit": "px", "size": 15 },
+                    "typography_text_transform": "uppercase",
+                    "padding": { "unit": "px", "top": "14", "right": "32", "bottom": "14", "left": "32", "isLinked": false }
+                  }
+                },
+                {
+                  "id": "ab01aa71",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Contact Us",
+                    "link": { "url": "/contact/" },
+                    "background_color": "transparent",
+                    "button_text_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "2", "right": "2", "bottom": "2", "left": "2", "isLinked": true },
+                    "border_color": "#FFFFFF",
+                    "border_radius": { "unit": "px", "top": 4, "right": 4, "bottom": 4, "left": 4, "isLinked": true },
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": { "unit": "px", "size": 15 },
+                    "typography_text_transform": "uppercase",
+                    "padding": { "unit": "px", "top": "14", "right": "32", "bottom": "14", "left": "32", "isLinked": false }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ab01aa72",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#2D2D2D",
+        "padding": { "unit": "px", "top": "64", "right": "24", "bottom": "0", "left": "24", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "ab01aa73",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": { "unit": "px", "size": 1200 },
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "gap": { "unit": "px", "size": 48 },
+            "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "48", "left": "0", "isLinked": false },
+            "border_border": "solid",
+            "border_width": { "unit": "px", "top": "0", "right": "0", "bottom": "1", "left": "0", "isLinked": false },
+            "border_color": "rgba(255,255,255,0.10)"
+          },
+          "elements": [
+            {
+              "id": "ab01aa74",
+              "elType": "container",
+              "settings": { "flex_direction": "column", "width": { "unit": "%", "size": 30 } },
+              "elements": [
+                {
+                  "id": "ab01aa75",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Regal Plumbing & Rooter",
+                    "header_size": "h4",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "700",
+                    "typography_font_size": { "unit": "px", "size": 18 },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#FFFFFF"
+                  }
+                },
+                {
+                  "id": "ab01aa76",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"font-size:13px;color:#9CA3AF;line-height:1.6;\">Honest, professional plumbing &amp; rooter services for the Inland Empire &amp; San Gabriel Valley.</p><p style=\"font-size:11.5px;color:#fca5a5;font-family:'Oswald',sans-serif;letter-spacing:1px;\">CA License #1097482</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ab01aa77",
+              "elType": "container",
+              "settings": { "flex_direction": "column", "width": { "unit": "%", "size": 18 } },
+              "elements": [
+                {
+                  "id": "ab01aa78",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Services",
+                    "header_size": "h4",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": { "unit": "px", "size": 14 },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#FFFFFF"
+                  }
+                },
+                {
+                  "id": "ab01aa79",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style=\"list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:9px;\"><li><a href=\"/emergency-plumbing/\" style=\"font-size:13.5px;color:#9CA3AF;\">Emergency Plumbing</a></li><li><a href=\"/drain-cleaning/\" style=\"font-size:13.5px;color:#9CA3AF;\">Drain Cleaning</a></li><li><a href=\"/sewer-line-repair/\" style=\"font-size:13.5px;color:#9CA3AF;\">Sewer Line Repair</a></li><li><a href=\"/water-heater-services/\" style=\"font-size:13.5px;color:#9CA3AF;\">Water Heater Services</a></li><li><a href=\"/slab-leak-detection/\" style=\"font-size:13.5px;color:#9CA3AF;\">Slab Leak Detection</a></li><li><a href=\"/hydrojetting/\" style=\"font-size:13.5px;color:#9CA3AF;\">Hydrojetting</a></li><li><a href=\"/gas-leak-detection/\" style=\"font-size:13.5px;color:#9CA3AF;\">Gas Leak Detection</a></li><li><a href=\"/water-filtration/\" style=\"font-size:13.5px;color:#9CA3AF;\">Water Filtration</a></li></ul>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ab01aa80",
+              "elType": "container",
+              "settings": { "flex_direction": "column", "width": { "unit": "%", "size": 18 } },
+              "elements": [
+                {
+                  "id": "ab01aa81",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Service Area",
+                    "header_size": "h4",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": { "unit": "px", "size": 14 },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#FFFFFF"
+                  }
+                },
+                {
+                  "id": "ab01aa82",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style=\"list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:9px;\"><li><a href=\"/service-area/ontario-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Ontario</a></li><li><a href=\"/service-area/rancho-cucamonga-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Rancho Cucamonga</a></li><li><a href=\"/service-area/fontana-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Fontana</a></li><li><a href=\"/service-area/pomona-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Pomona</a></li><li><a href=\"/service-area/chino-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Chino</a></li><li><a href=\"/service-area/corona-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Corona</a></li><li><a href=\"/service-area/upland-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Upland</a></li><li><a href=\"/service-area/west-covina-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">West Covina</a></li></ul>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "ab01aa83",
+              "elType": "container",
+              "settings": { "flex_direction": "column", "width": { "unit": "%", "size": 25 } },
+              "elements": [
+                {
+                  "id": "ab01aa84",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Contact Us",
+                    "header_size": "h4",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": { "unit": "px", "size": 14 },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#FFFFFF"
+                  }
+                },
+                {
+                  "id": "ab01aa85",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style=\"list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;\"><li style=\"font-size:13.5px;color:#9CA3AF;\">2141 E Philadelphia St, Suite R<br>Ontario, CA 91761</li><li><a href=\"tel:9096004561\" style=\"font-size:13.5px;color:#9CA3AF;\">(909) 600-4561</a></li><li><a href=\"mailto:info@regalplumbingservices.com\" style=\"font-size:13.5px;color:#9CA3AF;\">info@regalplumbingservices.com</a></li><li style=\"font-size:13.5px;color:#9CA3AF;\">24/7 Emergency | Mon–Sat: 7am–7pm</li></ul>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ab01aa86",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": { "unit": "px", "size": 1200 },
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "flex_wrap": "wrap",
+            "padding": { "unit": "px", "top": "18", "right": "0", "bottom": "18", "left": "0", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "ab01aa87",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:12.5px;color:#6B7280;\">© 2025 Regal Plumbing &amp; Rooter. All Rights Reserved. CA License #1097482</p>"
+              }
+            },
+            {
+              "id": "ab01aa88",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:12.5px;color:#6B7280;\"><a href=\"/privacy-policy/\" style=\"color:#6B7280;\">Privacy Policy</a> &nbsp; <a href=\"/terms-of-service/\" style=\"color:#6B7280;\">Terms of Service</a> &nbsp; <a href=\"/sitemap_index.xml\" style=\"color:#6B7280;\">Sitemap</a></p>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "post_title": "About",
+    "template": "elementor_canvas",
+    "_elementor_template_type": "page",
+    "rank_math_title": "About Regal Plumbing & Rooter — Ontario CA Family-Owned Plumbers",
+    "rank_math_description": "Meet the team behind Regal Plumbing & Rooter — a family-owned plumbing company in Ontario CA with 4+ years serving 32+ Inland Empire cities. CA License #1097482.",
+    "rank_math_og_title": "About Regal Plumbing & Rooter",
+    "rank_math_og_description": "Family-owned plumbing in Ontario CA. Licensed, insured, honest pricing. Serving 32+ cities in the Inland Empire & San Gabriel Valley.",
+    "rank_math_schema_pro_markup": "{\"@context\":\"https://schema.org\",\"@type\":\"Plumber\",\"name\":\"Regal Plumbing & Rooter\",\"url\":\"https://regalplumbingservices.com\",\"telephone\":\"+19096004561\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"2141 E Philadelphia St, Suite R\",\"addressLocality\":\"Ontario\",\"addressRegion\":\"CA\",\"postalCode\":\"91761\",\"addressCountry\":\"US\"}}",
+    "_elementor_edit_mode": "builder"
+  }
+}

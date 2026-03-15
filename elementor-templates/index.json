@@ -1,0 +1,1641 @@
+{
+  "version": "0.4",
+  "title": "Home",
+  "type": "page",
+  "content": [
+    {
+      "id": "eb01aa01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#2D2D2D",
+        "padding": { "unit": "px", "top": "9", "right": "16", "bottom": "9", "left": "16", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "eb01aa02",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center;color:#ffffff;font-size:13.5px;font-weight:600;\">24/7 Emergency Service Available — Call <a href=\"tel:9096004561\" style=\"color:#fca5a5;\">(909) 600-4561</a></p>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "eb01aa03",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "box_shadow_box_shadow_type": "yes",
+        "box_shadow_box_shadow": { "horizontal": 0, "vertical": 2, "blur": 12, "spread": 0, "color": "rgba(0,0,0,0.10)" },
+        "padding": { "unit": "px", "top": "0", "right": "24", "bottom": "0", "left": "24", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "eb01aa04",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_align_items": "center",
+            "flex_justify_content": "space-between",
+            "padding": { "unit": "px", "top": "8", "right": "0", "bottom": "8", "left": "0", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "eb01aa05",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": { "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/regal-plumbing-logo.png", "alt": "Regal Plumbing & Rooter" },
+                "image_size": "full",
+                "width": { "unit": "px", "size": 180 },
+                "link_to": "custom",
+                "link": { "url": "/" }
+              }
+            },
+            {
+              "id": "eb01aa06",
+              "elType": "widget",
+              "widgetType": "nav-menu",
+              "settings": {
+                "menu": "primary-menu",
+                "layout": "horizontal",
+                "typography_typography": "custom",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "500",
+                "typography_font_size": { "unit": "px", "size": 14 },
+                "typography_letter_spacing": { "unit": "px", "size": 1.2 },
+                "typography_text_transform": "uppercase",
+                "color": "#2D2D2D",
+                "color_hover": "#B91C1C"
+              }
+            },
+            {
+              "id": "eb01aa07",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_align_items": "center",
+                "gap": { "unit": "px", "size": 14 }
+              },
+              "elements": [
+                {
+                  "id": "eb01aa08",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "(909) 600-4561",
+                    "link": { "url": "tel:9096004561" },
+                    "header_size": "h6",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": { "unit": "px", "size": 16 },
+                    "title_color": "#1E3A6E"
+                  }
+                },
+                {
+                  "id": "eb01aa09",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Call Now",
+                    "link": { "url": "tel:9096004561" },
+                    "background_color": "#B91C1C",
+                    "button_text_color": "#FFFFFF",
+                    "border_radius": { "unit": "px", "top": 4, "right": 4, "bottom": 4, "left": 4, "isLinked": true },
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": { "unit": "px", "size": 14 },
+                    "typography_letter_spacing": { "unit": "px", "size": 1 },
+                    "typography_text_transform": "uppercase",
+                    "padding": { "unit": "px", "top": "10", "right": "22", "bottom": "10", "left": "22", "isLinked": false }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eb01aa10",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#1E3A6E",
+        "background_image": { "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/plumber-working-under-sink-ontario-ca.webp" },
+        "background_position": "center center",
+        "background_size": "cover",
+        "padding": { "unit": "px", "top": "120", "right": "24", "bottom": "120", "left": "24", "isLinked": false },
+        "min_height": { "unit": "vh", "size": 70 },
+        "flex_align_items": "center"
+      },
+      "elements": [
+        {
+          "id": "eb01aa11",
+          "elType": "container",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "rgba(30,58,110,0.80)",
+            "content_width": "boxed",
+            "width": { "unit": "px", "size": 1200 },
+            "padding": { "unit": "px", "top": "0", "right": "24", "bottom": "0", "left": "24", "isLinked": false },
+            "flex_direction": "column"
+          },
+          "elements": [
+            {
+              "id": "eb01aa12",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Ontario's Most Trusted Plumbing & Rooter Service",
+                "header_size": "h1",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "700",
+                "typography_font_size": { "unit": "px", "size": 56 },
+                "typography_letter_spacing": { "unit": "px", "size": 1 },
+                "typography_text_transform": "uppercase",
+                "title_color": "#FFFFFF",
+                "align": "left"
+              }
+            },
+            {
+              "id": "eb01aa13",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:18px;color:rgba(255,255,255,0.90);max-width:600px;line-height:1.7;\">24/7 emergency plumbing, drain cleaning, sewer repair, and more — serving Ontario, Rancho Cucamonga, Fontana, and 30+ Inland Empire cities.</p>"
+              }
+            },
+            {
+              "id": "eb01aa14",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "gap": { "unit": "px", "size": 16 },
+                "margin": { "unit": "px", "top": "24", "right": "0", "bottom": "0", "left": "0", "isLinked": false }
+              },
+              "elements": [
+                {
+                  "id": "eb01aa15",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Call (909) 600-4561",
+                    "link": { "url": "tel:9096004561" },
+                    "background_color": "#B91C1C",
+                    "button_text_color": "#FFFFFF",
+                    "border_radius": { "unit": "px", "top": 4, "right": 4, "bottom": 4, "left": 4, "isLinked": true },
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": { "unit": "px", "size": 16 },
+                    "typography_letter_spacing": { "unit": "px", "size": 1 },
+                    "typography_text_transform": "uppercase",
+                    "padding": { "unit": "px", "top": "14", "right": "32", "bottom": "14", "left": "32", "isLinked": false }
+                  }
+                },
+                {
+                  "id": "eb01aa16",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Get a Free Estimate",
+                    "link": { "url": "/contact/" },
+                    "background_color": "transparent",
+                    "button_text_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "2", "right": "2", "bottom": "2", "left": "2", "isLinked": true },
+                    "border_color": "#FFFFFF",
+                    "border_radius": { "unit": "px", "top": 4, "right": 4, "bottom": 4, "left": 4, "isLinked": true },
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": { "unit": "px", "size": 16 },
+                    "typography_letter_spacing": { "unit": "px", "size": 1 },
+                    "typography_text_transform": "uppercase",
+                    "padding": { "unit": "px", "top": "14", "right": "32", "bottom": "14", "left": "32", "isLinked": false }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "eb01aa17",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "gap": { "unit": "px", "size": 24 },
+                "margin": { "unit": "px", "top": "32", "right": "0", "bottom": "0", "left": "0", "isLinked": false }
+              },
+              "elements": [
+                {
+                  "id": "eb01aa18",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "24/7 Emergency",
+                    "description_text": "Always Available",
+                    "icon": { "value": "fas fa-clock", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_size": { "unit": "px", "size": 14 },
+                    "title_color": "#FFFFFF",
+                    "description_typography_font_size": { "unit": "px", "size": 12 },
+                    "description_color": "rgba(255,255,255,0.70)",
+                    "position": "left"
+                  }
+                },
+                {
+                  "id": "eb01aa19",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "CA Licensed #1097482",
+                    "description_text": "Fully Insured",
+                    "icon": { "value": "fas fa-certificate", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_size": { "unit": "px", "size": 14 },
+                    "title_color": "#FFFFFF",
+                    "description_typography_font_size": { "unit": "px", "size": 12 },
+                    "description_color": "rgba(255,255,255,0.70)",
+                    "position": "left"
+                  }
+                },
+                {
+                  "id": "eb01aa20",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "32+ Cities Served",
+                    "description_text": "Inland Empire & SGV",
+                    "icon": { "value": "fas fa-map-marker-alt", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_size": { "unit": "px", "size": 14 },
+                    "title_color": "#FFFFFF",
+                    "description_typography_font_size": { "unit": "px", "size": 12 },
+                    "description_color": "rgba(255,255,255,0.70)",
+                    "position": "left"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eb01aa21",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F3F4F6",
+        "padding": { "unit": "px", "top": "28", "right": "24", "bottom": "28", "left": "24", "isLinked": false },
+        "border_border": "solid",
+        "border_width": { "unit": "px", "top": "0", "right": "0", "bottom": "1", "left": "0", "isLinked": false },
+        "border_color": "#E5E7EB"
+      },
+      "elements": [
+        {
+          "id": "eb01aa22",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": { "unit": "px", "size": 1200 },
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_justify_content": "center",
+            "gap": { "unit": "px", "size": 0 }
+          },
+          "elements": [
+            {
+              "id": "eb01aa23",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "24/7 Emergency",
+                "description_text": "Always Available",
+                "icon": { "value": "fas fa-clock", "library": "fa-solid" },
+                "icon_color": "#B91C1C",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "500",
+                "title_typography_font_size": { "unit": "px", "size": 14 },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_font_size": { "unit": "px", "size": 11 },
+                "position": "left",
+                "padding": { "unit": "px", "top": "12", "right": "28", "bottom": "12", "left": "28", "isLinked": false }
+              }
+            },
+            {
+              "id": "eb01aa24",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "Family Owned & Operated",
+                "description_text": "Community Focused",
+                "icon": { "value": "fas fa-home", "library": "fa-solid" },
+                "icon_color": "#B91C1C",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "500",
+                "title_typography_font_size": { "unit": "px", "size": 14 },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_font_size": { "unit": "px", "size": 11 },
+                "position": "left",
+                "padding": { "unit": "px", "top": "12", "right": "28", "bottom": "12", "left": "28", "isLinked": false }
+              }
+            },
+            {
+              "id": "eb01aa25",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "CA Licensed #1097482",
+                "description_text": "Fully Insured",
+                "icon": { "value": "fas fa-check-circle", "library": "fa-solid" },
+                "icon_color": "#B91C1C",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "500",
+                "title_typography_font_size": { "unit": "px", "size": 14 },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_font_size": { "unit": "px", "size": 11 },
+                "position": "left",
+                "padding": { "unit": "px", "top": "12", "right": "28", "bottom": "12", "left": "28", "isLinked": false }
+              }
+            },
+            {
+              "id": "eb01aa26",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "4+ Years Experience",
+                "description_text": "Proven Track Record",
+                "icon": { "value": "fas fa-star", "library": "fa-solid" },
+                "icon_color": "#B91C1C",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "500",
+                "title_typography_font_size": { "unit": "px", "size": 14 },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_font_size": { "unit": "px", "size": 11 },
+                "position": "left",
+                "padding": { "unit": "px", "top": "12", "right": "28", "bottom": "12", "left": "28", "isLinked": false }
+              }
+            },
+            {
+              "id": "eb01aa27",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "32+ Cities Served",
+                "description_text": "Southern California",
+                "icon": { "value": "fas fa-map-marker-alt", "library": "fa-solid" },
+                "icon_color": "#B91C1C",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "500",
+                "title_typography_font_size": { "unit": "px", "size": 14 },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_font_size": { "unit": "px", "size": 11 },
+                "position": "left",
+                "padding": { "unit": "px", "top": "12", "right": "28", "bottom": "12", "left": "28", "isLinked": false }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eb01aa28",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F3F4F6",
+        "padding": { "unit": "px", "top": "80", "right": "24", "bottom": "80", "left": "24", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "eb01aa29",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": { "unit": "px", "size": 1200 },
+            "flex_direction": "column",
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "eb01aa30",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Our Services",
+                "header_size": "h6",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "500",
+                "typography_font_size": { "unit": "px", "size": 12 },
+                "typography_letter_spacing": { "unit": "px", "size": 3 },
+                "typography_text_transform": "uppercase",
+                "title_color": "#B91C1C",
+                "align": "center"
+              }
+            },
+            {
+              "id": "eb01aa31",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Full-Service Plumbing for Every Situation",
+                "header_size": "h2",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "700",
+                "typography_font_size": { "unit": "px", "size": 38 },
+                "typography_letter_spacing": { "unit": "px", "size": 0.5 },
+                "typography_text_transform": "uppercase",
+                "title_color": "#2D2D2D",
+                "align": "center"
+              }
+            },
+            {
+              "id": "eb01aa32",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "color": "#B91C1C",
+                "weight": { "unit": "px", "size": 4 },
+                "width": { "unit": "px", "size": 56 },
+                "align": "center",
+                "gap": { "unit": "px", "size": 14 }
+              }
+            },
+            {
+              "id": "eb01aa33",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:15px;color:#6B7280;max-width:560px;text-align:center;line-height:1.65;\">From emergency response to routine maintenance — Regal Plumbing handles it all with licensed technicians and honest pricing.</p>"
+              }
+            },
+            {
+              "id": "eb01aa34",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "gap": { "unit": "px", "size": 24 },
+                "margin": { "unit": "px", "top": "48", "right": "0", "bottom": "0", "left": "0", "isLinked": false }
+              },
+              "elements": [
+                {
+                  "id": "eb01aa35",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Emergency Plumbing",
+                    "description_text": "Burst pipes, sewage backups, and major leaks — we respond 24/7 to plumbing emergencies throughout the Inland Empire.",
+                    "icon": { "value": "fas fa-exclamation-triangle", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "link": { "url": "/emergency-plumbing/" },
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_weight": "600",
+                    "title_typography_font_size": { "unit": "px", "size": 17 },
+                    "title_color": "#2D2D2D",
+                    "description_color": "#6B7280",
+                    "description_typography_font_size": { "unit": "px", "size": 13 },
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#E5E7EB",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "28", "right": "24", "bottom": "28", "left": "24", "isLinked": false },
+                    "width": { "unit": "%", "size": 23 }
+                  }
+                },
+                {
+                  "id": "eb01aa36",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Drain Cleaning",
+                    "description_text": "Professional drain snaking and hydrojetting to clear clogs fast and keep your pipes flowing properly.",
+                    "icon": { "value": "fas fa-water", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "link": { "url": "/drain-cleaning/" },
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_weight": "600",
+                    "title_typography_font_size": { "unit": "px", "size": 17 },
+                    "title_color": "#2D2D2D",
+                    "description_color": "#6B7280",
+                    "description_typography_font_size": { "unit": "px", "size": 13 },
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#E5E7EB",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "28", "right": "24", "bottom": "28", "left": "24", "isLinked": false },
+                    "width": { "unit": "%", "size": 23 }
+                  }
+                },
+                {
+                  "id": "eb01aa37",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Sewer Line Repair",
+                    "description_text": "Camera inspection, trenchless repair, and full replacement for damaged or collapsed sewer lines.",
+                    "icon": { "value": "fas fa-tools", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "link": { "url": "/sewer-line-repair/" },
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_weight": "600",
+                    "title_typography_font_size": { "unit": "px", "size": 17 },
+                    "title_color": "#2D2D2D",
+                    "description_color": "#6B7280",
+                    "description_typography_font_size": { "unit": "px", "size": 13 },
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#E5E7EB",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "28", "right": "24", "bottom": "28", "left": "24", "isLinked": false },
+                    "width": { "unit": "%", "size": 23 }
+                  }
+                },
+                {
+                  "id": "eb01aa38",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Water Heater Services",
+                    "description_text": "Repair, replacement, and new installation for tank and tankless water heaters — all brands and models.",
+                    "icon": { "value": "fas fa-fire", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "link": { "url": "/water-heater-services/" },
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_weight": "600",
+                    "title_typography_font_size": { "unit": "px", "size": 17 },
+                    "title_color": "#2D2D2D",
+                    "description_color": "#6B7280",
+                    "description_typography_font_size": { "unit": "px", "size": 13 },
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#E5E7EB",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "28", "right": "24", "bottom": "28", "left": "24", "isLinked": false },
+                    "width": { "unit": "%", "size": 23 }
+                  }
+                },
+                {
+                  "id": "eb01aa39",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Slab Leak Detection",
+                    "description_text": "Electronic detection and precision repair for leaks beneath concrete slabs — no unnecessary demolition.",
+                    "icon": { "value": "fas fa-search", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "link": { "url": "/slab-leak-detection/" },
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_weight": "600",
+                    "title_typography_font_size": { "unit": "px", "size": 17 },
+                    "title_color": "#2D2D2D",
+                    "description_color": "#6B7280",
+                    "description_typography_font_size": { "unit": "px", "size": 13 },
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#E5E7EB",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "28", "right": "24", "bottom": "28", "left": "24", "isLinked": false },
+                    "width": { "unit": "%", "size": 23 }
+                  }
+                },
+                {
+                  "id": "eb01aa40",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Hydrojetting",
+                    "description_text": "High-pressure water jetting removes mineral scale, grease, and debris from drain and sewer lines completely.",
+                    "icon": { "value": "fas fa-tint", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "link": { "url": "/hydrojetting/" },
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_weight": "600",
+                    "title_typography_font_size": { "unit": "px", "size": 17 },
+                    "title_color": "#2D2D2D",
+                    "description_color": "#6B7280",
+                    "description_typography_font_size": { "unit": "px", "size": 13 },
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#E5E7EB",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "28", "right": "24", "bottom": "28", "left": "24", "isLinked": false },
+                    "width": { "unit": "%", "size": 23 }
+                  }
+                },
+                {
+                  "id": "eb01aa41",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Gas Leak Detection",
+                    "description_text": "Licensed gas line leak location, repair, and pressure testing for safe, code-compliant results.",
+                    "icon": { "value": "fas fa-fire-alt", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "link": { "url": "/gas-leak-detection/" },
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_weight": "600",
+                    "title_typography_font_size": { "unit": "px", "size": 17 },
+                    "title_color": "#2D2D2D",
+                    "description_color": "#6B7280",
+                    "description_typography_font_size": { "unit": "px", "size": 13 },
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#E5E7EB",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "28", "right": "24", "bottom": "28", "left": "24", "isLinked": false },
+                    "width": { "unit": "%", "size": 23 }
+                  }
+                },
+                {
+                  "id": "eb01aa42",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Water Filtration",
+                    "description_text": "Whole-home water softeners and reverse osmosis systems to improve water quality and protect your pipes.",
+                    "icon": { "value": "fas fa-filter", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "link": { "url": "/water-filtration/" },
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_weight": "600",
+                    "title_typography_font_size": { "unit": "px", "size": 17 },
+                    "title_color": "#2D2D2D",
+                    "description_color": "#6B7280",
+                    "description_typography_font_size": { "unit": "px", "size": 13 },
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#E5E7EB",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "28", "right": "24", "bottom": "28", "left": "24", "isLinked": false },
+                    "width": { "unit": "%", "size": 23 }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eb01aa43",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "80", "right": "24", "bottom": "80", "left": "24", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "eb01aa44",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": { "unit": "px", "size": 1200 },
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "gap": { "unit": "px", "size": 48 },
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "eb01aa45",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "width": { "unit": "%", "size": 55 }
+              },
+              "elements": [
+                {
+                  "id": "eb01aa46",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "About Us",
+                    "header_size": "h6",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "500",
+                    "typography_font_size": { "unit": "px", "size": 12 },
+                    "typography_letter_spacing": { "unit": "px", "size": 3 },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#B91C1C"
+                  }
+                },
+                {
+                  "id": "eb01aa47",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Ontario's Trusted Local Plumbers",
+                    "header_size": "h2",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "700",
+                    "typography_font_size": { "unit": "px", "size": 36 },
+                    "typography_letter_spacing": { "unit": "px", "size": 0.5 },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#2D2D2D"
+                  }
+                },
+                {
+                  "id": "eb01aa48",
+                  "elType": "widget",
+                  "widgetType": "divider",
+                  "settings": {
+                    "color": "#B91C1C",
+                    "weight": { "unit": "px", "size": 4 },
+                    "width": { "unit": "px", "size": 56 },
+                    "align": "left",
+                    "gap": { "unit": "px", "size": 14 }
+                  }
+                },
+                {
+                  "id": "eb01aa49",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"font-size:15.5px;color:#4B5563;line-height:1.8;\">Regal Plumbing &amp; Rooter is a family-owned plumbing company based in Ontario, CA, serving more than 32 cities across the Inland Empire and San Gabriel Valley. Founded on a commitment to honest service, fair pricing, and quality workmanship, we&rsquo;ve built a reputation as the area&rsquo;s most reliable plumbing team.</p><p style=\"font-size:15.5px;color:#4B5563;line-height:1.8;\">Our technicians are CA-licensed (#1097482), fully insured, and trained to handle everything from routine drain cleaning to complex slab leak repairs — always with transparent pricing before any work begins.</p>"
+                  }
+                },
+                {
+                  "id": "eb01aa50",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "row",
+                    "flex_wrap": "wrap",
+                    "gap": { "unit": "px", "size": 24 },
+                    "margin": { "unit": "px", "top": "24", "right": "0", "bottom": "24", "left": "0", "isLinked": false }
+                  },
+                  "elements": [
+                    {
+                      "id": "eb01aa51",
+                      "elType": "widget",
+                      "widgetType": "counter",
+                      "settings": {
+                        "starting_number": 0,
+                        "ending_number": 32,
+                        "suffix": "+",
+                        "title": "Cities Served",
+                        "number_typography_font_family": "Oswald",
+                        "number_typography_font_weight": "700",
+                        "number_typography_font_size": { "unit": "px", "size": 42 },
+                        "number_color": "#B91C1C",
+                        "title_typography_font_family": "Open Sans",
+                        "title_typography_font_size": { "unit": "px", "size": 13 },
+                        "title_color": "#6B7280"
+                      }
+                    },
+                    {
+                      "id": "eb01aa52",
+                      "elType": "widget",
+                      "widgetType": "counter",
+                      "settings": {
+                        "starting_number": 0,
+                        "ending_number": 4,
+                        "suffix": "+",
+                        "title": "Years Experience",
+                        "number_typography_font_family": "Oswald",
+                        "number_typography_font_weight": "700",
+                        "number_typography_font_size": { "unit": "px", "size": 42 },
+                        "number_color": "#B91C1C",
+                        "title_typography_font_family": "Open Sans",
+                        "title_typography_font_size": { "unit": "px", "size": 13 },
+                        "title_color": "#6B7280"
+                      }
+                    },
+                    {
+                      "id": "eb01aa53",
+                      "elType": "widget",
+                      "widgetType": "counter",
+                      "settings": {
+                        "starting_number": 0,
+                        "ending_number": 500,
+                        "suffix": "+",
+                        "title": "Jobs Completed",
+                        "number_typography_font_family": "Oswald",
+                        "number_typography_font_weight": "700",
+                        "number_typography_font_size": { "unit": "px", "size": 42 },
+                        "number_color": "#B91C1C",
+                        "title_typography_font_family": "Open Sans",
+                        "title_typography_font_size": { "unit": "px", "size": 13 },
+                        "title_color": "#6B7280"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "eb01aa54",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Learn About Us",
+                    "link": { "url": "/about/" },
+                    "background_color": "#B91C1C",
+                    "button_text_color": "#FFFFFF",
+                    "border_radius": { "unit": "px", "top": 4, "right": 4, "bottom": 4, "left": 4, "isLinked": true },
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": { "unit": "px", "size": 14 },
+                    "typography_letter_spacing": { "unit": "px", "size": 1 },
+                    "typography_text_transform": "uppercase",
+                    "padding": { "unit": "px", "top": "12", "right": "28", "bottom": "12", "left": "28", "isLinked": false }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "eb01aa55",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": { "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/plumber-fixing-pipe-under-sink.webp", "alt": "Regal Plumbing technician at work" },
+                "image_size": "full",
+                "width": { "unit": "%", "size": 40 },
+                "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eb01aa56",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F3F4F6",
+        "padding": { "unit": "px", "top": "80", "right": "24", "bottom": "80", "left": "24", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "eb01aa57",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": { "unit": "px", "size": 1200 },
+            "flex_direction": "column",
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "eb01aa58",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Customer Reviews",
+                "header_size": "h6",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "500",
+                "typography_font_size": { "unit": "px", "size": 12 },
+                "typography_letter_spacing": { "unit": "px", "size": 3 },
+                "typography_text_transform": "uppercase",
+                "title_color": "#B91C1C",
+                "align": "center"
+              }
+            },
+            {
+              "id": "eb01aa59",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "What Our Customers Say",
+                "header_size": "h2",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "700",
+                "typography_font_size": { "unit": "px", "size": 38 },
+                "typography_letter_spacing": { "unit": "px", "size": 0.5 },
+                "typography_text_transform": "uppercase",
+                "title_color": "#2D2D2D",
+                "align": "center"
+              }
+            },
+            {
+              "id": "eb01aa60",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "color": "#B91C1C",
+                "weight": { "unit": "px", "size": 4 },
+                "width": { "unit": "px", "size": 56 },
+                "align": "center",
+                "gap": { "unit": "px", "size": 14 }
+              }
+            },
+            {
+              "id": "eb01aa61",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "gap": { "unit": "px", "size": 28 },
+                "margin": { "unit": "px", "top": "48", "right": "0", "bottom": "0", "left": "0", "isLinked": false }
+              },
+              "elements": [
+                {
+                  "id": "eb01aa62",
+                  "elType": "widget",
+                  "widgetType": "testimonial",
+                  "settings": {
+                    "testimonial_content": "Regal Plumbing came out within the hour for a burst pipe emergency. Professional, fast, and fairly priced. Will use them again for sure.",
+                    "testimonial_name": "Maria R.",
+                    "testimonial_job": "Ontario, CA",
+                    "testimonial_image": { "url": "" },
+                    "background_color": "#FFFFFF",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true },
+                    "width": { "unit": "%", "size": 30 }
+                  }
+                },
+                {
+                  "id": "eb01aa63",
+                  "elType": "widget",
+                  "widgetType": "testimonial",
+                  "settings": {
+                    "testimonial_content": "They cleared a major sewer blockage in our Rancho Cucamonga home. Very knowledgeable team. Honest pricing with no surprise charges.",
+                    "testimonial_name": "James T.",
+                    "testimonial_job": "Rancho Cucamonga, CA",
+                    "testimonial_image": { "url": "" },
+                    "background_color": "#FFFFFF",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true },
+                    "width": { "unit": "%", "size": 30 }
+                  }
+                },
+                {
+                  "id": "eb01aa64",
+                  "elType": "widget",
+                  "widgetType": "testimonial",
+                  "settings": {
+                    "testimonial_content": "Detected our slab leak quickly without tearing up the whole floor. Saved us thousands. Regal Plumbing is the best in Fontana.",
+                    "testimonial_name": "Diana M.",
+                    "testimonial_job": "Fontana, CA",
+                    "testimonial_image": { "url": "" },
+                    "background_color": "#FFFFFF",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true },
+                    "width": { "unit": "%", "size": 30 }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eb01aa65",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#1E3A6E",
+        "padding": { "unit": "px", "top": "80", "right": "24", "bottom": "80", "left": "24", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "eb01aa66",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": { "unit": "px", "size": 1200 },
+            "flex_direction": "column",
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "eb01aa67",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Our Promise",
+                "header_size": "h6",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "500",
+                "typography_font_size": { "unit": "px", "size": 12 },
+                "typography_letter_spacing": { "unit": "px", "size": 3 },
+                "typography_text_transform": "uppercase",
+                "title_color": "#fca5a5",
+                "align": "center"
+              }
+            },
+            {
+              "id": "eb01aa68",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Why Choose Regal Plumbing & Rooter",
+                "header_size": "h2",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "700",
+                "typography_font_size": { "unit": "px", "size": 38 },
+                "typography_letter_spacing": { "unit": "px", "size": 0.5 },
+                "typography_text_transform": "uppercase",
+                "title_color": "#FFFFFF",
+                "align": "center"
+              }
+            },
+            {
+              "id": "eb01aa69",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "color": "#B91C1C",
+                "weight": { "unit": "px", "size": 4 },
+                "width": { "unit": "px", "size": 56 },
+                "align": "center",
+                "gap": { "unit": "px", "size": 14 }
+              }
+            },
+            {
+              "id": "eb01aa70",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_wrap": "wrap",
+                "gap": { "unit": "px", "size": 32 },
+                "margin": { "unit": "px", "top": "48", "right": "0", "bottom": "0", "left": "0", "isLinked": false }
+              },
+              "elements": [
+                {
+                  "id": "eb01aa71",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "24/7 Emergency Response",
+                    "description_text": "Plumbing disasters don't wait for business hours. We dispatch immediately for emergencies throughout the Inland Empire — day, night, weekends, and holidays.",
+                    "icon": { "value": "fas fa-bolt", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_weight": "600",
+                    "title_typography_font_size": { "unit": "px", "size": 20 },
+                    "title_color": "#FFFFFF",
+                    "description_color": "#93C5FD",
+                    "description_typography_font_size": { "unit": "px", "size": 14 },
+                    "background_color": "rgba(255,255,255,0.06)",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "rgba(255,255,255,0.10)",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "36", "right": "28", "bottom": "36", "left": "28", "isLinked": false },
+                    "width": { "unit": "%", "size": 30 },
+                    "text_align": "center"
+                  }
+                },
+                {
+                  "id": "eb01aa72",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Upfront Honest Pricing",
+                    "description_text": "We quote before we work — always. No surprise charges, no hidden fees. Our technicians explain the work and provide a clear price before touching anything in your home.",
+                    "icon": { "value": "fas fa-dollar-sign", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_weight": "600",
+                    "title_typography_font_size": { "unit": "px", "size": 20 },
+                    "title_color": "#FFFFFF",
+                    "description_color": "#93C5FD",
+                    "description_typography_font_size": { "unit": "px", "size": 14 },
+                    "background_color": "rgba(255,255,255,0.06)",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "rgba(255,255,255,0.10)",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "36", "right": "28", "bottom": "36", "left": "28", "isLinked": false },
+                    "width": { "unit": "%", "size": 30 },
+                    "text_align": "center"
+                  }
+                },
+                {
+                  "id": "eb01aa73",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "Licensed & Fully Insured",
+                    "description_text": "CA License #1097482. Every technician is licensed, background-checked, and backed by full liability insurance — protecting your home and your investment.",
+                    "icon": { "value": "fas fa-shield-alt", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "title_typography_font_family": "Oswald",
+                    "title_typography_font_weight": "600",
+                    "title_typography_font_size": { "unit": "px", "size": 20 },
+                    "title_color": "#FFFFFF",
+                    "description_color": "#93C5FD",
+                    "description_typography_font_size": { "unit": "px", "size": 14 },
+                    "background_color": "rgba(255,255,255,0.06)",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "rgba(255,255,255,0.10)",
+                    "border_radius": { "unit": "px", "top": 8, "right": 8, "bottom": 8, "left": 8, "isLinked": true },
+                    "padding": { "unit": "px", "top": "36", "right": "28", "bottom": "36", "left": "28", "isLinked": false },
+                    "width": { "unit": "%", "size": 30 },
+                    "text_align": "center"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eb01aa74",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F3F4F6",
+        "padding": { "unit": "px", "top": "80", "right": "24", "bottom": "80", "left": "24", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "eb01aa75",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": { "unit": "px", "size": 860 },
+            "flex_direction": "column",
+            "flex_align_items": "center"
+          },
+          "elements": [
+            {
+              "id": "eb01aa76",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Common Questions",
+                "header_size": "h6",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "500",
+                "typography_font_size": { "unit": "px", "size": 12 },
+                "typography_letter_spacing": { "unit": "px", "size": 3 },
+                "typography_text_transform": "uppercase",
+                "title_color": "#B91C1C",
+                "align": "center"
+              }
+            },
+            {
+              "id": "eb01aa77",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Frequently Asked Questions",
+                "header_size": "h2",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "700",
+                "typography_font_size": { "unit": "px", "size": 38 },
+                "typography_letter_spacing": { "unit": "px", "size": 0.5 },
+                "typography_text_transform": "uppercase",
+                "title_color": "#2D2D2D",
+                "align": "center"
+              }
+            },
+            {
+              "id": "eb01aa78",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "color": "#B91C1C",
+                "weight": { "unit": "px", "size": 4 },
+                "width": { "unit": "px", "size": 56 },
+                "align": "center",
+                "gap": { "unit": "px", "size": 14 }
+              }
+            },
+            {
+              "id": "eb01aa79",
+              "elType": "widget",
+              "widgetType": "accordion",
+              "settings": {
+                "tabs": [
+                  {
+                    "_id": "faq1a",
+                    "tab_title": "Do you offer 24/7 emergency plumbing service?",
+                    "tab_content": "Yes — Regal Plumbing & Rooter provides 24/7 emergency plumbing service throughout Ontario, Rancho Cucamonga, Fontana, and 30+ surrounding cities. When you call, we dispatch immediately — no waiting until morning for burst pipes, sewage backups, or gas leaks."
+                  },
+                  {
+                    "_id": "faq2a",
+                    "tab_title": "How quickly can a plumber arrive?",
+                    "tab_content": "For emergency calls, we typically arrive within 45–60 minutes for most of our service area. We have technicians working throughout the Inland Empire and San Gabriel Valley daily, so we are rarely far from any location we serve."
+                  },
+                  {
+                    "_id": "faq3a",
+                    "tab_title": "Are your plumbers licensed and insured?",
+                    "tab_content": "Yes. Regal Plumbing & Rooter holds CA Contractor License #1097482 and maintains full liability insurance and worker's compensation coverage. All technicians are licensed, background-checked, and trained to California plumbing code standards."
+                  },
+                  {
+                    "_id": "faq4a",
+                    "tab_title": "Do you offer free estimates?",
+                    "tab_content": "We provide upfront pricing before any work begins. For standard service calls, we assess the situation and quote you a firm price before touching anything. We believe in complete transparency — no surprises on your invoice."
+                  },
+                  {
+                    "_id": "faq5a",
+                    "tab_title": "What cities do you serve?",
+                    "tab_content": "We serve 32+ cities across the Inland Empire and San Gabriel Valley, including Ontario, Rancho Cucamonga, Fontana, Pomona, Chino, Corona, Upland, West Covina, and many more. Visit our Service Area page to see the full list."
+                  }
+                ],
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "500",
+                "title_typography_font_size": { "unit": "px", "size": 16 },
+                "title_color": "#2D2D2D",
+                "title_active_color": "#B91C1C",
+                "content_typography_font_size": { "unit": "px", "size": 14 },
+                "content_color": "#4B5563",
+                "border_radius": { "unit": "px", "top": 6, "right": 6, "bottom": 6, "left": 6, "isLinked": true },
+                "margin": { "unit": "px", "top": "48", "right": "0", "bottom": "0", "left": "0", "isLinked": false }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eb01aa80",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#B91C1C",
+        "padding": { "unit": "px", "top": "64", "right": "24", "bottom": "64", "left": "24", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "eb01aa81",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": { "unit": "px", "size": 700 },
+            "flex_direction": "column",
+            "flex_align_items": "center",
+            "text_align": "center"
+          },
+          "elements": [
+            {
+              "id": "eb01aa82",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Need a Plumber Now? We're Ready",
+                "header_size": "h2",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "700",
+                "typography_font_size": { "unit": "px", "size": 42 },
+                "typography_letter_spacing": { "unit": "px", "size": 1 },
+                "typography_text_transform": "uppercase",
+                "title_color": "#FFFFFF",
+                "align": "center"
+              }
+            },
+            {
+              "id": "eb01aa83",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:16px;color:rgba(255,255,255,0.85);text-align:center;\">24/7 emergency and same-day service across the Inland Empire & San Gabriel Valley</p>"
+              }
+            },
+            {
+              "id": "eb01aa84",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "(909) 600-4561",
+                "link": { "url": "tel:9096004561" },
+                "header_size": "h3",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "700",
+                "typography_font_size": { "unit": "px", "size": 50 },
+                "typography_letter_spacing": { "unit": "px", "size": 2 },
+                "title_color": "#FFFFFF",
+                "align": "center"
+              }
+            },
+            {
+              "id": "eb01aa85",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_justify_content": "center",
+                "gap": { "unit": "px", "size": 16 },
+                "margin": { "unit": "px", "top": "8", "right": "0", "bottom": "0", "left": "0", "isLinked": false }
+              },
+              "elements": [
+                {
+                  "id": "eb01aa86",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Call Now",
+                    "link": { "url": "tel:9096004561" },
+                    "background_color": "#FFFFFF",
+                    "button_text_color": "#B91C1C",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "2", "right": "2", "bottom": "2", "left": "2", "isLinked": true },
+                    "border_color": "#FFFFFF",
+                    "border_radius": { "unit": "px", "top": 4, "right": 4, "bottom": 4, "left": 4, "isLinked": true },
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": { "unit": "px", "size": 15 },
+                    "typography_letter_spacing": { "unit": "px", "size": 1 },
+                    "typography_text_transform": "uppercase",
+                    "padding": { "unit": "px", "top": "14", "right": "32", "bottom": "14", "left": "32", "isLinked": false }
+                  }
+                },
+                {
+                  "id": "eb01aa87",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Get a Free Estimate",
+                    "link": { "url": "/contact/" },
+                    "background_color": "transparent",
+                    "button_text_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "2", "right": "2", "bottom": "2", "left": "2", "isLinked": true },
+                    "border_color": "#FFFFFF",
+                    "border_radius": { "unit": "px", "top": 4, "right": 4, "bottom": 4, "left": 4, "isLinked": true },
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": { "unit": "px", "size": 15 },
+                    "typography_letter_spacing": { "unit": "px", "size": 1 },
+                    "typography_text_transform": "uppercase",
+                    "padding": { "unit": "px", "top": "14", "right": "32", "bottom": "14", "left": "32", "isLinked": false }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eb01aa88",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#2D2D2D",
+        "padding": { "unit": "px", "top": "64", "right": "24", "bottom": "0", "left": "24", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "eb01aa89",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": { "unit": "px", "size": 1200 },
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "gap": { "unit": "px", "size": 48 },
+            "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "48", "left": "0", "isLinked": false },
+            "border_border": "solid",
+            "border_width": { "unit": "px", "top": "0", "right": "0", "bottom": "1", "left": "0", "isLinked": false },
+            "border_color": "rgba(255,255,255,0.10)"
+          },
+          "elements": [
+            {
+              "id": "eb01aa90",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "width": { "unit": "%", "size": 30 }
+              },
+              "elements": [
+                {
+                  "id": "eb01aa91",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": { "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/regal-plumbing-logo.png", "alt": "Regal Plumbing & Rooter" },
+                    "image_size": "full",
+                    "width": { "unit": "px", "size": 160 }
+                  }
+                },
+                {
+                  "id": "eb01aa92",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"font-size:13px;color:#9CA3AF;line-height:1.6;\">Honest, professional plumbing &amp; rooter services for the Inland Empire &amp; San Gabriel Valley.</p>"
+                  }
+                },
+                {
+                  "id": "eb01aa93",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"font-size:11.5px;color:#fca5a5;font-family:'Oswald',sans-serif;letter-spacing:1px;background:rgba(185,28,28,0.2);border:1px solid rgba(185,28,28,0.4);display:inline-block;padding:4px 10px;border-radius:3px;\">CA License #1097482</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "eb01aa94",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "width": { "unit": "%", "size": 18 }
+              },
+              "elements": [
+                {
+                  "id": "eb01aa95",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Services",
+                    "header_size": "h4",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": { "unit": "px", "size": 14 },
+                    "typography_letter_spacing": { "unit": "px", "size": 1.5 },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#FFFFFF"
+                  }
+                },
+                {
+                  "id": "eb01aa96",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style=\"list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:9px;\"><li><a href=\"/emergency-plumbing/\" style=\"font-size:13.5px;color:#9CA3AF;\">Emergency Plumbing</a></li><li><a href=\"/drain-cleaning/\" style=\"font-size:13.5px;color:#9CA3AF;\">Drain Cleaning</a></li><li><a href=\"/sewer-line-repair/\" style=\"font-size:13.5px;color:#9CA3AF;\">Sewer Line Repair</a></li><li><a href=\"/water-heater-services/\" style=\"font-size:13.5px;color:#9CA3AF;\">Water Heater Services</a></li><li><a href=\"/slab-leak-detection/\" style=\"font-size:13.5px;color:#9CA3AF;\">Slab Leak Detection</a></li><li><a href=\"/hydrojetting/\" style=\"font-size:13.5px;color:#9CA3AF;\">Hydrojetting</a></li><li><a href=\"/gas-leak-detection/\" style=\"font-size:13.5px;color:#9CA3AF;\">Gas Leak Detection</a></li><li><a href=\"/water-filtration/\" style=\"font-size:13.5px;color:#9CA3AF;\">Water Filtration</a></li></ul>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "eb01aa97",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "width": { "unit": "%", "size": 18 }
+              },
+              "elements": [
+                {
+                  "id": "eb01aa98",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Service Area",
+                    "header_size": "h4",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": { "unit": "px", "size": 14 },
+                    "typography_letter_spacing": { "unit": "px", "size": 1.5 },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#FFFFFF"
+                  }
+                },
+                {
+                  "id": "eb01aa99",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style=\"list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:9px;\"><li><a href=\"/service-area/ontario-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Ontario</a></li><li><a href=\"/service-area/rancho-cucamonga-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Rancho Cucamonga</a></li><li><a href=\"/service-area/fontana-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Fontana</a></li><li><a href=\"/service-area/pomona-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Pomona</a></li><li><a href=\"/service-area/chino-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Chino</a></li><li><a href=\"/service-area/corona-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Corona</a></li><li><a href=\"/service-area/upland-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Upland</a></li><li><a href=\"/service-area/west-covina-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">West Covina</a></li></ul>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "eb01aaa0",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "width": { "unit": "%", "size": 25 }
+              },
+              "elements": [
+                {
+                  "id": "eb01aaa1",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Contact Us",
+                    "header_size": "h4",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": { "unit": "px", "size": 14 },
+                    "typography_letter_spacing": { "unit": "px", "size": 1.5 },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#FFFFFF"
+                  }
+                },
+                {
+                  "id": "eb01aaa2",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "2141 E Philadelphia St, Suite R, Ontario, CA 91761",
+                    "icon": { "value": "fas fa-map-marker-alt", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "icon_size": { "unit": "px", "size": 15 },
+                    "title_typography_font_size": { "unit": "px", "size": 13 },
+                    "title_color": "#9CA3AF",
+                    "position": "left"
+                  }
+                },
+                {
+                  "id": "eb01aaa3",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "(909) 600-4561",
+                    "link": { "url": "tel:9096004561" },
+                    "icon": { "value": "fas fa-phone", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "icon_size": { "unit": "px", "size": 15 },
+                    "title_typography_font_size": { "unit": "px", "size": 13 },
+                    "title_color": "#9CA3AF",
+                    "position": "left"
+                  }
+                },
+                {
+                  "id": "eb01aaa4",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "info@regalplumbingservices.com",
+                    "link": { "url": "mailto:info@regalplumbingservices.com" },
+                    "icon": { "value": "fas fa-envelope", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "icon_size": { "unit": "px", "size": 15 },
+                    "title_typography_font_size": { "unit": "px", "size": 13 },
+                    "title_color": "#9CA3AF",
+                    "position": "left"
+                  }
+                },
+                {
+                  "id": "eb01aaa5",
+                  "elType": "widget",
+                  "widgetType": "icon-box",
+                  "settings": {
+                    "title_text": "24/7 Emergency | Mon-Sat: 7am-7pm",
+                    "icon": { "value": "fas fa-clock", "library": "fa-solid" },
+                    "icon_color": "#B91C1C",
+                    "icon_size": { "unit": "px", "size": 15 },
+                    "title_typography_font_size": { "unit": "px", "size": 13 },
+                    "title_color": "#9CA3AF",
+                    "position": "left"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "eb01aaa6",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "width": { "unit": "px", "size": 1200 },
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "flex_wrap": "wrap",
+            "padding": { "unit": "px", "top": "18", "right": "0", "bottom": "18", "left": "0", "isLinked": false }
+          },
+          "elements": [
+            {
+              "id": "eb01aaa7",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:12.5px;color:#6B7280;\">© 2025 Regal Plumbing &amp; Rooter. All Rights Reserved. CA License #1097482</p>"
+              }
+            },
+            {
+              "id": "eb01aaa8",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:12.5px;color:#6B7280;\"><a href=\"/privacy-policy/\" style=\"color:#6B7280;\">Privacy Policy</a> &nbsp; <a href=\"/terms-of-service/\" style=\"color:#6B7280;\">Terms of Service</a> &nbsp; <a href=\"/sitemap_index.xml\" style=\"color:#6B7280;\">Sitemap</a></p>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "post_title": "Home",
+    "template": "elementor_canvas",
+    "_elementor_template_type": "page",
+    "rank_math_title": "Plumber in Ontario CA — 24/7 Emergency Service | Regal Plumbing & Rooter",
+    "rank_math_description": "Trusted plumber in Ontario CA — 24/7 emergency service, drain cleaning, sewer repair, slab leak detection & more. Serving 32+ Inland Empire cities. Call (909) 600-4561.",
+    "rank_math_og_title": "Regal Plumbing & Rooter — Ontario CA's Most Trusted Plumber",
+    "rank_math_og_description": "Licensed plumbers serving Ontario, Rancho Cucamonga, Fontana and 30+ cities. 24/7 emergency response. CA License #1097482.",
+    "rank_math_schema_pro_markup": "{\"@context\":\"https://schema.org\",\"@type\":\"Plumber\",\"name\":\"Regal Plumbing & Rooter\",\"image\":\"http://regal-plumbing.local/wp-content/uploads/2026/03/regal-plumbing-logo.png\",\"url\":\"https://regalplumbingservices.com\",\"telephone\":\"+19096004561\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"2141 E Philadelphia St, Suite R\",\"addressLocality\":\"Ontario\",\"addressRegion\":\"CA\",\"postalCode\":\"91761\",\"addressCountry\":\"US\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":34.0633,\"longitude\":-117.6509},\"openingHoursSpecification\":{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\"],\"opens\":\"07:00\",\"closes\":\"19:00\"},\"priceRange\":\"$$\",\"areaServed\":{\"@type\":\"GeoCircle\",\"geoMidpoint\":{\"@type\":\"GeoCoordinates\",\"latitude\":34.0633,\"longitude\":-117.6509},\"geoRadius\":\"50000\"}}",
+    "_elementor_edit_mode": "builder"
+  }
+}
