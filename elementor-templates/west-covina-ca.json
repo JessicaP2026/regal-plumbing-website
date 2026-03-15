@@ -1,0 +1,2268 @@
+{
+  "version": "0.4",
+  "title": "Plumber in West Covina CA",
+  "type": "page",
+  "page_settings": {
+    "seo_title": "Plumber in West Covina, CA — Regal Plumbing & Rooter | (909) 600-4561",
+    "seo_description": "Licensed plumbing in West Covina, CA. Serving Shadow Oak, Merced Heights, Sunset, Monte Vista. 24/7 emergency response. Call (909) 600-4561."
+  },
+  "content": [
+    {
+      "id": "wcaa01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#2D2D2D",
+        "padding": {
+          "unit": "px",
+          "top": "9",
+          "right": "16",
+          "bottom": "9",
+          "left": "16",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "wcaa02",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center;color:#ffffff;font-size:13.5px;font-weight:600;\">24/7 Emergency Service Available — Call <a href=\"tel:9096004561\" style=\"color:#fca5a5;\">(909) 600-4561</a></p>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wcab01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "box_shadow_box_shadow_type": "yes",
+        "box_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 2,
+          "blur": 12,
+          "spread": 0,
+          "color": "rgba(0,0,0,0.10)"
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "24",
+          "bottom": "0",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "wcab02",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_align_items": "center",
+            "flex_justify_content": "space-between",
+            "padding": {
+              "unit": "px",
+              "top": "8",
+              "right": "0",
+              "bottom": "8",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "wcab03",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/regal-plumbing-logo.png",
+                  "alt": "Regal Plumbing & Rooter"
+                },
+                "image_size": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 180
+                },
+                "link_to": "custom",
+                "link": {
+                  "url": "/"
+                }
+              }
+            },
+            {
+              "id": "wcab04",
+              "elType": "widget",
+              "widgetType": "nav-menu",
+              "settings": {
+                "menu": "primary-menu",
+                "layout": "horizontal",
+                "typography_typography": "custom",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "500",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1.2
+                },
+                "typography_text_transform": "uppercase",
+                "color": "#2D2D2D",
+                "color_hover": "#B91C1C"
+              }
+            },
+            {
+              "id": "wcab05",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_align_items": "center",
+                "gap": {
+                  "unit": "px",
+                  "size": 14
+                }
+              },
+              "elements": [
+                {
+                  "id": "wcab06",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "<a href=\"tel:9096004561\">(909) 600-4561</a>",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "title_color": "#1E3A6E"
+                  }
+                },
+                {
+                  "id": "wcab07",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Call Now",
+                    "link": {
+                      "url": "tel:9096004561"
+                    },
+                    "background_color": "#B91C1C",
+                    "button_text_color": "#FFFFFF",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 4,
+                      "right": 4,
+                      "bottom": 4,
+                      "left": 4,
+                      "isLinked": true
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wcac01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#1E3A6E",
+        "padding": {
+          "unit": "px",
+          "top": "72",
+          "right": "24",
+          "bottom": "72",
+          "left": "24",
+          "isLinked": false
+        },
+        "min_height": {
+          "unit": "px",
+          "size": 280
+        }
+      },
+      "elements": [
+        {
+          "id": "wcac02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Plumber in West Covina, CA",
+            "header_size": "h1",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 52
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "wcac03",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"font-size:17px;color:#D1D5DB;max-width:640px;line-height:1.6;\">Professional plumbing for West Covina homes and businesses — 24/7 emergency response and same-day service available.</p>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wcad01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "wcad02",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_align_items": "flex-start",
+            "gap": {
+              "unit": "px",
+              "size": 56
+            },
+            "_element_width": "initial"
+          },
+          "elements": [
+            {
+              "id": "wcad03",
+              "elType": "widget",
+              "widgetType": "google_maps",
+              "settings": {
+                "address": "West Covina, CA",
+                "zoom": {
+                  "size": 12
+                },
+                "height": {
+                  "unit": "px",
+                  "size": 420
+                },
+                "_element_width": "50%"
+              }
+            },
+            {
+              "id": "wcad04",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "_element_width": "50%"
+              },
+              "elements": [
+                {
+                  "id": "wcad05",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Your Local Plumber",
+                    "header_size": "p",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "500",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 3
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#B91C1C"
+                  }
+                },
+                {
+                  "id": "wcad06",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Serving All of West Covina, CA",
+                    "header_size": "h2",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 36
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#2D2D2D"
+                  }
+                },
+                {
+                  "id": "wcad07",
+                  "elType": "widget",
+                  "widgetType": "divider",
+                  "settings": {
+                    "color": "#B91C1C",
+                    "weight": {
+                      "unit": "px",
+                      "size": 4
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 20
+                    }
+                  }
+                },
+                {
+                  "id": "wcad08",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-top:20px;\">West Covina is a well-established San Gabriel Valley city with residential neighborhoods spanning from <strong>Shadow Oak</strong> to <strong>Merced Heights</strong>, <strong>Sunset</strong>, and <strong>Monte Vista</strong>. Much of West Covina's housing stock was built in the 1950s through 1970s, creating widespread aging infrastructure — galvanized pipes, clay sewer lines, and older water heater setups that need updated solutions.</p><p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-top:16px;\">Regal Plumbing &amp; Rooter serves West Covina from our Ontario base, reaching the city efficiently through I-10. Our team is well-versed in the plumbing challenges typical of West Covina's mid-century homes — including corroded water supply lines, slab leak detection, and main sewer line clearing. We're on call 24/7 for all West Covina plumbing needs.</p>"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wcae01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F3F4F6",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": 1,
+          "right": 0,
+          "bottom": 1,
+          "left": 0,
+          "isLinked": false
+        },
+        "border_color": "#D1D5DB",
+        "padding": {
+          "unit": "px",
+          "top": "20",
+          "right": "24",
+          "bottom": "20",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "wcae05",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "gap": {
+              "unit": "px",
+              "size": 16
+            }
+          },
+          "elements": [
+            {
+              "id": "wcae10",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "24/7 Emergency",
+                "description_text": "Always Available",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "position": "left",
+                "view": "default"
+              }
+            },
+            {
+              "id": "wcae11",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "Family Owned &amp; Operated",
+                "description_text": "Community Focused",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "position": "left",
+                "view": "default"
+              }
+            },
+            {
+              "id": "wcae12",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "CA Licensed #1097482",
+                "description_text": "Fully Insured",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "position": "left",
+                "view": "default"
+              }
+            },
+            {
+              "id": "wcae13",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "4+ Years Experience",
+                "description_text": "Proven Track Record",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "position": "left",
+                "view": "default"
+              }
+            },
+            {
+              "id": "wcae14",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "32+ Cities Served",
+                "description_text": "Southern California",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "position": "left",
+                "view": "default"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wcaf01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "wcaf02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "What We Do",
+            "header_size": "p",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "500",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 3
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#B91C1C"
+          }
+        },
+        {
+          "id": "wcaf03",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Plumbing Services in West Covina, CA",
+            "header_size": "h2",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 38
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#2D2D2D"
+          }
+        },
+        {
+          "id": "wcaf04",
+          "elType": "widget",
+          "widgetType": "divider",
+          "settings": {
+            "color": "#B91C1C",
+            "weight": {
+              "unit": "px",
+              "size": 4
+            },
+            "width": {
+              "unit": "%",
+              "size": 8
+            },
+            "align": "center"
+          }
+        },
+        {
+          "id": "wcaf05",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "gap": {
+              "unit": "px",
+              "size": 24
+            },
+            "_element_width": "initial"
+          },
+          "elements": [
+            {
+              "id": "wcaf10",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "wcaf20",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/sewer-repair-service-truck-inland-empire.webp",
+                      "alt": "Emergency Plumbing West Covina CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "wcaf30",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "wcaf40",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Emergency Plumbing",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "wcaf50",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">West Covina emergencies get immediate response — from Shadow Oak to Monte Vista, we dispatch 24/7 to stop burst pipes, backups, and major leaks fast.</p>"
+                      }
+                    },
+                    {
+                      "id": "wcaf60",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/emergency-plumbing/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "wcaf11",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "wcaf21",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/drain-cleaning-shower-upland-ca.webp",
+                      "alt": "Drain Cleaning West Covina CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "wcaf31",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "wcaf41",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Drain Cleaning",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "wcaf51",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">West Covina's older pipes and hard water create persistent drain blockages. We clear all drain types professionally with snaking and hydrojetting throughout the city.</p>"
+                      }
+                    },
+                    {
+                      "id": "wcaf61",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/drain-cleaning/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "wcaf12",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "wcaf22",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/sewer-line-excavation-ontario-ca.webp",
+                      "alt": "Sewer Line Repair West Covina CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "wcaf32",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "wcaf42",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Sewer Line Repair",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "wcaf52",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">West Covina's aging clay sewer lines are prone to root intrusion and cracking. We diagnose with camera inspection and provide trenchless repair options when possible.</p>"
+                      }
+                    },
+                    {
+                      "id": "wcaf62",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/sewer-line-repair/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "wcaf13",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "wcaf23",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/sink-faucet-installation-ontario-ca.webp",
+                      "alt": "Water Heater Services West Covina CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "wcaf33",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "wcaf43",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Water Heater Services",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "wcaf53",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">We handle all water heater types throughout West Covina — traditional tank replacements to tankless upgrades in older homes. Same-day service often available.</p>"
+                      }
+                    },
+                    {
+                      "id": "wcaf63",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/water-heater-services/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "wcaf14",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "wcaf24",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/pipe-repair-leak-detection-chino-hills-ca.webp",
+                      "alt": "Slab Leak Detection West Covina CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "wcaf34",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "wcaf44",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Slab Leak Detection",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "wcaf54",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">West Covina's slab homes have copper pipes that corrode over decades. Our electronic detection finds slab leaks precisely without unnecessary floor demolition.</p>"
+                      }
+                    },
+                    {
+                      "id": "wcaf64",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/slab-leak-detection/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "wcaf15",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "wcaf25",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/hydro-jetting-roof-rancho-cucamonga-ca.webp",
+                      "alt": "Hydrojetting West Covina CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "wcaf35",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "wcaf45",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Hydrojetting",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "wcaf55",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Decades of hard water buildup in West Covina's older pipes call for powerful hydrojetting. We scour pipe walls completely clean for lasting results throughout the city.</p>"
+                      }
+                    },
+                    {
+                      "id": "wcaf65",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/hydrojetting/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "wcaf16",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "wcaf26",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/camera-inspection-drain-cleaning-san-bernardino-ca.webp",
+                      "alt": "Gas Leak Detection West Covina CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "wcaf36",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "wcaf46",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Gas Leak Detection",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "wcaf56",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Gas line problems in West Covina's older homes require licensed response. We locate and repair leaks safely with advanced detection equipment and pressure testing.</p>"
+                      }
+                    },
+                    {
+                      "id": "wcaf66",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/gas-leak-detection/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "wcaf17",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "wcaf27",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/copper-pipe-installation-chino-ca.webp",
+                      "alt": "Water Filtration West Covina CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "wcaf37",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "wcaf47",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Water Filtration",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "wcaf57",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">West Covina's hard water affects appliances and plumbing throughout the city. We install whole-home softeners and filtration to protect your home's plumbing investment.</p>"
+                      }
+                    },
+                    {
+                      "id": "wcaf67",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/water-filtration/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wcag01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#1E3A6E",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "wcag02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Our Promise",
+            "header_size": "p",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "500",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 3
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#fca5a5"
+          }
+        },
+        {
+          "id": "wcag03",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Why West Covina Residents Choose Regal",
+            "header_size": "h2",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 38
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "wcag04",
+          "elType": "widget",
+          "widgetType": "divider",
+          "settings": {
+            "color": "#B91C1C",
+            "weight": {
+              "unit": "px",
+              "size": 4
+            },
+            "width": {
+              "unit": "%",
+              "size": 8
+            },
+            "align": "center"
+          }
+        },
+        {
+          "id": "wcag05",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "gap": {
+              "unit": "px",
+              "size": 32
+            },
+            "_element_width": "initial"
+          },
+          "elements": [
+            {
+              "id": "wcag10",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "Old-Home Specialists",
+                "description_text": "We specialize in the aging infrastructure challenges common in West Covina's mid-century homes — galvanized pipes, clay sewers, and corroded slab plumbing.",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "24",
+                  "bottom": "32",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "title_typography_text_transform": "uppercase",
+                "title_color": "#FFFFFF",
+                "description_color": "#93C5FD",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "position": "top",
+                "title_size": "h3",
+                "view": "default"
+              }
+            },
+            {
+              "id": "wcag11",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "Fast West Covina Response",
+                "description_text": "Our Ontario base provides direct access to West Covina via I-10. We reach Shadow Oak, Merced Heights, Sunset, and Monte Vista quickly for any plumbing emergency.",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "24",
+                  "bottom": "32",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "title_typography_text_transform": "uppercase",
+                "title_color": "#FFFFFF",
+                "description_color": "#93C5FD",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "position": "top",
+                "title_size": "h3",
+                "view": "default"
+              }
+            },
+            {
+              "id": "wcag12",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "Licensed & Insured",
+                "description_text": "CA License #1097482. Every West Covina job is performed by licensed plumbers with full liability coverage and transparent, upfront pricing.",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "24",
+                  "bottom": "32",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "title_typography_text_transform": "uppercase",
+                "title_color": "#FFFFFF",
+                "description_color": "#93C5FD",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "position": "top",
+                "title_size": "h3",
+                "view": "default"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wcah01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "wcah02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Local Expertise",
+            "header_size": "p",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "500",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 3
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#B91C1C"
+          }
+        },
+        {
+          "id": "wcah03",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Trusted Plumber in West Covina CA",
+            "header_size": "h2",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 36
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#2D2D2D"
+          }
+        },
+        {
+          "id": "wcah04",
+          "elType": "widget",
+          "widgetType": "divider",
+          "settings": {
+            "color": "#B91C1C",
+            "weight": {
+              "unit": "px",
+              "size": 4
+            },
+            "width": {
+              "unit": "%",
+              "size": 15
+            }
+          }
+        },
+        {
+          "id": "wcah05",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-bottom:18px;\">When you need a reliable <strong>plumber in West Covina CA</strong>, Regal Plumbing &amp; Rooter brings specialized expertise to this established San Gabriel Valley city. West Covina neighborhoods like <strong>Shadow Oak</strong>, <strong>Merced Heights</strong>, <strong>Sunset</strong>, and <strong>Monte Vista</strong> are home to decades-old plumbing infrastructure that requires experienced hands.</p><p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-bottom:18px;\">As your <strong>emergency plumber West Covina CA</strong>, we respond 24 hours a day. West Covina plumbing emergencies receive our immediate dispatch — our Ontario base provides fast access to the entire city.</p><p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-bottom:18px;\"><strong>Drain cleaning West Covina CA</strong> is one of our most frequent service calls in the city. West Covina's older drain lines accumulate decades of mineral scale, grease, and debris. We use professional snaking for everyday clogs and hydrojetting for deep pipe cleaning.</p><p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-bottom:18px;\">Our <strong>slab leak West Covina</strong> detection uses advanced electronic equipment to locate pipe failures beneath concrete foundations. We also handle all <strong>water heater repair West Covina CA</strong> needs with upfront pricing and licensed technicians on every job.</p>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wcai01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F3F4F6",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "wcai02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Common Questions",
+            "header_size": "p",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "500",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 3
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#B91C1C"
+          }
+        },
+        {
+          "id": "wcai03",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "West Covina Plumbing FAQs",
+            "header_size": "h2",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 36
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#2D2D2D"
+          }
+        },
+        {
+          "id": "wcai04",
+          "elType": "widget",
+          "widgetType": "divider",
+          "settings": {
+            "color": "#B91C1C",
+            "weight": {
+              "unit": "px",
+              "size": 4
+            },
+            "width": {
+              "unit": "%",
+              "size": 8
+            },
+            "align": "center"
+          }
+        },
+        {
+          "id": "wcai05",
+          "elType": "widget",
+          "widgetType": "accordion",
+          "settings": {
+            "tabs": [
+              {
+                "faq_question": "How quickly can you reach West Covina for a plumbing emergency?",
+                "faq_answer": "We typically reach West Covina within 45–60 minutes of your call. Our Ontario base provides efficient access via I-10 to all West Covina neighborhoods including Shadow Oak, Merced Heights, and Monte Vista."
+              },
+              {
+                "faq_question": "Do you serve all of West Covina?",
+                "faq_answer": "Yes — we serve all of West Covina, including Shadow Oak, Merced Heights, Sunset, Monte Vista, and every residential and commercial area throughout the city."
+              },
+              {
+                "faq_question": "Why do older West Covina homes have so many plumbing problems?",
+                "faq_answer": "Many West Covina homes built in the 1950s through 1970s used galvanized steel supply pipes and clay sewer lines. These materials have a limited lifespan, and decades of hard water use accelerates their deterioration. We diagnose accurately and provide lasting repairs."
+              },
+              {
+                "faq_question": "Can you clear a clogged main sewer line in West Covina?",
+                "faq_answer": "Yes — main sewer line clearing is one of our most common West Covina services. We use professional snaking and hydrojetting to clear blockages thoroughly, and camera inspection to diagnose any underlying damage."
+              },
+              {
+                "faq_question": "Is same-day plumbing service available in West Covina?",
+                "faq_answer": "Yes — for most plumbing services including drain cleaning, water heater repair, and leak detection, same-day service is available in West Covina. Call (909) 600-4561 and we'll confirm availability."
+              }
+            ],
+            "title_html_tag": "h3",
+            "border_width": {
+              "unit": "px",
+              "size": 1
+            },
+            "border_color": "#D1D5DB",
+            "title_color": "#2D2D2D",
+            "title_active_color": "#B91C1C",
+            "title_typography_typography": "custom",
+            "title_typography_font_family": "Oswald",
+            "title_typography_font_weight": "600",
+            "title_typography_font_size": {
+              "unit": "px",
+              "size": 15
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "wcaj01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#B91C1C",
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "24",
+          "bottom": "64",
+          "left": "24",
+          "isLinked": false
+        },
+        "text_align": "center"
+      },
+      "elements": [
+        {
+          "id": "wcaj02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Need a Plumber in West Covina? We're Ready",
+            "header_size": "h2",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 42
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "wcaj03",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center;font-size:16px;color:rgba(255,255,255,0.85);\">24/7 emergency and same-day service throughout West Covina, CA</p>"
+          }
+        },
+        {
+          "id": "wcaj04",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "<a href=\"tel:9096004561\" style=\"color:#FFFFFF;\">(909) 600-4561</a>",
+            "header_size": "h2",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 50
+            },
+            "title_color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "wcaj05",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Call Now",
+            "link": {
+              "url": "tel:9096004561"
+            },
+            "background_color": "#FFFFFF",
+            "button_text_color": "#B91C1C",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 15
+            },
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": 2,
+              "right": 2,
+              "bottom": 2,
+              "left": 2,
+              "isLinked": true
+            },
+            "border_color": "#FFFFFF",
+            "border_radius": {
+              "unit": "px",
+              "top": 4,
+              "right": 4,
+              "bottom": 4,
+              "left": 4,
+              "isLinked": true
+            },
+            "align": "center",
+            "size": "lg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wcak01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#2D2D2D",
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "24",
+          "bottom": "24",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "wcak02",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "gap": {
+              "unit": "px",
+              "size": 48
+            },
+            "_element_width": "initial"
+          },
+          "elements": [
+            {
+              "id": "wcak03",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "_element_width": "25%"
+              },
+              "elements": [
+                {
+                  "id": "wcak04",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Regal Plumbing &amp; Rooter",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#FFFFFF"
+                  }
+                },
+                {
+                  "id": "wcak05",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"font-size:13px;color:#9CA3AF;line-height:1.6;\">Honest, professional plumbing &amp; rooter services for the Inland Empire &amp; San Gabriel Valley.</p>"
+                  }
+                },
+                {
+                  "id": "wcak06",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"display:inline-block;background:rgba(185,28,28,0.2);border:1px solid rgba(185,28,28,0.4);color:#fca5a5;font-size:11.5px;font-family:Oswald,sans-serif;letter-spacing:1px;padding:4px 10px;border-radius:3px;\">CA License #1097482</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "wcak07",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "_element_width": "15%"
+              },
+              "elements": [
+                {
+                  "id": "wcak08",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Services",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.5
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#FFFFFF"
+                  }
+                },
+                {
+                  "id": "wcak09",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style=\"list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:9px;\"><li><a href=\"/emergency-plumbing/\" style=\"font-size:13.5px;color:#9CA3AF;\">Emergency Plumbing</a></li><li><a href=\"/drain-cleaning/\" style=\"font-size:13.5px;color:#9CA3AF;\">Drain Cleaning</a></li><li><a href=\"/sewer-line-repair/\" style=\"font-size:13.5px;color:#9CA3AF;\">Sewer Line Repair</a></li><li><a href=\"/water-heater-services/\" style=\"font-size:13.5px;color:#9CA3AF;\">Water Heater Services</a></li><li><a href=\"/slab-leak-detection/\" style=\"font-size:13.5px;color:#9CA3AF;\">Slab Leak Detection</a></li><li><a href=\"/hydrojetting/\" style=\"font-size:13.5px;color:#9CA3AF;\">Hydrojetting</a></li><li><a href=\"/gas-leak-detection/\" style=\"font-size:13.5px;color:#9CA3AF;\">Gas Leak Detection</a></li><li><a href=\"/water-filtration/\" style=\"font-size:13.5px;color:#9CA3AF;\">Water Filtration</a></li></ul>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "wcak10",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "_element_width": "15%"
+              },
+              "elements": [
+                {
+                  "id": "wcak11",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Service Area",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.5
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#FFFFFF"
+                  }
+                },
+                {
+                  "id": "wcak12",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style=\"list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:9px;\"><li><a href=\"/service-area/ontario-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Ontario</a></li><li><a href=\"/service-area/rancho-cucamonga-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Rancho Cucamonga</a></li><li><a href=\"/service-area/fontana-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Fontana</a></li><li><a href=\"/service-area/pomona-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Pomona</a></li><li><a href=\"/service-area/chino-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Chino</a></li><li><a href=\"/service-area/corona-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Corona</a></li><li><a href=\"/service-area/upland-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Upland</a></li><li><a href=\"/service-area/west-covina-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">West Covina</a></li></ul>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "wcak13",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "_element_width": "20%"
+              },
+              "elements": [
+                {
+                  "id": "wcak14",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Contact Us",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.5
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#FFFFFF"
+                  }
+                },
+                {
+                  "id": "wcak15",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style=\"list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;\"><li style=\"font-size:13.5px;color:#9CA3AF;\">2141 E Philadelphia St, Suite R<br>Ontario, CA 91761</li><li><a href=\"tel:9096004561\" style=\"font-size:13.5px;color:#9CA3AF;\">(909) 600-4561</a></li><li><a href=\"mailto:info@regalplumbingservices.com\" style=\"font-size:13.5px;color:#9CA3AF;\">info@regalplumbingservices.com</a></li><li style=\"font-size:13.5px;color:#9CA3AF;\">24/7 Emergency | Mon–Sat: 7am–7pm</li></ul>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "wcak16",
+          "elType": "widget",
+          "widgetType": "divider",
+          "settings": {
+            "color": "rgba(255,255,255,0.10)",
+            "weight": {
+              "unit": "px",
+              "size": 1
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            }
+          }
+        },
+        {
+          "id": "wcak17",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "padding": {
+              "unit": "px",
+              "top": "18",
+              "right": "0",
+              "bottom": "18",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "wcak18",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:12.5px;color:#6B7280;\">&copy; 2025 Regal Plumbing &amp; Rooter. All Rights Reserved. CA License #1097482</p>"
+              }
+            },
+            {
+              "id": "wcak19",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:12.5px;color:#6B7280;\"><a href=\"/privacy-policy/\" style=\"color:#6B7280;\">Privacy Policy</a> &nbsp; <a href=\"/terms-of-service/\" style=\"color:#6B7280;\">Terms of Service</a></p>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

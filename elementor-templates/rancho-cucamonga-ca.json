@@ -1,0 +1,2268 @@
+{
+  "version": "0.4",
+  "title": "Plumber in Rancho Cucamonga CA",
+  "type": "page",
+  "page_settings": {
+    "seo_title": "Plumber in Rancho Cucamonga, CA — Regal Plumbing & Rooter | (909) 600-4561",
+    "seo_description": "Fast, licensed plumbing in Rancho Cucamonga. 24/7 emergency response. Slab leaks, drain cleaning, water heaters, hydrojetting. Call (909) 600-4561."
+  },
+  "content": [
+    {
+      "id": "rcaa01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#2D2D2D",
+        "padding": {
+          "unit": "px",
+          "top": "9",
+          "right": "16",
+          "bottom": "9",
+          "left": "16",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "rcaa02",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center;color:#ffffff;font-size:13.5px;font-weight:600;\">24/7 Emergency Service Available — Call <a href=\"tel:9096004561\" style=\"color:#fca5a5;\">(909) 600-4561</a></p>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rcab01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "box_shadow_box_shadow_type": "yes",
+        "box_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 2,
+          "blur": 12,
+          "spread": 0,
+          "color": "rgba(0,0,0,0.10)"
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "24",
+          "bottom": "0",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "rcab02",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_align_items": "center",
+            "flex_justify_content": "space-between",
+            "padding": {
+              "unit": "px",
+              "top": "8",
+              "right": "0",
+              "bottom": "8",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "rcab03",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/regal-plumbing-logo.png",
+                  "alt": "Regal Plumbing & Rooter"
+                },
+                "image_size": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 180
+                },
+                "link_to": "custom",
+                "link": {
+                  "url": "/"
+                }
+              }
+            },
+            {
+              "id": "rcab04",
+              "elType": "widget",
+              "widgetType": "nav-menu",
+              "settings": {
+                "menu": "primary-menu",
+                "layout": "horizontal",
+                "typography_typography": "custom",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "500",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1.2
+                },
+                "typography_text_transform": "uppercase",
+                "color": "#2D2D2D",
+                "color_hover": "#B91C1C"
+              }
+            },
+            {
+              "id": "rcab05",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_align_items": "center",
+                "gap": {
+                  "unit": "px",
+                  "size": 14
+                }
+              },
+              "elements": [
+                {
+                  "id": "rcab06",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "<a href=\"tel:9096004561\">(909) 600-4561</a>",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "title_color": "#1E3A6E"
+                  }
+                },
+                {
+                  "id": "rcab07",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Call Now",
+                    "link": {
+                      "url": "tel:9096004561"
+                    },
+                    "background_color": "#B91C1C",
+                    "button_text_color": "#FFFFFF",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 4,
+                      "right": 4,
+                      "bottom": 4,
+                      "left": 4,
+                      "isLinked": true
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rcac01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#1E3A6E",
+        "padding": {
+          "unit": "px",
+          "top": "72",
+          "right": "24",
+          "bottom": "72",
+          "left": "24",
+          "isLinked": false
+        },
+        "min_height": {
+          "unit": "px",
+          "size": 280
+        }
+      },
+      "elements": [
+        {
+          "id": "rcac02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Plumber in Rancho Cucamonga, CA",
+            "header_size": "h1",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 52
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "rcac03",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"font-size:17px;color:#D1D5DB;max-width:640px;line-height:1.6;\">Fast, licensed plumbing service for Rancho Cucamonga homes and businesses — 24/7 emergency response and same-day appointments available.</p>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rcad01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "rcad02",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_align_items": "flex-start",
+            "gap": {
+              "unit": "px",
+              "size": 56
+            },
+            "_element_width": "initial"
+          },
+          "elements": [
+            {
+              "id": "rcad03",
+              "elType": "widget",
+              "widgetType": "google_maps",
+              "settings": {
+                "address": "Rancho Cucamonga, CA",
+                "zoom": {
+                  "size": 12
+                },
+                "height": {
+                  "unit": "px",
+                  "size": 420
+                },
+                "_element_width": "50%"
+              }
+            },
+            {
+              "id": "rcad04",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "_element_width": "50%"
+              },
+              "elements": [
+                {
+                  "id": "rcad05",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Your Local Plumber",
+                    "header_size": "p",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "500",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 3
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#B91C1C"
+                  }
+                },
+                {
+                  "id": "rcad06",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Serving All of Rancho Cucamonga, CA",
+                    "header_size": "h2",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 36
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#2D2D2D"
+                  }
+                },
+                {
+                  "id": "rcad07",
+                  "elType": "widget",
+                  "widgetType": "divider",
+                  "settings": {
+                    "color": "#B91C1C",
+                    "weight": {
+                      "unit": "px",
+                      "size": 4
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 20
+                    }
+                  }
+                },
+                {
+                  "id": "rcad08",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-top:20px;\">Rancho Cucamonga is one of the Inland Empire's most desirable communities, spanning from the foothills of the San Gabriel Mountains down through neighborhoods like Etiwanda, Victoria, Alta Loma, and Haven View Estates. With a mix of older ranch-style homes and modern developments, Rancho Cucamonga presents a wide range of plumbing challenges — from hard water mineral buildup in newer homes to tree root intrusions in the mature oak-lined streets of Etiwanda.</p><p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-top:16px;\">Regal Plumbing &amp; Rooter serves all of Rancho Cucamonga from our base in neighboring Ontario. We're familiar with the city's specific groundwater quality, the pressurized irrigation systems that many Rancho Cucamonga properties share with municipal lines, and the slab construction common throughout the <strong>Victoria</strong> and <strong>Alta Loma</strong> areas.</p>"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rcae01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F3F4F6",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": 1,
+          "right": 0,
+          "bottom": 1,
+          "left": 0,
+          "isLinked": false
+        },
+        "border_color": "#D1D5DB",
+        "padding": {
+          "unit": "px",
+          "top": "20",
+          "right": "24",
+          "bottom": "20",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "rcae05",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "gap": {
+              "unit": "px",
+              "size": 16
+            }
+          },
+          "elements": [
+            {
+              "id": "rcae10",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "24/7 Emergency",
+                "description_text": "Always Available",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "position": "left",
+                "view": "default"
+              }
+            },
+            {
+              "id": "rcae11",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "Family Owned &amp; Operated",
+                "description_text": "Community Focused",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "position": "left",
+                "view": "default"
+              }
+            },
+            {
+              "id": "rcae12",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "CA Licensed #1097482",
+                "description_text": "Fully Insured",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "position": "left",
+                "view": "default"
+              }
+            },
+            {
+              "id": "rcae13",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "4+ Years Experience",
+                "description_text": "Proven Track Record",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "position": "left",
+                "view": "default"
+              }
+            },
+            {
+              "id": "rcae14",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "32+ Cities Served",
+                "description_text": "Southern California",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "position": "left",
+                "view": "default"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rcaf01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "rcaf02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "What We Do",
+            "header_size": "p",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "500",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 3
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#B91C1C"
+          }
+        },
+        {
+          "id": "rcaf03",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Plumbing Services in Rancho Cucamonga, CA",
+            "header_size": "h2",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 38
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#2D2D2D"
+          }
+        },
+        {
+          "id": "rcaf04",
+          "elType": "widget",
+          "widgetType": "divider",
+          "settings": {
+            "color": "#B91C1C",
+            "weight": {
+              "unit": "px",
+              "size": 4
+            },
+            "width": {
+              "unit": "%",
+              "size": 8
+            },
+            "align": "center"
+          }
+        },
+        {
+          "id": "rcaf05",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "gap": {
+              "unit": "px",
+              "size": 24
+            },
+            "_element_width": "initial"
+          },
+          "elements": [
+            {
+              "id": "rcaf10",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "rcaf20",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/sewer-repair-service-truck-inland-empire.webp",
+                      "alt": "Emergency Plumbing Rancho Cucamonga CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "rcaf30",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "rcaf40",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Emergency Plumbing",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "rcaf50",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Rancho Cucamonga emergencies get fast response — from Etiwanda to Victoria Park, we're on the road within minutes of your call, 24/7.</p>"
+                      }
+                    },
+                    {
+                      "id": "rcaf60",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/emergency-plumbing/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rcaf11",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "rcaf21",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/drain-cleaning-shower-upland-ca.webp",
+                      "alt": "Drain Cleaning Rancho Cucamonga CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "rcaf31",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "rcaf41",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Drain Cleaning",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "rcaf51",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Hard water from Rancho Cucamonga's groundwater system creates stubborn scale in drains. We restore full flow with professional snaking and jetting.</p>"
+                      }
+                    },
+                    {
+                      "id": "rcaf61",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/drain-cleaning/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rcaf12",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "rcaf22",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/sewer-line-excavation-ontario-ca.webp",
+                      "alt": "Sewer Line Repair Rancho Cucamonga CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "rcaf32",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "rcaf42",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Sewer Line Repair",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "rcaf52",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Tree roots in Rancho Cucamonga's mature Etiwanda neighborhood can crush aging clay sewer lines. We offer camera inspection and trenchless repair options.</p>"
+                      }
+                    },
+                    {
+                      "id": "rcaf62",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/sewer-line-repair/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rcaf13",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "rcaf23",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/sink-faucet-installation-ontario-ca.webp",
+                      "alt": "Water Heater Services Rancho Cucamonga CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "rcaf33",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "rcaf43",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Water Heater Services",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "rcaf53",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">From tankless upgrades in Haven View Estates to standard tank replacements throughout Rancho Cucamonga, we handle all water heater work efficiently.</p>"
+                      }
+                    },
+                    {
+                      "id": "rcaf63",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/water-heater-services/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rcaf14",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "rcaf24",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/pipe-repair-leak-detection-chino-hills-ca.webp",
+                      "alt": "Slab Leak Detection Rancho Cucamonga CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "rcaf34",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "rcaf44",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Slab Leak Detection",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "rcaf54",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Rancho Cucamonga's slab-built homes in Victoria and Alta Loma are susceptible to copper pipe failures beneath concrete. Our electronic detection finds leaks precisely.</p>"
+                      }
+                    },
+                    {
+                      "id": "rcaf64",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/slab-leak-detection/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rcaf15",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "rcaf25",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/hydro-jetting-roof-rancho-cucamonga-ca.webp",
+                      "alt": "Hydrojetting Rancho Cucamonga CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "rcaf35",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "rcaf45",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Hydrojetting",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "rcaf55",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Mineral deposits and grease coat Rancho Cucamonga pipe walls over years of use. Our high-pressure jetting scours lines completely clean from the inside out.</p>"
+                      }
+                    },
+                    {
+                      "id": "rcaf65",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/hydrojetting/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rcaf16",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "rcaf26",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/camera-inspection-drain-cleaning-san-bernardino-ca.webp",
+                      "alt": "Gas Leak Detection Rancho Cucamonga CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "rcaf36",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "rcaf46",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Gas Leak Detection",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "rcaf56",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Whether in a newer Rancho Cucamonga development or an older foothills home, our licensed technicians use precision equipment to locate and repair gas line issues safely.</p>"
+                      }
+                    },
+                    {
+                      "id": "rcaf66",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/gas-leak-detection/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rcaf17",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "rcaf27",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/copper-pipe-installation-chino-ca.webp",
+                      "alt": "Water Filtration Rancho Cucamonga CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "rcaf37",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "rcaf47",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Water Filtration",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "rcaf57",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Rancho Cucamonga's hard water is notorious for damaging appliances and leaving mineral deposits. We install whole-home softeners and filtration systems that last.</p>"
+                      }
+                    },
+                    {
+                      "id": "rcaf67",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/water-filtration/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rcag01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#1E3A6E",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "rcag02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Our Promise",
+            "header_size": "p",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "500",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 3
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#fca5a5"
+          }
+        },
+        {
+          "id": "rcag03",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Why Rancho Cucamonga Residents Choose Regal",
+            "header_size": "h2",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 38
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "rcag04",
+          "elType": "widget",
+          "widgetType": "divider",
+          "settings": {
+            "color": "#B91C1C",
+            "weight": {
+              "unit": "px",
+              "size": 4
+            },
+            "width": {
+              "unit": "%",
+              "size": 8
+            },
+            "align": "center"
+          }
+        },
+        {
+          "id": "rcag05",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "gap": {
+              "unit": "px",
+              "size": 32
+            },
+            "_element_width": "initial"
+          },
+          "elements": [
+            {
+              "id": "rcag10",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "Fast RC Response",
+                "description_text": "From our Ontario base, we reach Rancho Cucamonga quickly — covering Etiwanda, Victoria, Alta Loma, and Haven View with no wasted time.",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "24",
+                  "bottom": "32",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "title_typography_text_transform": "uppercase",
+                "title_color": "#FFFFFF",
+                "description_color": "#93C5FD",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "position": "top",
+                "title_size": "h3",
+                "view": "default"
+              }
+            },
+            {
+              "id": "rcag11",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "Hard Water Specialists",
+                "description_text": "We know Rancho Cucamonga's high-mineral water creates unique pipe and appliance problems. Our solutions address the root cause, not just the symptom.",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "24",
+                  "bottom": "32",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "title_typography_text_transform": "uppercase",
+                "title_color": "#FFFFFF",
+                "description_color": "#93C5FD",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "position": "top",
+                "title_size": "h3",
+                "view": "default"
+              }
+            },
+            {
+              "id": "rcag12",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "Licensed & Insured",
+                "description_text": "CA License #1097482. Every Rancho Cucamonga job is performed by licensed technicians with full liability coverage and upfront, transparent pricing.",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "24",
+                  "bottom": "32",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "title_typography_text_transform": "uppercase",
+                "title_color": "#FFFFFF",
+                "description_color": "#93C5FD",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "position": "top",
+                "title_size": "h3",
+                "view": "default"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rcah01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "rcah02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Local Expertise",
+            "header_size": "p",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "500",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 3
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#B91C1C"
+          }
+        },
+        {
+          "id": "rcah03",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Trusted Plumber in Rancho Cucamonga CA",
+            "header_size": "h2",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 36
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#2D2D2D"
+          }
+        },
+        {
+          "id": "rcah04",
+          "elType": "widget",
+          "widgetType": "divider",
+          "settings": {
+            "color": "#B91C1C",
+            "weight": {
+              "unit": "px",
+              "size": 4
+            },
+            "width": {
+              "unit": "%",
+              "size": 15
+            }
+          }
+        },
+        {
+          "id": "rcah05",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-bottom:18px;\">Finding a dependable <strong>plumber in Rancho Cucamonga CA</strong> means finding someone who understands this city's unique landscape — from the gated communities along the foothills to the established neighborhoods of <strong>Etiwanda</strong>, <strong>Victoria</strong>, <strong>Alta Loma</strong>, and <strong>Haven View Estates</strong>.</p><p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-bottom:18px;\">As the trusted <strong>emergency plumber Rancho Cucamonga CA</strong> residents rely on, we're available day and night. Rancho Cucamonga homes — particularly those in the older Etiwanda district — experience tree root intrusions into sewer lines and seasonal slab movement that can crack supply lines.</p><p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-bottom:18px;\"><strong>Drain cleaning Rancho Cucamonga CA</strong> is a frequent need here because of the city's well-documented hard water. Our hydrojetting service is particularly effective for Rancho Cucamonga properties, blasting away years of mineral scale to restore full pipe capacity.</p><p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-bottom:18px;\">For <strong>slab leak Rancho Cucamonga</strong> detection, our team uses electronic listening equipment and thermal imaging to pinpoint leak locations without unnecessary demolition. We also provide complete <strong>water heater repair Rancho Cucamonga CA</strong> services — from fixing faulty heating elements to full tankless system installations.</p>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rcai01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F3F4F6",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "rcai02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Common Questions",
+            "header_size": "p",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "500",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 3
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#B91C1C"
+          }
+        },
+        {
+          "id": "rcai03",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Rancho Cucamonga Plumbing FAQs",
+            "header_size": "h2",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 36
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#2D2D2D"
+          }
+        },
+        {
+          "id": "rcai04",
+          "elType": "widget",
+          "widgetType": "divider",
+          "settings": {
+            "color": "#B91C1C",
+            "weight": {
+              "unit": "px",
+              "size": 4
+            },
+            "width": {
+              "unit": "%",
+              "size": 8
+            },
+            "align": "center"
+          }
+        },
+        {
+          "id": "rcai05",
+          "elType": "widget",
+          "widgetType": "accordion",
+          "settings": {
+            "tabs": [
+              {
+                "faq_question": "How fast can you get to Rancho Cucamonga in an emergency?",
+                "faq_answer": "We typically reach Rancho Cucamonga locations within 45–60 minutes of your call. Our Ontario base puts us close to all Rancho Cucamonga neighborhoods, including Etiwanda, Victoria, Alta Loma, and Haven View."
+              },
+              {
+                "faq_question": "Do you serve all of Rancho Cucamonga, including the foothills areas?",
+                "faq_answer": "Yes — we serve all of Rancho Cucamonga, including the foothill communities near Cucamonga Peak, the Etiwanda area, Victoria neighborhood, and all residential communities throughout the city."
+              },
+              {
+                "faq_question": "Why is hard water such a big problem in Rancho Cucamonga?",
+                "faq_answer": "Rancho Cucamonga's water supply contains elevated levels of calcium and magnesium from local groundwater sources. Over time, this mineral content builds up inside pipes, water heaters, and appliances — reducing efficiency and shortening lifespan."
+              },
+              {
+                "faq_question": "What signs indicate a slab leak in my Rancho Cucamonga home?",
+                "faq_answer": "Common slab leak indicators include warm or wet spots on your floor, the sound of running water when nothing is in use, unexplained spikes in your water bill, cracks in flooring or walls, and reduced water pressure."
+              },
+              {
+                "faq_question": "Does Regal Plumbing offer weekend service in Rancho Cucamonga?",
+                "faq_answer": "Yes — we offer emergency plumbing service in Rancho Cucamonga 24 hours a day, 7 days a week, including weekends and holidays. Call (909) 600-4561 to book."
+              }
+            ],
+            "title_html_tag": "h3",
+            "border_width": {
+              "unit": "px",
+              "size": 1
+            },
+            "border_color": "#D1D5DB",
+            "title_color": "#2D2D2D",
+            "title_active_color": "#B91C1C",
+            "title_typography_typography": "custom",
+            "title_typography_font_family": "Oswald",
+            "title_typography_font_weight": "600",
+            "title_typography_font_size": {
+              "unit": "px",
+              "size": 15
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "rcaj01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#B91C1C",
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "24",
+          "bottom": "64",
+          "left": "24",
+          "isLinked": false
+        },
+        "text_align": "center"
+      },
+      "elements": [
+        {
+          "id": "rcaj02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Need a Plumber in Rancho Cucamonga? We're Ready",
+            "header_size": "h2",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 42
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "rcaj03",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center;font-size:16px;color:rgba(255,255,255,0.85);\">24/7 emergency and same-day service throughout Rancho Cucamonga, CA</p>"
+          }
+        },
+        {
+          "id": "rcaj04",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "<a href=\"tel:9096004561\" style=\"color:#FFFFFF;\">(909) 600-4561</a>",
+            "header_size": "h2",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 50
+            },
+            "title_color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "rcaj05",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Call Now",
+            "link": {
+              "url": "tel:9096004561"
+            },
+            "background_color": "#FFFFFF",
+            "button_text_color": "#B91C1C",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 15
+            },
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": 2,
+              "right": 2,
+              "bottom": 2,
+              "left": 2,
+              "isLinked": true
+            },
+            "border_color": "#FFFFFF",
+            "border_radius": {
+              "unit": "px",
+              "top": 4,
+              "right": 4,
+              "bottom": 4,
+              "left": 4,
+              "isLinked": true
+            },
+            "align": "center",
+            "size": "lg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "rcak01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#2D2D2D",
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "24",
+          "bottom": "24",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "rcak02",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "gap": {
+              "unit": "px",
+              "size": 48
+            },
+            "_element_width": "initial"
+          },
+          "elements": [
+            {
+              "id": "rcak03",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "_element_width": "25%"
+              },
+              "elements": [
+                {
+                  "id": "rcak04",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Regal Plumbing &amp; Rooter",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#FFFFFF"
+                  }
+                },
+                {
+                  "id": "rcak05",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"font-size:13px;color:#9CA3AF;line-height:1.6;\">Honest, professional plumbing &amp; rooter services for the Inland Empire &amp; San Gabriel Valley.</p>"
+                  }
+                },
+                {
+                  "id": "rcak06",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"display:inline-block;background:rgba(185,28,28,0.2);border:1px solid rgba(185,28,28,0.4);color:#fca5a5;font-size:11.5px;font-family:Oswald,sans-serif;letter-spacing:1px;padding:4px 10px;border-radius:3px;\">CA License #1097482</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "rcak07",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "_element_width": "15%"
+              },
+              "elements": [
+                {
+                  "id": "rcak08",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Services",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.5
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#FFFFFF"
+                  }
+                },
+                {
+                  "id": "rcak09",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style=\"list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:9px;\"><li><a href=\"/emergency-plumbing/\" style=\"font-size:13.5px;color:#9CA3AF;\">Emergency Plumbing</a></li><li><a href=\"/drain-cleaning/\" style=\"font-size:13.5px;color:#9CA3AF;\">Drain Cleaning</a></li><li><a href=\"/sewer-line-repair/\" style=\"font-size:13.5px;color:#9CA3AF;\">Sewer Line Repair</a></li><li><a href=\"/water-heater-services/\" style=\"font-size:13.5px;color:#9CA3AF;\">Water Heater Services</a></li><li><a href=\"/slab-leak-detection/\" style=\"font-size:13.5px;color:#9CA3AF;\">Slab Leak Detection</a></li><li><a href=\"/hydrojetting/\" style=\"font-size:13.5px;color:#9CA3AF;\">Hydrojetting</a></li><li><a href=\"/gas-leak-detection/\" style=\"font-size:13.5px;color:#9CA3AF;\">Gas Leak Detection</a></li><li><a href=\"/water-filtration/\" style=\"font-size:13.5px;color:#9CA3AF;\">Water Filtration</a></li></ul>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "rcak10",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "_element_width": "15%"
+              },
+              "elements": [
+                {
+                  "id": "rcak11",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Service Area",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.5
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#FFFFFF"
+                  }
+                },
+                {
+                  "id": "rcak12",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style=\"list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:9px;\"><li><a href=\"/service-area/ontario-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Ontario</a></li><li><a href=\"/service-area/rancho-cucamonga-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Rancho Cucamonga</a></li><li><a href=\"/service-area/fontana-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Fontana</a></li><li><a href=\"/service-area/pomona-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Pomona</a></li><li><a href=\"/service-area/chino-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Chino</a></li><li><a href=\"/service-area/corona-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Corona</a></li><li><a href=\"/service-area/upland-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Upland</a></li><li><a href=\"/service-area/west-covina-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">West Covina</a></li></ul>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "rcak13",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "_element_width": "20%"
+              },
+              "elements": [
+                {
+                  "id": "rcak14",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Contact Us",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.5
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#FFFFFF"
+                  }
+                },
+                {
+                  "id": "rcak15",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style=\"list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;\"><li style=\"font-size:13.5px;color:#9CA3AF;\">2141 E Philadelphia St, Suite R<br>Ontario, CA 91761</li><li><a href=\"tel:9096004561\" style=\"font-size:13.5px;color:#9CA3AF;\">(909) 600-4561</a></li><li><a href=\"mailto:info@regalplumbingservices.com\" style=\"font-size:13.5px;color:#9CA3AF;\">info@regalplumbingservices.com</a></li><li style=\"font-size:13.5px;color:#9CA3AF;\">24/7 Emergency | Mon–Sat: 7am–7pm</li></ul>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "rcak16",
+          "elType": "widget",
+          "widgetType": "divider",
+          "settings": {
+            "color": "rgba(255,255,255,0.10)",
+            "weight": {
+              "unit": "px",
+              "size": 1
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            }
+          }
+        },
+        {
+          "id": "rcak17",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "padding": {
+              "unit": "px",
+              "top": "18",
+              "right": "0",
+              "bottom": "18",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "rcak18",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:12.5px;color:#6B7280;\">&copy; 2025 Regal Plumbing &amp; Rooter. All Rights Reserved. CA License #1097482</p>"
+              }
+            },
+            {
+              "id": "rcak19",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:12.5px;color:#6B7280;\"><a href=\"/privacy-policy/\" style=\"color:#6B7280;\">Privacy Policy</a> &nbsp; <a href=\"/terms-of-service/\" style=\"color:#6B7280;\">Terms of Service</a></p>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

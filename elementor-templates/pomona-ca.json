@@ -1,0 +1,2268 @@
+{
+  "version": "0.4",
+  "title": "Plumber in Pomona CA",
+  "type": "page",
+  "page_settings": {
+    "seo_title": "Plumber in Pomona, CA — Regal Plumbing & Rooter | (909) 600-4561",
+    "seo_description": "Expert plumbing in Pomona, CA. Emergency service 24/7. Serving Downtown Pomona, Lincoln Park, Arroyo Park, Ganesha Hills. Call (909) 600-4561."
+  },
+  "content": [
+    {
+      "id": "poaa01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#2D2D2D",
+        "padding": {
+          "unit": "px",
+          "top": "9",
+          "right": "16",
+          "bottom": "9",
+          "left": "16",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "poaa02",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center;color:#ffffff;font-size:13.5px;font-weight:600;\">24/7 Emergency Service Available — Call <a href=\"tel:9096004561\" style=\"color:#fca5a5;\">(909) 600-4561</a></p>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "poab01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "box_shadow_box_shadow_type": "yes",
+        "box_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 2,
+          "blur": 12,
+          "spread": 0,
+          "color": "rgba(0,0,0,0.10)"
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "24",
+          "bottom": "0",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "poab02",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_align_items": "center",
+            "flex_justify_content": "space-between",
+            "padding": {
+              "unit": "px",
+              "top": "8",
+              "right": "0",
+              "bottom": "8",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "poab03",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/regal-plumbing-logo.png",
+                  "alt": "Regal Plumbing & Rooter"
+                },
+                "image_size": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 180
+                },
+                "link_to": "custom",
+                "link": {
+                  "url": "/"
+                }
+              }
+            },
+            {
+              "id": "poab04",
+              "elType": "widget",
+              "widgetType": "nav-menu",
+              "settings": {
+                "menu": "primary-menu",
+                "layout": "horizontal",
+                "typography_typography": "custom",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "500",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1.2
+                },
+                "typography_text_transform": "uppercase",
+                "color": "#2D2D2D",
+                "color_hover": "#B91C1C"
+              }
+            },
+            {
+              "id": "poab05",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_align_items": "center",
+                "gap": {
+                  "unit": "px",
+                  "size": 14
+                }
+              },
+              "elements": [
+                {
+                  "id": "poab06",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "<a href=\"tel:9096004561\">(909) 600-4561</a>",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "title_color": "#1E3A6E"
+                  }
+                },
+                {
+                  "id": "poab07",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Call Now",
+                    "link": {
+                      "url": "tel:9096004561"
+                    },
+                    "background_color": "#B91C1C",
+                    "button_text_color": "#FFFFFF",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 4,
+                      "right": 4,
+                      "bottom": 4,
+                      "left": 4,
+                      "isLinked": true
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "poac01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#1E3A6E",
+        "padding": {
+          "unit": "px",
+          "top": "72",
+          "right": "24",
+          "bottom": "72",
+          "left": "24",
+          "isLinked": false
+        },
+        "min_height": {
+          "unit": "px",
+          "size": 280
+        }
+      },
+      "elements": [
+        {
+          "id": "poac02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Plumber in Pomona, CA",
+            "header_size": "h1",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 52
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "poac03",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"font-size:17px;color:#D1D5DB;max-width:640px;line-height:1.6;\">Expert plumbing for Pomona homes and businesses — emergency response 24/7 and same-day service available.</p>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "poad01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "poad02",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_align_items": "flex-start",
+            "gap": {
+              "unit": "px",
+              "size": 56
+            },
+            "_element_width": "initial"
+          },
+          "elements": [
+            {
+              "id": "poad03",
+              "elType": "widget",
+              "widgetType": "google_maps",
+              "settings": {
+                "address": "Pomona, CA",
+                "zoom": {
+                  "size": 12
+                },
+                "height": {
+                  "unit": "px",
+                  "size": 420
+                },
+                "_element_width": "50%"
+              }
+            },
+            {
+              "id": "poad04",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "_element_width": "50%"
+              },
+              "elements": [
+                {
+                  "id": "poad05",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Your Local Plumber",
+                    "header_size": "p",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "500",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 3
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#B91C1C"
+                  }
+                },
+                {
+                  "id": "poad06",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Serving All of Pomona, CA",
+                    "header_size": "h2",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 36
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#2D2D2D"
+                  }
+                },
+                {
+                  "id": "poad07",
+                  "elType": "widget",
+                  "widgetType": "divider",
+                  "settings": {
+                    "color": "#B91C1C",
+                    "weight": {
+                      "unit": "px",
+                      "size": 4
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 20
+                    }
+                  }
+                },
+                {
+                  "id": "poad08",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-top:20px;\">Pomona is one of the oldest and most historically rich cities in the San Gabriel Valley, with neighborhoods like <strong>Downtown Pomona</strong>, <strong>Lincoln Park</strong>, <strong>Arroyo Park</strong>, and <strong>Ganesha Hills</strong>. Much of Pomona's residential housing stock was built decades ago, which means aging plumbing infrastructure is a common challenge — from corroded galvanized supply lines to deteriorating clay sewer pipes beneath established streets.</p><p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-top:16px;\">Regal Plumbing &amp; Rooter serves all of Pomona from our Ontario base, just minutes away. We regularly handle drain cleaning, slab leak detection, and sewer line repairs throughout Pomona's diverse neighborhoods. Our familiarity with the city's older plumbing systems means accurate diagnosis and lasting repairs on every visit.</p>"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "poae01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F3F4F6",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": 1,
+          "right": 0,
+          "bottom": 1,
+          "left": 0,
+          "isLinked": false
+        },
+        "border_color": "#D1D5DB",
+        "padding": {
+          "unit": "px",
+          "top": "20",
+          "right": "24",
+          "bottom": "20",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "poae05",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "gap": {
+              "unit": "px",
+              "size": 16
+            }
+          },
+          "elements": [
+            {
+              "id": "poae10",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "24/7 Emergency",
+                "description_text": "Always Available",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "position": "left",
+                "view": "default"
+              }
+            },
+            {
+              "id": "poae11",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "Family Owned &amp; Operated",
+                "description_text": "Community Focused",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "position": "left",
+                "view": "default"
+              }
+            },
+            {
+              "id": "poae12",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "CA Licensed #1097482",
+                "description_text": "Fully Insured",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "position": "left",
+                "view": "default"
+              }
+            },
+            {
+              "id": "poae13",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "4+ Years Experience",
+                "description_text": "Proven Track Record",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "position": "left",
+                "view": "default"
+              }
+            },
+            {
+              "id": "poae14",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "32+ Cities Served",
+                "description_text": "Southern California",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "position": "left",
+                "view": "default"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "poaf01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "poaf02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "What We Do",
+            "header_size": "p",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "500",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 3
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#B91C1C"
+          }
+        },
+        {
+          "id": "poaf03",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Plumbing Services in Pomona, CA",
+            "header_size": "h2",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 38
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#2D2D2D"
+          }
+        },
+        {
+          "id": "poaf04",
+          "elType": "widget",
+          "widgetType": "divider",
+          "settings": {
+            "color": "#B91C1C",
+            "weight": {
+              "unit": "px",
+              "size": 4
+            },
+            "width": {
+              "unit": "%",
+              "size": 8
+            },
+            "align": "center"
+          }
+        },
+        {
+          "id": "poaf05",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "gap": {
+              "unit": "px",
+              "size": 24
+            },
+            "_element_width": "initial"
+          },
+          "elements": [
+            {
+              "id": "poaf10",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "poaf20",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/sewer-repair-service-truck-inland-empire.webp",
+                      "alt": "Emergency Plumbing Pomona CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "poaf30",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "poaf40",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Emergency Plumbing",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "poaf50",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Pomona emergencies require immediate response. From Downtown Pomona to Lincoln Park, we dispatch 24/7 and arrive fast to stop burst pipes and sewage backups.</p>"
+                      }
+                    },
+                    {
+                      "id": "poaf60",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/emergency-plumbing/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "poaf11",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "poaf21",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/drain-cleaning-shower-upland-ca.webp",
+                      "alt": "Drain Cleaning Pomona CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "poaf31",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "poaf41",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Drain Cleaning",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "poaf51",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Pomona's aging pipes and hard water create persistent drain blockages. We clear all drain types professionally — kitchen, bathroom, and main sewer lines.</p>"
+                      }
+                    },
+                    {
+                      "id": "poaf61",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/drain-cleaning/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "poaf12",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "poaf22",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/sewer-line-excavation-ontario-ca.webp",
+                      "alt": "Sewer Line Repair Pomona CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "poaf32",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "poaf42",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Sewer Line Repair",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "poaf52",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Pomona's older clay sewer lines are vulnerable to cracking and root intrusion. We use camera inspection to diagnose accurately and offer trenchless repair when possible.</p>"
+                      }
+                    },
+                    {
+                      "id": "poaf62",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/sewer-line-repair/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "poaf13",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "poaf23",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/sink-faucet-installation-ontario-ca.webp",
+                      "alt": "Water Heater Services Pomona CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "poaf33",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "poaf43",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Water Heater Services",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "poaf53",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">From traditional tank replacements in established Pomona neighborhoods to tankless upgrades, our licensed technicians handle all water heater work with same-day availability.</p>"
+                      }
+                    },
+                    {
+                      "id": "poaf63",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/water-heater-services/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "poaf14",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "poaf24",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/pipe-repair-leak-detection-chino-hills-ca.webp",
+                      "alt": "Slab Leak Detection Pomona CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "poaf34",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "poaf44",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Slab Leak Detection",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "poaf54",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Pomona's aging slab homes have copper pipes that corrode over decades. Our electronic detection equipment locates slab leaks precisely without unnecessary floor demolition.</p>"
+                      }
+                    },
+                    {
+                      "id": "poaf64",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/slab-leak-detection/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "poaf15",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "poaf25",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/hydro-jetting-roof-rancho-cucamonga-ca.webp",
+                      "alt": "Hydrojetting Pomona CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "poaf35",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "poaf45",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Hydrojetting",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "poaf55",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Mineral and grease buildup in Pomona's older pipes requires powerful hydrojetting to clear completely. We restore full pipe capacity for lasting results.</p>"
+                      }
+                    },
+                    {
+                      "id": "poaf65",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/hydrojetting/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "poaf16",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "poaf26",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/camera-inspection-drain-cleaning-san-bernardino-ca.webp",
+                      "alt": "Gas Leak Detection Pomona CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "poaf36",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "poaf46",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Gas Leak Detection",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "poaf56",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Gas line issues in Pomona's older homes require careful, licensed response. We locate and repair gas leaks safely with advanced detection equipment and proper permits.</p>"
+                      }
+                    },
+                    {
+                      "id": "poaf66",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/gas-leak-detection/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "poaf17",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "poaf27",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/copper-pipe-installation-chino-ca.webp",
+                      "alt": "Water Filtration Pomona CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "poaf37",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "poaf47",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Water Filtration",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "poaf57",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Pomona's hard water affects pipes, fixtures, and appliances. We install whole-home water softeners and reverse osmosis systems to improve water quality throughout your home.</p>"
+                      }
+                    },
+                    {
+                      "id": "poaf67",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/water-filtration/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "poag01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#1E3A6E",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "poag02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Our Promise",
+            "header_size": "p",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "500",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 3
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#fca5a5"
+          }
+        },
+        {
+          "id": "poag03",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Why Pomona Residents Choose Regal",
+            "header_size": "h2",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 38
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "poag04",
+          "elType": "widget",
+          "widgetType": "divider",
+          "settings": {
+            "color": "#B91C1C",
+            "weight": {
+              "unit": "px",
+              "size": 4
+            },
+            "width": {
+              "unit": "%",
+              "size": 8
+            },
+            "align": "center"
+          }
+        },
+        {
+          "id": "poag05",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "gap": {
+              "unit": "px",
+              "size": 32
+            },
+            "_element_width": "initial"
+          },
+          "elements": [
+            {
+              "id": "poag10",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "Old-Home Experts",
+                "description_text": "We specialize in the aging infrastructure common in Pomona's established neighborhoods — galvanized pipes, clay sewer lines, and older slab systems.",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "24",
+                  "bottom": "32",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "title_typography_text_transform": "uppercase",
+                "title_color": "#FFFFFF",
+                "description_color": "#93C5FD",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "position": "top",
+                "title_size": "h3",
+                "view": "default"
+              }
+            },
+            {
+              "id": "poag11",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "Fast Pomona Response",
+                "description_text": "From our Ontario base, we reach all Pomona neighborhoods quickly — Downtown, Lincoln Park, Arroyo Park, and Ganesha Hills — with no long wait times.",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "24",
+                  "bottom": "32",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "title_typography_text_transform": "uppercase",
+                "title_color": "#FFFFFF",
+                "description_color": "#93C5FD",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "position": "top",
+                "title_size": "h3",
+                "view": "default"
+              }
+            },
+            {
+              "id": "poag12",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "Licensed & Insured",
+                "description_text": "CA License #1097482. Every Pomona job is performed by licensed plumbers with full liability coverage and transparent, upfront pricing.",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "24",
+                  "bottom": "32",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "title_typography_text_transform": "uppercase",
+                "title_color": "#FFFFFF",
+                "description_color": "#93C5FD",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "position": "top",
+                "title_size": "h3",
+                "view": "default"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "poah01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "poah02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Local Expertise",
+            "header_size": "p",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "500",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 3
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#B91C1C"
+          }
+        },
+        {
+          "id": "poah03",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Trusted Plumber in Pomona CA",
+            "header_size": "h2",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 36
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#2D2D2D"
+          }
+        },
+        {
+          "id": "poah04",
+          "elType": "widget",
+          "widgetType": "divider",
+          "settings": {
+            "color": "#B91C1C",
+            "weight": {
+              "unit": "px",
+              "size": 4
+            },
+            "width": {
+              "unit": "%",
+              "size": 15
+            }
+          }
+        },
+        {
+          "id": "poah05",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-bottom:18px;\">When you need a reliable <strong>plumber in Pomona CA</strong>, Regal Plumbing &amp; Rooter brings the expertise your home deserves. Pomona's older housing stock — particularly in <strong>Downtown Pomona</strong>, <strong>Lincoln Park</strong>, and <strong>Arroyo Park</strong> — presents unique plumbing challenges that require experience with aging infrastructure.</p><p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-bottom:18px;\">As your <strong>emergency plumber Pomona CA</strong>, we respond around the clock. Whether it's a burst pipe in a historic downtown building or a sewer backup in a Ganesha Hills home, our team dispatches immediately with fully stocked service vehicles.</p><p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-bottom:18px;\"><strong>Drain cleaning Pomona CA</strong> is one of our most common services in the city. Decades of hard water mineral buildup combine with grease and debris in Pomona's older drain lines to cause persistent blockages. We use both snaking and hydrojetting to provide lasting solutions.</p><p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-bottom:18px;\">For <strong>slab leak Pomona</strong> detection and <strong>water heater repair Pomona CA</strong>, our team brings the same precision and upfront pricing that Pomona residents have come to expect from Regal Plumbing. We know this city, and we know how to fix its plumbing right.</p>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "poai01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F3F4F6",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "poai02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Common Questions",
+            "header_size": "p",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "500",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 3
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#B91C1C"
+          }
+        },
+        {
+          "id": "poai03",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Pomona Plumbing FAQs",
+            "header_size": "h2",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 36
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#2D2D2D"
+          }
+        },
+        {
+          "id": "poai04",
+          "elType": "widget",
+          "widgetType": "divider",
+          "settings": {
+            "color": "#B91C1C",
+            "weight": {
+              "unit": "px",
+              "size": 4
+            },
+            "width": {
+              "unit": "%",
+              "size": 8
+            },
+            "align": "center"
+          }
+        },
+        {
+          "id": "poai05",
+          "elType": "widget",
+          "widgetType": "accordion",
+          "settings": {
+            "tabs": [
+              {
+                "faq_question": "How quickly can you respond to a plumbing emergency in Pomona?",
+                "faq_answer": "We typically reach Pomona locations within 45–60 minutes of your call, day or night. Our Ontario base is just minutes from Pomona, so response times are consistently fast."
+              },
+              {
+                "faq_question": "Do you serve all Pomona neighborhoods?",
+                "faq_answer": "Yes — we serve all of Pomona, including Downtown Pomona, Lincoln Park, Arroyo Park, Ganesha Hills, and every residential and commercial area throughout the city."
+              },
+              {
+                "faq_question": "Why do older Pomona homes have so many plumbing issues?",
+                "faq_answer": "Many Pomona homes were built in the 1950s through 1970s using galvanized steel pipes and clay sewer lines that have since corroded or collapsed. Hard water accelerates corrosion, and tree roots take advantage of even small pipe cracks."
+              },
+              {
+                "faq_question": "Can you do trenchless sewer repair in Pomona?",
+                "faq_answer": "In many cases, yes. Trenchless pipe lining and pipe bursting methods allow us to repair or replace damaged Pomona sewer lines with minimal excavation — saving your landscaping and reducing repair time."
+              },
+              {
+                "faq_question": "Is weekend plumbing service available in Pomona?",
+                "faq_answer": "Absolutely — we offer 24/7 emergency service in Pomona, including weekends and holidays. Call (909) 600-4561 any time."
+              }
+            ],
+            "title_html_tag": "h3",
+            "border_width": {
+              "unit": "px",
+              "size": 1
+            },
+            "border_color": "#D1D5DB",
+            "title_color": "#2D2D2D",
+            "title_active_color": "#B91C1C",
+            "title_typography_typography": "custom",
+            "title_typography_font_family": "Oswald",
+            "title_typography_font_weight": "600",
+            "title_typography_font_size": {
+              "unit": "px",
+              "size": 15
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "poaj01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#B91C1C",
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "24",
+          "bottom": "64",
+          "left": "24",
+          "isLinked": false
+        },
+        "text_align": "center"
+      },
+      "elements": [
+        {
+          "id": "poaj02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Need a Plumber in Pomona? We're Ready Now",
+            "header_size": "h2",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 42
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "poaj03",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center;font-size:16px;color:rgba(255,255,255,0.85);\">24/7 emergency and same-day service throughout Pomona, CA</p>"
+          }
+        },
+        {
+          "id": "poaj04",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "<a href=\"tel:9096004561\" style=\"color:#FFFFFF;\">(909) 600-4561</a>",
+            "header_size": "h2",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 50
+            },
+            "title_color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "poaj05",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Call Now",
+            "link": {
+              "url": "tel:9096004561"
+            },
+            "background_color": "#FFFFFF",
+            "button_text_color": "#B91C1C",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 15
+            },
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": 2,
+              "right": 2,
+              "bottom": 2,
+              "left": 2,
+              "isLinked": true
+            },
+            "border_color": "#FFFFFF",
+            "border_radius": {
+              "unit": "px",
+              "top": 4,
+              "right": 4,
+              "bottom": 4,
+              "left": 4,
+              "isLinked": true
+            },
+            "align": "center",
+            "size": "lg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "poak01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#2D2D2D",
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "24",
+          "bottom": "24",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "poak02",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "gap": {
+              "unit": "px",
+              "size": 48
+            },
+            "_element_width": "initial"
+          },
+          "elements": [
+            {
+              "id": "poak03",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "_element_width": "25%"
+              },
+              "elements": [
+                {
+                  "id": "poak04",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Regal Plumbing &amp; Rooter",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#FFFFFF"
+                  }
+                },
+                {
+                  "id": "poak05",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"font-size:13px;color:#9CA3AF;line-height:1.6;\">Honest, professional plumbing &amp; rooter services for the Inland Empire &amp; San Gabriel Valley.</p>"
+                  }
+                },
+                {
+                  "id": "poak06",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"display:inline-block;background:rgba(185,28,28,0.2);border:1px solid rgba(185,28,28,0.4);color:#fca5a5;font-size:11.5px;font-family:Oswald,sans-serif;letter-spacing:1px;padding:4px 10px;border-radius:3px;\">CA License #1097482</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "poak07",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "_element_width": "15%"
+              },
+              "elements": [
+                {
+                  "id": "poak08",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Services",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.5
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#FFFFFF"
+                  }
+                },
+                {
+                  "id": "poak09",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style=\"list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:9px;\"><li><a href=\"/emergency-plumbing/\" style=\"font-size:13.5px;color:#9CA3AF;\">Emergency Plumbing</a></li><li><a href=\"/drain-cleaning/\" style=\"font-size:13.5px;color:#9CA3AF;\">Drain Cleaning</a></li><li><a href=\"/sewer-line-repair/\" style=\"font-size:13.5px;color:#9CA3AF;\">Sewer Line Repair</a></li><li><a href=\"/water-heater-services/\" style=\"font-size:13.5px;color:#9CA3AF;\">Water Heater Services</a></li><li><a href=\"/slab-leak-detection/\" style=\"font-size:13.5px;color:#9CA3AF;\">Slab Leak Detection</a></li><li><a href=\"/hydrojetting/\" style=\"font-size:13.5px;color:#9CA3AF;\">Hydrojetting</a></li><li><a href=\"/gas-leak-detection/\" style=\"font-size:13.5px;color:#9CA3AF;\">Gas Leak Detection</a></li><li><a href=\"/water-filtration/\" style=\"font-size:13.5px;color:#9CA3AF;\">Water Filtration</a></li></ul>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "poak10",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "_element_width": "15%"
+              },
+              "elements": [
+                {
+                  "id": "poak11",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Service Area",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.5
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#FFFFFF"
+                  }
+                },
+                {
+                  "id": "poak12",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style=\"list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:9px;\"><li><a href=\"/service-area/ontario-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Ontario</a></li><li><a href=\"/service-area/rancho-cucamonga-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Rancho Cucamonga</a></li><li><a href=\"/service-area/fontana-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Fontana</a></li><li><a href=\"/service-area/pomona-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Pomona</a></li><li><a href=\"/service-area/chino-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Chino</a></li><li><a href=\"/service-area/corona-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Corona</a></li><li><a href=\"/service-area/upland-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Upland</a></li><li><a href=\"/service-area/west-covina-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">West Covina</a></li></ul>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "poak13",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "_element_width": "20%"
+              },
+              "elements": [
+                {
+                  "id": "poak14",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Contact Us",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.5
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#FFFFFF"
+                  }
+                },
+                {
+                  "id": "poak15",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style=\"list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;\"><li style=\"font-size:13.5px;color:#9CA3AF;\">2141 E Philadelphia St, Suite R<br>Ontario, CA 91761</li><li><a href=\"tel:9096004561\" style=\"font-size:13.5px;color:#9CA3AF;\">(909) 600-4561</a></li><li><a href=\"mailto:info@regalplumbingservices.com\" style=\"font-size:13.5px;color:#9CA3AF;\">info@regalplumbingservices.com</a></li><li style=\"font-size:13.5px;color:#9CA3AF;\">24/7 Emergency | Mon–Sat: 7am–7pm</li></ul>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "poak16",
+          "elType": "widget",
+          "widgetType": "divider",
+          "settings": {
+            "color": "rgba(255,255,255,0.10)",
+            "weight": {
+              "unit": "px",
+              "size": 1
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            }
+          }
+        },
+        {
+          "id": "poak17",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "padding": {
+              "unit": "px",
+              "top": "18",
+              "right": "0",
+              "bottom": "18",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "poak18",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:12.5px;color:#6B7280;\">&copy; 2025 Regal Plumbing &amp; Rooter. All Rights Reserved. CA License #1097482</p>"
+              }
+            },
+            {
+              "id": "poak19",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:12.5px;color:#6B7280;\"><a href=\"/privacy-policy/\" style=\"color:#6B7280;\">Privacy Policy</a> &nbsp; <a href=\"/terms-of-service/\" style=\"color:#6B7280;\">Terms of Service</a></p>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

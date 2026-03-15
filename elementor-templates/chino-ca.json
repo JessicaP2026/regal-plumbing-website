@@ -1,0 +1,2268 @@
+{
+  "version": "0.4",
+  "title": "Plumber in Chino CA",
+  "type": "page",
+  "page_settings": {
+    "seo_title": "Plumber in Chino, CA — Regal Plumbing & Rooter | (909) 600-4561",
+    "seo_description": "Licensed plumbing in Chino, CA. Serving The Preserve, College Park, Downtown Chino, Airport Area. 24/7 emergency response. Call (909) 600-4561."
+  },
+  "content": [
+    {
+      "id": "chaa01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#2D2D2D",
+        "padding": {
+          "unit": "px",
+          "top": "9",
+          "right": "16",
+          "bottom": "9",
+          "left": "16",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "chaa02",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center;color:#ffffff;font-size:13.5px;font-weight:600;\">24/7 Emergency Service Available — Call <a href=\"tel:9096004561\" style=\"color:#fca5a5;\">(909) 600-4561</a></p>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "chab01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "box_shadow_box_shadow_type": "yes",
+        "box_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 2,
+          "blur": 12,
+          "spread": 0,
+          "color": "rgba(0,0,0,0.10)"
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "24",
+          "bottom": "0",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "chab02",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_align_items": "center",
+            "flex_justify_content": "space-between",
+            "padding": {
+              "unit": "px",
+              "top": "8",
+              "right": "0",
+              "bottom": "8",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "chab03",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/regal-plumbing-logo.png",
+                  "alt": "Regal Plumbing & Rooter"
+                },
+                "image_size": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 180
+                },
+                "link_to": "custom",
+                "link": {
+                  "url": "/"
+                }
+              }
+            },
+            {
+              "id": "chab04",
+              "elType": "widget",
+              "widgetType": "nav-menu",
+              "settings": {
+                "menu": "primary-menu",
+                "layout": "horizontal",
+                "typography_typography": "custom",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "500",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1.2
+                },
+                "typography_text_transform": "uppercase",
+                "color": "#2D2D2D",
+                "color_hover": "#B91C1C"
+              }
+            },
+            {
+              "id": "chab05",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_align_items": "center",
+                "gap": {
+                  "unit": "px",
+                  "size": 14
+                }
+              },
+              "elements": [
+                {
+                  "id": "chab06",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "<a href=\"tel:9096004561\">(909) 600-4561</a>",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "title_color": "#1E3A6E"
+                  }
+                },
+                {
+                  "id": "chab07",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Call Now",
+                    "link": {
+                      "url": "tel:9096004561"
+                    },
+                    "background_color": "#B91C1C",
+                    "button_text_color": "#FFFFFF",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 4,
+                      "right": 4,
+                      "bottom": 4,
+                      "left": 4,
+                      "isLinked": true
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chac01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#1E3A6E",
+        "padding": {
+          "unit": "px",
+          "top": "72",
+          "right": "24",
+          "bottom": "72",
+          "left": "24",
+          "isLinked": false
+        },
+        "min_height": {
+          "unit": "px",
+          "size": 280
+        }
+      },
+      "elements": [
+        {
+          "id": "chac02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Plumber in Chino, CA",
+            "header_size": "h1",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 52
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "chac03",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"font-size:17px;color:#D1D5DB;max-width:640px;line-height:1.6;\">Fast, licensed plumbing for Chino homes and businesses — 24/7 emergency response and same-day service available.</p>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "chad01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "chad02",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_align_items": "flex-start",
+            "gap": {
+              "unit": "px",
+              "size": 56
+            },
+            "_element_width": "initial"
+          },
+          "elements": [
+            {
+              "id": "chad03",
+              "elType": "widget",
+              "widgetType": "google_maps",
+              "settings": {
+                "address": "Chino, CA",
+                "zoom": {
+                  "size": 12
+                },
+                "height": {
+                  "unit": "px",
+                  "size": 420
+                },
+                "_element_width": "50%"
+              }
+            },
+            {
+              "id": "chad04",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "_element_width": "50%"
+              },
+              "elements": [
+                {
+                  "id": "chad05",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Your Local Plumber",
+                    "header_size": "p",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "500",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 3
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#B91C1C"
+                  }
+                },
+                {
+                  "id": "chad06",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Serving All of Chino, CA",
+                    "header_size": "h2",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 36
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#2D2D2D"
+                  }
+                },
+                {
+                  "id": "chad07",
+                  "elType": "widget",
+                  "widgetType": "divider",
+                  "settings": {
+                    "color": "#B91C1C",
+                    "weight": {
+                      "unit": "px",
+                      "size": 4
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 20
+                    }
+                  }
+                },
+                {
+                  "id": "chad08",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-top:20px;\">Chino blends newer master-planned communities with its historic downtown roots. Neighborhoods like <strong>The Preserve</strong>, <strong>College Park</strong>, <strong>Downtown Chino</strong>, and the <strong>Airport Area</strong> reflect the city's rapid growth alongside its established character. Newer subdivisions in The Preserve face hard water and pressure regulation challenges, while older homes near downtown Chino contend with aging galvanized pipes and deteriorating sewer lines.</p><p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-top:16px;\">Regal Plumbing &amp; Rooter serves all of Chino from our Ontario base, just minutes away. We're experienced with both new construction plumbing demands and the older infrastructure challenges common in established Chino neighborhoods. Our team is on call 24/7 for plumbing emergencies throughout the city.</p>"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chae01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F3F4F6",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": 1,
+          "right": 0,
+          "bottom": 1,
+          "left": 0,
+          "isLinked": false
+        },
+        "border_color": "#D1D5DB",
+        "padding": {
+          "unit": "px",
+          "top": "20",
+          "right": "24",
+          "bottom": "20",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "chae05",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "gap": {
+              "unit": "px",
+              "size": 16
+            }
+          },
+          "elements": [
+            {
+              "id": "chae10",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "24/7 Emergency",
+                "description_text": "Always Available",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "position": "left",
+                "view": "default"
+              }
+            },
+            {
+              "id": "chae11",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "Family Owned &amp; Operated",
+                "description_text": "Community Focused",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "position": "left",
+                "view": "default"
+              }
+            },
+            {
+              "id": "chae12",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "CA Licensed #1097482",
+                "description_text": "Fully Insured",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "position": "left",
+                "view": "default"
+              }
+            },
+            {
+              "id": "chae13",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "4+ Years Experience",
+                "description_text": "Proven Track Record",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "position": "left",
+                "view": "default"
+              }
+            },
+            {
+              "id": "chae14",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "32+ Cities Served",
+                "description_text": "Southern California",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "position": "left",
+                "view": "default"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chaf01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "chaf02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "What We Do",
+            "header_size": "p",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "500",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 3
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#B91C1C"
+          }
+        },
+        {
+          "id": "chaf03",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Plumbing Services in Chino, CA",
+            "header_size": "h2",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 38
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#2D2D2D"
+          }
+        },
+        {
+          "id": "chaf04",
+          "elType": "widget",
+          "widgetType": "divider",
+          "settings": {
+            "color": "#B91C1C",
+            "weight": {
+              "unit": "px",
+              "size": 4
+            },
+            "width": {
+              "unit": "%",
+              "size": 8
+            },
+            "align": "center"
+          }
+        },
+        {
+          "id": "chaf05",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "gap": {
+              "unit": "px",
+              "size": 24
+            },
+            "_element_width": "initial"
+          },
+          "elements": [
+            {
+              "id": "chaf10",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "chaf20",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/sewer-repair-service-truck-inland-empire.webp",
+                      "alt": "Emergency Plumbing Chino CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "chaf30",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "chaf40",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Emergency Plumbing",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "chaf50",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Chino plumbing emergencies get immediate response — from The Preserve to Downtown Chino, we dispatch 24/7 to stop burst pipes and backups fast.</p>"
+                      }
+                    },
+                    {
+                      "id": "chaf60",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/emergency-plumbing/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "chaf11",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "chaf21",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/drain-cleaning-shower-upland-ca.webp",
+                      "alt": "Drain Cleaning Chino CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "chaf31",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "chaf41",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Drain Cleaning",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "chaf51",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Chino's mix of new and older pipes both suffer from hard water buildup. We clear all drain types professionally with snaking and hydrojetting equipment.</p>"
+                      }
+                    },
+                    {
+                      "id": "chaf61",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/drain-cleaning/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "chaf12",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "chaf22",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/sewer-line-excavation-ontario-ca.webp",
+                      "alt": "Sewer Line Repair Chino CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "chaf32",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "chaf42",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Sewer Line Repair",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "chaf52",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">From clay pipes near downtown Chino to newer PVC in The Preserve, we use camera inspection to diagnose sewer issues accurately and repair them right.</p>"
+                      }
+                    },
+                    {
+                      "id": "chaf62",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/sewer-line-repair/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "chaf13",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "chaf23",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/sink-faucet-installation-ontario-ca.webp",
+                      "alt": "Water Heater Services Chino CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "chaf33",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "chaf43",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Water Heater Services",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "chaf53",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Whether it's a new tankless install in College Park or a traditional tank replacement near Downtown Chino, we handle all water heater work throughout the city.</p>"
+                      }
+                    },
+                    {
+                      "id": "chaf63",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/water-heater-services/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "chaf14",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "chaf24",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/pipe-repair-leak-detection-chino-hills-ca.webp",
+                      "alt": "Slab Leak Detection Chino CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "chaf34",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "chaf44",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Slab Leak Detection",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "chaf54",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Chino's slab homes — both older and new construction — can develop pipe failures beneath concrete. Our electronic detection finds leaks precisely without unnecessary digging.</p>"
+                      }
+                    },
+                    {
+                      "id": "chaf64",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/slab-leak-detection/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "chaf15",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "chaf25",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/hydro-jetting-roof-rancho-cucamonga-ca.webp",
+                      "alt": "Hydrojetting Chino CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "chaf35",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "chaf45",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Hydrojetting",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "chaf55",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Years of hard water scale and grease accumulation in Chino pipes call for powerful hydrojetting. We restore full pipe capacity for lasting results throughout the city.</p>"
+                      }
+                    },
+                    {
+                      "id": "chaf65",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/hydrojetting/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "chaf16",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "chaf26",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/camera-inspection-drain-cleaning-san-bernardino-ca.webp",
+                      "alt": "Gas Leak Detection Chino CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "chaf36",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "chaf46",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Gas Leak Detection",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "chaf56",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Gas line issues in Chino homes require licensed, careful response. We locate and repair gas leaks throughout Chino with advanced detection equipment.</p>"
+                      }
+                    },
+                    {
+                      "id": "chaf66",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/gas-leak-detection/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "chaf17",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "chaf27",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/copper-pipe-installation-chino-ca.webp",
+                      "alt": "Water Filtration Chino CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "chaf37",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "chaf47",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Water Filtration",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "chaf57",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Chino's hard water affects pipes and appliances throughout the city. We install whole-home softeners and RO systems for clean, soft water.</p>"
+                      }
+                    },
+                    {
+                      "id": "chaf67",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/water-filtration/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chag01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#1E3A6E",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "chag02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Our Promise",
+            "header_size": "p",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "500",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 3
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#fca5a5"
+          }
+        },
+        {
+          "id": "chag03",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Why Chino Residents Choose Regal",
+            "header_size": "h2",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 38
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "chag04",
+          "elType": "widget",
+          "widgetType": "divider",
+          "settings": {
+            "color": "#B91C1C",
+            "weight": {
+              "unit": "px",
+              "size": 4
+            },
+            "width": {
+              "unit": "%",
+              "size": 8
+            },
+            "align": "center"
+          }
+        },
+        {
+          "id": "chag05",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "gap": {
+              "unit": "px",
+              "size": 32
+            },
+            "_element_width": "initial"
+          },
+          "elements": [
+            {
+              "id": "chag10",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "New & Old Chino Homes",
+                "description_text": "We serve both new master-planned communities like The Preserve and College Park and established older neighborhoods near downtown Chino with equal expertise.",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "24",
+                  "bottom": "32",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "title_typography_text_transform": "uppercase",
+                "title_color": "#FFFFFF",
+                "description_color": "#93C5FD",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "position": "top",
+                "title_size": "h3",
+                "view": "default"
+              }
+            },
+            {
+              "id": "chag11",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "Fast Chino Response",
+                "description_text": "Our Ontario base is minutes from Chino. We reach every Chino neighborhood quickly — The Preserve, College Park, Downtown, and the Airport Area.",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "24",
+                  "bottom": "32",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "title_typography_text_transform": "uppercase",
+                "title_color": "#FFFFFF",
+                "description_color": "#93C5FD",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "position": "top",
+                "title_size": "h3",
+                "view": "default"
+              }
+            },
+            {
+              "id": "chag12",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "Licensed & Insured",
+                "description_text": "CA License #1097482. Every Chino job is performed by licensed plumbers with full liability coverage and transparent pricing — no hidden fees.",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "24",
+                  "bottom": "32",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "title_typography_text_transform": "uppercase",
+                "title_color": "#FFFFFF",
+                "description_color": "#93C5FD",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "position": "top",
+                "title_size": "h3",
+                "view": "default"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chah01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "chah02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Local Expertise",
+            "header_size": "p",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "500",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 3
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#B91C1C"
+          }
+        },
+        {
+          "id": "chah03",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Trusted Plumber in Chino CA",
+            "header_size": "h2",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 36
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#2D2D2D"
+          }
+        },
+        {
+          "id": "chah04",
+          "elType": "widget",
+          "widgetType": "divider",
+          "settings": {
+            "color": "#B91C1C",
+            "weight": {
+              "unit": "px",
+              "size": 4
+            },
+            "width": {
+              "unit": "%",
+              "size": 15
+            }
+          }
+        },
+        {
+          "id": "chah05",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-bottom:18px;\">For a reliable <strong>plumber in Chino CA</strong>, Regal Plumbing &amp; Rooter brings the expertise to handle Chino's unique mix of old and new plumbing infrastructure. From the newer homes in <strong>The Preserve</strong> and <strong>College Park</strong> to the older properties near <strong>Downtown Chino</strong>, we've worked throughout this city.</p><p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-bottom:18px;\">As your <strong>emergency plumber Chino CA</strong>, we respond 24 hours a day. Chino plumbing emergencies — burst pipes, sewage backups, gas leaks — receive our fastest dispatch, any time of day or night.</p><p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-bottom:18px;\"><strong>Drain cleaning Chino CA</strong> is a common service need throughout the city. Hard water mineral buildup affects both new and older Chino pipe systems. We use professional snaking for everyday clogs and hydrojetting for deep-cleaning of pipe walls.</p><p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-bottom:18px;\">Our <strong>slab leak Chino</strong> detection uses electronic equipment to pinpoint leaks precisely. We also handle all <strong>water heater repair Chino CA</strong> needs — from emergency repairs to full tankless installations — with upfront pricing on every job.</p>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "chai01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F3F4F6",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "chai02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Common Questions",
+            "header_size": "p",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "500",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 3
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#B91C1C"
+          }
+        },
+        {
+          "id": "chai03",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Chino Plumbing FAQs",
+            "header_size": "h2",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 36
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#2D2D2D"
+          }
+        },
+        {
+          "id": "chai04",
+          "elType": "widget",
+          "widgetType": "divider",
+          "settings": {
+            "color": "#B91C1C",
+            "weight": {
+              "unit": "px",
+              "size": 4
+            },
+            "width": {
+              "unit": "%",
+              "size": 8
+            },
+            "align": "center"
+          }
+        },
+        {
+          "id": "chai05",
+          "elType": "widget",
+          "widgetType": "accordion",
+          "settings": {
+            "tabs": [
+              {
+                "faq_question": "How fast can you respond to plumbing emergencies in Chino?",
+                "faq_answer": "We typically reach Chino within 45–60 minutes of your call. Our Ontario base is just minutes from Chino, so our response times are consistently fast throughout the city."
+              },
+              {
+                "faq_question": "Do you work in newer Chino communities like The Preserve and College Park?",
+                "faq_answer": "Yes — we serve all of Chino, including The Preserve, College Park, Downtown Chino, and the Airport Area. We're experienced with the plumbing systems in both new construction and older homes."
+              },
+              {
+                "faq_question": "What causes slab leaks in newer Chino homes?",
+                "faq_answer": "Even newer homes can develop slab leaks. High water pressure, soil settlement, and manufacturing defects in copper fittings can all cause pipe failures beneath a concrete slab. Early detection with our electronic equipment prevents costly damage."
+              },
+              {
+                "faq_question": "Can you replace a water heater same-day in Chino?",
+                "faq_answer": "In most cases, yes. We carry common water heater models on our service vehicles and can complete standard tank replacements same-day in Chino. Tankless installations may require a scheduled appointment."
+              },
+              {
+                "faq_question": "Is 24/7 plumbing service available in Chino?",
+                "faq_answer": "Yes — we offer 24/7 emergency plumbing service throughout Chino. Call (909) 600-4561 any time, day or night, and a real person will answer."
+              }
+            ],
+            "title_html_tag": "h3",
+            "border_width": {
+              "unit": "px",
+              "size": 1
+            },
+            "border_color": "#D1D5DB",
+            "title_color": "#2D2D2D",
+            "title_active_color": "#B91C1C",
+            "title_typography_typography": "custom",
+            "title_typography_font_family": "Oswald",
+            "title_typography_font_weight": "600",
+            "title_typography_font_size": {
+              "unit": "px",
+              "size": 15
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "chaj01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#B91C1C",
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "24",
+          "bottom": "64",
+          "left": "24",
+          "isLinked": false
+        },
+        "text_align": "center"
+      },
+      "elements": [
+        {
+          "id": "chaj02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Need a Plumber in Chino? We're Ready Now",
+            "header_size": "h2",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 42
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "chaj03",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center;font-size:16px;color:rgba(255,255,255,0.85);\">24/7 emergency and same-day service throughout Chino, CA</p>"
+          }
+        },
+        {
+          "id": "chaj04",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "<a href=\"tel:9096004561\" style=\"color:#FFFFFF;\">(909) 600-4561</a>",
+            "header_size": "h2",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 50
+            },
+            "title_color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "chaj05",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Call Now",
+            "link": {
+              "url": "tel:9096004561"
+            },
+            "background_color": "#FFFFFF",
+            "button_text_color": "#B91C1C",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 15
+            },
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": 2,
+              "right": 2,
+              "bottom": 2,
+              "left": 2,
+              "isLinked": true
+            },
+            "border_color": "#FFFFFF",
+            "border_radius": {
+              "unit": "px",
+              "top": 4,
+              "right": 4,
+              "bottom": 4,
+              "left": 4,
+              "isLinked": true
+            },
+            "align": "center",
+            "size": "lg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "chak01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#2D2D2D",
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "24",
+          "bottom": "24",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "chak02",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "gap": {
+              "unit": "px",
+              "size": 48
+            },
+            "_element_width": "initial"
+          },
+          "elements": [
+            {
+              "id": "chak03",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "_element_width": "25%"
+              },
+              "elements": [
+                {
+                  "id": "chak04",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Regal Plumbing &amp; Rooter",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#FFFFFF"
+                  }
+                },
+                {
+                  "id": "chak05",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"font-size:13px;color:#9CA3AF;line-height:1.6;\">Honest, professional plumbing &amp; rooter services for the Inland Empire &amp; San Gabriel Valley.</p>"
+                  }
+                },
+                {
+                  "id": "chak06",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"display:inline-block;background:rgba(185,28,28,0.2);border:1px solid rgba(185,28,28,0.4);color:#fca5a5;font-size:11.5px;font-family:Oswald,sans-serif;letter-spacing:1px;padding:4px 10px;border-radius:3px;\">CA License #1097482</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "chak07",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "_element_width": "15%"
+              },
+              "elements": [
+                {
+                  "id": "chak08",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Services",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.5
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#FFFFFF"
+                  }
+                },
+                {
+                  "id": "chak09",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style=\"list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:9px;\"><li><a href=\"/emergency-plumbing/\" style=\"font-size:13.5px;color:#9CA3AF;\">Emergency Plumbing</a></li><li><a href=\"/drain-cleaning/\" style=\"font-size:13.5px;color:#9CA3AF;\">Drain Cleaning</a></li><li><a href=\"/sewer-line-repair/\" style=\"font-size:13.5px;color:#9CA3AF;\">Sewer Line Repair</a></li><li><a href=\"/water-heater-services/\" style=\"font-size:13.5px;color:#9CA3AF;\">Water Heater Services</a></li><li><a href=\"/slab-leak-detection/\" style=\"font-size:13.5px;color:#9CA3AF;\">Slab Leak Detection</a></li><li><a href=\"/hydrojetting/\" style=\"font-size:13.5px;color:#9CA3AF;\">Hydrojetting</a></li><li><a href=\"/gas-leak-detection/\" style=\"font-size:13.5px;color:#9CA3AF;\">Gas Leak Detection</a></li><li><a href=\"/water-filtration/\" style=\"font-size:13.5px;color:#9CA3AF;\">Water Filtration</a></li></ul>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "chak10",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "_element_width": "15%"
+              },
+              "elements": [
+                {
+                  "id": "chak11",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Service Area",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.5
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#FFFFFF"
+                  }
+                },
+                {
+                  "id": "chak12",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style=\"list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:9px;\"><li><a href=\"/service-area/ontario-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Ontario</a></li><li><a href=\"/service-area/rancho-cucamonga-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Rancho Cucamonga</a></li><li><a href=\"/service-area/fontana-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Fontana</a></li><li><a href=\"/service-area/pomona-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Pomona</a></li><li><a href=\"/service-area/chino-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Chino</a></li><li><a href=\"/service-area/corona-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Corona</a></li><li><a href=\"/service-area/upland-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Upland</a></li><li><a href=\"/service-area/west-covina-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">West Covina</a></li></ul>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "chak13",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "_element_width": "20%"
+              },
+              "elements": [
+                {
+                  "id": "chak14",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Contact Us",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.5
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#FFFFFF"
+                  }
+                },
+                {
+                  "id": "chak15",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style=\"list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;\"><li style=\"font-size:13.5px;color:#9CA3AF;\">2141 E Philadelphia St, Suite R<br>Ontario, CA 91761</li><li><a href=\"tel:9096004561\" style=\"font-size:13.5px;color:#9CA3AF;\">(909) 600-4561</a></li><li><a href=\"mailto:info@regalplumbingservices.com\" style=\"font-size:13.5px;color:#9CA3AF;\">info@regalplumbingservices.com</a></li><li style=\"font-size:13.5px;color:#9CA3AF;\">24/7 Emergency | Mon–Sat: 7am–7pm</li></ul>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chak16",
+          "elType": "widget",
+          "widgetType": "divider",
+          "settings": {
+            "color": "rgba(255,255,255,0.10)",
+            "weight": {
+              "unit": "px",
+              "size": 1
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            }
+          }
+        },
+        {
+          "id": "chak17",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "padding": {
+              "unit": "px",
+              "top": "18",
+              "right": "0",
+              "bottom": "18",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "chak18",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:12.5px;color:#6B7280;\">&copy; 2025 Regal Plumbing &amp; Rooter. All Rights Reserved. CA License #1097482</p>"
+              }
+            },
+            {
+              "id": "chak19",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:12.5px;color:#6B7280;\"><a href=\"/privacy-policy/\" style=\"color:#6B7280;\">Privacy Policy</a> &nbsp; <a href=\"/terms-of-service/\" style=\"color:#6B7280;\">Terms of Service</a></p>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

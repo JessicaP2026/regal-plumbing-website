@@ -1,0 +1,2268 @@
+{
+  "version": "0.4",
+  "title": "Plumber in Fontana CA",
+  "type": "page",
+  "page_settings": {
+    "seo_title": "Plumber in Fontana, CA — Regal Plumbing & Rooter | (909) 600-4561",
+    "seo_description": "Reliable, licensed plumbing in Fontana, CA. Emergency response 24/7. Slab leaks, drain cleaning, sewer repair, water heaters. Call (909) 600-4561."
+  },
+  "content": [
+    {
+      "id": "foaa01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#2D2D2D",
+        "padding": {
+          "unit": "px",
+          "top": "9",
+          "right": "16",
+          "bottom": "9",
+          "left": "16",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "foaa02",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center;color:#ffffff;font-size:13.5px;font-weight:600;\">24/7 Emergency Service Available — Call <a href=\"tel:9096004561\" style=\"color:#fca5a5;\">(909) 600-4561</a></p>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "foab01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "box_shadow_box_shadow_type": "yes",
+        "box_shadow_box_shadow": {
+          "horizontal": 0,
+          "vertical": 2,
+          "blur": 12,
+          "spread": 0,
+          "color": "rgba(0,0,0,0.10)"
+        },
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "24",
+          "bottom": "0",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "foab02",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_align_items": "center",
+            "flex_justify_content": "space-between",
+            "padding": {
+              "unit": "px",
+              "top": "8",
+              "right": "0",
+              "bottom": "8",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "foab03",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/regal-plumbing-logo.png",
+                  "alt": "Regal Plumbing & Rooter"
+                },
+                "image_size": "full",
+                "width": {
+                  "unit": "px",
+                  "size": 180
+                },
+                "link_to": "custom",
+                "link": {
+                  "url": "/"
+                }
+              }
+            },
+            {
+              "id": "foab04",
+              "elType": "widget",
+              "widgetType": "nav-menu",
+              "settings": {
+                "menu": "primary-menu",
+                "layout": "horizontal",
+                "typography_typography": "custom",
+                "typography_font_family": "Oswald",
+                "typography_font_weight": "500",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1.2
+                },
+                "typography_text_transform": "uppercase",
+                "color": "#2D2D2D",
+                "color_hover": "#B91C1C"
+              }
+            },
+            {
+              "id": "foab05",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "row",
+                "flex_align_items": "center",
+                "gap": {
+                  "unit": "px",
+                  "size": 14
+                }
+              },
+              "elements": [
+                {
+                  "id": "foab06",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "<a href=\"tel:9096004561\">(909) 600-4561</a>",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "title_color": "#1E3A6E"
+                  }
+                },
+                {
+                  "id": "foab07",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Call Now",
+                    "link": {
+                      "url": "tel:9096004561"
+                    },
+                    "background_color": "#B91C1C",
+                    "button_text_color": "#FFFFFF",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": 4,
+                      "right": 4,
+                      "bottom": 4,
+                      "left": 4,
+                      "isLinked": true
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "foac01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#1E3A6E",
+        "padding": {
+          "unit": "px",
+          "top": "72",
+          "right": "24",
+          "bottom": "72",
+          "left": "24",
+          "isLinked": false
+        },
+        "min_height": {
+          "unit": "px",
+          "size": 280
+        }
+      },
+      "elements": [
+        {
+          "id": "foac02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Plumber in Fontana, CA",
+            "header_size": "h1",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 52
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "foac03",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"font-size:17px;color:#D1D5DB;max-width:640px;line-height:1.6;\">Reliable, licensed plumbing for Fontana homes and businesses — emergency response 24/7 and same-day service when you need it most.</p>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "foad01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "foad02",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_align_items": "flex-start",
+            "gap": {
+              "unit": "px",
+              "size": 56
+            },
+            "_element_width": "initial"
+          },
+          "elements": [
+            {
+              "id": "foad03",
+              "elType": "widget",
+              "widgetType": "google_maps",
+              "settings": {
+                "address": "Fontana, CA",
+                "zoom": {
+                  "size": 12
+                },
+                "height": {
+                  "unit": "px",
+                  "size": 420
+                },
+                "_element_width": "50%"
+              }
+            },
+            {
+              "id": "foad04",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "_element_width": "50%"
+              },
+              "elements": [
+                {
+                  "id": "foad05",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Your Local Plumber",
+                    "header_size": "p",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "500",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 3
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#B91C1C"
+                  }
+                },
+                {
+                  "id": "foad06",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Serving All of Fontana, CA",
+                    "header_size": "h2",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 36
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#2D2D2D"
+                  }
+                },
+                {
+                  "id": "foad07",
+                  "elType": "widget",
+                  "widgetType": "divider",
+                  "settings": {
+                    "color": "#B91C1C",
+                    "weight": {
+                      "unit": "px",
+                      "size": 4
+                    },
+                    "width": {
+                      "unit": "%",
+                      "size": 20
+                    }
+                  }
+                },
+                {
+                  "id": "foad08",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-top:20px;\">Fontana is one of the Inland Empire's largest and most diverse cities, spanning from the industrial corridor near I-10 up through residential communities like <strong>Sierra Lakes</strong>, <strong>South Fontana</strong>, <strong>North Fontana</strong>, and the <strong>Catawba</strong> neighborhood. With a significant portion of the city's housing stock dating back to the 1970s and 1980s, Fontana is home to aging sewer infrastructure and galvanized supply lines that require expert attention.</p><p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-top:16px;\">Regal Plumbing &amp; Rooter serves all of Fontana from our Ontario headquarters. We regularly handle slab leak repairs in South Fontana homes, drain cleaning in the high-density neighborhoods near Baseline Avenue, and sewer line repairs throughout the city.</p>"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "foae01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F3F4F6",
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": 1,
+          "right": 0,
+          "bottom": 1,
+          "left": 0,
+          "isLinked": false
+        },
+        "border_color": "#D1D5DB",
+        "padding": {
+          "unit": "px",
+          "top": "20",
+          "right": "24",
+          "bottom": "20",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "foae05",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "gap": {
+              "unit": "px",
+              "size": 16
+            }
+          },
+          "elements": [
+            {
+              "id": "foae10",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "24/7 Emergency",
+                "description_text": "Always Available",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "position": "left",
+                "view": "default"
+              }
+            },
+            {
+              "id": "foae11",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "Family Owned &amp; Operated",
+                "description_text": "Community Focused",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "position": "left",
+                "view": "default"
+              }
+            },
+            {
+              "id": "foae12",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "CA Licensed #1097482",
+                "description_text": "Fully Insured",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "position": "left",
+                "view": "default"
+              }
+            },
+            {
+              "id": "foae13",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "4+ Years Experience",
+                "description_text": "Proven Track Record",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "position": "left",
+                "view": "default"
+              }
+            },
+            {
+              "id": "foae14",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "32+ Cities Served",
+                "description_text": "Southern California",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "title_color": "#2D2D2D",
+                "description_color": "#6B7280",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "position": "left",
+                "view": "default"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "foaf01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "foaf02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "What We Do",
+            "header_size": "p",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "500",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 3
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#B91C1C"
+          }
+        },
+        {
+          "id": "foaf03",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Plumbing Services in Fontana, CA",
+            "header_size": "h2",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 38
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#2D2D2D"
+          }
+        },
+        {
+          "id": "foaf04",
+          "elType": "widget",
+          "widgetType": "divider",
+          "settings": {
+            "color": "#B91C1C",
+            "weight": {
+              "unit": "px",
+              "size": 4
+            },
+            "width": {
+              "unit": "%",
+              "size": 8
+            },
+            "align": "center"
+          }
+        },
+        {
+          "id": "foaf05",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "gap": {
+              "unit": "px",
+              "size": 24
+            },
+            "_element_width": "initial"
+          },
+          "elements": [
+            {
+              "id": "foaf10",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "foaf20",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/sewer-repair-service-truck-inland-empire.webp",
+                      "alt": "Emergency Plumbing Fontana CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "foaf30",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "foaf40",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Emergency Plumbing",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "foaf50",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">From Sierra Lakes to South Fontana, our emergency plumbers reach every corner of Fontana fast — 24 hours a day, every day of the year.</p>"
+                      }
+                    },
+                    {
+                      "id": "foaf60",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/emergency-plumbing/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "foaf11",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "foaf21",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/drain-cleaning-shower-upland-ca.webp",
+                      "alt": "Drain Cleaning Fontana CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "foaf31",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "foaf41",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Drain Cleaning",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "foaf51",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Fontana's aging pipes and hard water create stubborn drain blockages. We clear all drain types in Fontana quickly using professional-grade snaking and jetting equipment.</p>"
+                      }
+                    },
+                    {
+                      "id": "foaf61",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/drain-cleaning/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "foaf12",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "foaf22",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/sewer-line-excavation-ontario-ca.webp",
+                      "alt": "Sewer Line Repair Fontana CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "foaf32",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "foaf42",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Sewer Line Repair",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "foaf52",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Older Fontana neighborhoods have clay sewer pipes that crack and collapse over time. We perform camera inspection and trenchless repair with minimal yard disruption.</p>"
+                      }
+                    },
+                    {
+                      "id": "foaf62",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/sewer-line-repair/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "foaf13",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "foaf23",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/sink-faucet-installation-ontario-ca.webp",
+                      "alt": "Water Heater Services Fontana CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "foaf33",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "foaf43",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Water Heater Services",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "foaf53",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Fontana's hard water shortens water heater lifespan through scale buildup. We repair and replace all water heater types in Fontana, including energy-efficient tankless units.</p>"
+                      }
+                    },
+                    {
+                      "id": "foaf63",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/water-heater-services/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "foaf14",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "foaf24",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/pipe-repair-leak-detection-chino-hills-ca.webp",
+                      "alt": "Slab Leak Detection Fontana CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "foaf34",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "foaf44",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Slab Leak Detection",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "foaf54",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">South Fontana's older slab-built homes are particularly prone to copper pipe corrosion beneath concrete. Our electronic detection finds leaks without destructive excavation.</p>"
+                      }
+                    },
+                    {
+                      "id": "foaf64",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/slab-leak-detection/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "foaf15",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "foaf25",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/hydro-jetting-roof-rancho-cucamonga-ca.webp",
+                      "alt": "Hydrojetting Fontana CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "foaf35",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "foaf45",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Hydrojetting",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "foaf55",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Years of mineral buildup and grease accumulation in Fontana sewer lines call for hydrojetting. We blast pipes clean for lasting results that basic snaking cannot achieve.</p>"
+                      }
+                    },
+                    {
+                      "id": "foaf65",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/hydrojetting/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "foaf16",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "foaf26",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/camera-inspection-drain-cleaning-san-bernardino-ca.webp",
+                      "alt": "Gas Leak Detection Fontana CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "foaf36",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "foaf46",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Gas Leak Detection",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "foaf56",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Gas line problems in Fontana homes require immediate, licensed response. Our technicians locate and repair gas leaks throughout Fontana with precision testing equipment.</p>"
+                      }
+                    },
+                    {
+                      "id": "foaf66",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/gas-leak-detection/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "foaf17",
+              "elType": "container",
+              "settings": {
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 8,
+                  "bottom": 8,
+                  "left": 8,
+                  "isLinked": true
+                },
+                "box_shadow_box_shadow_type": "yes",
+                "box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 2,
+                  "blur": 12,
+                  "spread": 0,
+                  "color": "rgba(0,0,0,0.06)"
+                },
+                "flex_direction": "column",
+                "overflow": "hidden"
+              },
+              "elements": [
+                {
+                  "id": "foaf27",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "http://regal-plumbing.local/wp-content/uploads/2026/03/copper-pipe-installation-chino-ca.webp",
+                      "alt": "Water Filtration Fontana CA"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "height": {
+                      "unit": "px",
+                      "size": 180
+                    },
+                    "object_fit": "cover"
+                  }
+                },
+                {
+                  "id": "foaf37",
+                  "elType": "container",
+                  "settings": {
+                    "flex_direction": "column",
+                    "padding": {
+                      "unit": "px",
+                      "top": "20",
+                      "right": "20",
+                      "bottom": "20",
+                      "left": "20",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "foaf47",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Water Filtration",
+                        "header_size": "h3",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "600",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 16
+                        },
+                        "typography_text_transform": "uppercase",
+                        "title_color": "#2D2D2D"
+                      }
+                    },
+                    {
+                      "id": "foaf57",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p style=\"font-size:13px;color:#6B7280;line-height:1.6;\">Fontana residents deal with some of the region's hardest water. We install whole-home softeners and filtration systems to protect appliances, pipes, and drinking water quality.</p>"
+                      }
+                    },
+                    {
+                      "id": "foaf67",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Learn More",
+                        "link": {
+                          "url": "/water-filtration/"
+                        },
+                        "background_color": "transparent",
+                        "button_text_color": "#B91C1C",
+                        "typography_font_family": "Oswald",
+                        "typography_font_weight": "500",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 12
+                        },
+                        "size": "xs"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "foag01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#1E3A6E",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "foag02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Our Promise",
+            "header_size": "p",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "500",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 3
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#fca5a5"
+          }
+        },
+        {
+          "id": "foag03",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Why Fontana Residents Choose Regal",
+            "header_size": "h2",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 38
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "foag04",
+          "elType": "widget",
+          "widgetType": "divider",
+          "settings": {
+            "color": "#B91C1C",
+            "weight": {
+              "unit": "px",
+              "size": 4
+            },
+            "width": {
+              "unit": "%",
+              "size": 8
+            },
+            "align": "center"
+          }
+        },
+        {
+          "id": "foag05",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "gap": {
+              "unit": "px",
+              "size": 32
+            },
+            "_element_width": "initial"
+          },
+          "elements": [
+            {
+              "id": "foag10",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "Quick Fontana Dispatch",
+                "description_text": "From our Ontario base, we reach Fontana neighborhoods — Sierra Lakes, South Fontana, North Fontana, and Catawba — in under an hour for any plumbing emergency.",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "24",
+                  "bottom": "32",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "title_typography_text_transform": "uppercase",
+                "title_color": "#FFFFFF",
+                "description_color": "#93C5FD",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "position": "top",
+                "title_size": "h3",
+                "view": "default"
+              }
+            },
+            {
+              "id": "foag11",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "Aging Pipe Experts",
+                "description_text": "Fontana's older housing stock requires specialized knowledge. We diagnose and repair aging sewer lines, galvanized pipes, and deteriorating slab systems correctly the first time.",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "24",
+                  "bottom": "32",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "title_typography_text_transform": "uppercase",
+                "title_color": "#FFFFFF",
+                "description_color": "#93C5FD",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "position": "top",
+                "title_size": "h3",
+                "view": "default"
+              }
+            },
+            {
+              "id": "foag12",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "title_text": "Licensed & Insured",
+                "description_text": "CA License #1097482. Every Fontana job is done by licensed plumbers with full insurance coverage and transparent, upfront pricing — no surprises on your invoice.",
+                "icon": {
+                  "value": "fas fa-check",
+                  "library": "fa-solid"
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "32",
+                  "right": "24",
+                  "bottom": "32",
+                  "left": "24",
+                  "isLinked": false
+                },
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Oswald",
+                "title_typography_font_weight": "600",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "title_typography_text_transform": "uppercase",
+                "title_color": "#FFFFFF",
+                "description_color": "#93C5FD",
+                "description_typography_typography": "custom",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "position": "top",
+                "title_size": "h3",
+                "view": "default"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "foah01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "foah02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Local Expertise",
+            "header_size": "p",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "500",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 3
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#B91C1C"
+          }
+        },
+        {
+          "id": "foah03",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Trusted Plumber in Fontana CA",
+            "header_size": "h2",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 36
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#2D2D2D"
+          }
+        },
+        {
+          "id": "foah04",
+          "elType": "widget",
+          "widgetType": "divider",
+          "settings": {
+            "color": "#B91C1C",
+            "weight": {
+              "unit": "px",
+              "size": 4
+            },
+            "width": {
+              "unit": "%",
+              "size": 15
+            }
+          }
+        },
+        {
+          "id": "foah05",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-bottom:18px;\">When Fontana residents search for a <strong>plumber in Fontana CA</strong>, they need someone who understands the city's unique infrastructure challenges. From the industrial roots that shaped South Fontana's older neighborhoods to the newer master-planned communities in <strong>Sierra Lakes</strong> and <strong>North Fontana</strong>, the plumbing needs vary dramatically across the city.</p><p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-bottom:18px;\">As a trusted <strong>emergency plumber Fontana CA</strong> residents rely on, we don't believe in long hold times or estimated arrival windows. When you call us with a plumbing emergency in Fontana, we dispatch immediately. Burst pipes, sewage backups, and gas leaks get our fastest response — day or night.</p><p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-bottom:18px;\"><strong>Drain cleaning Fontana CA</strong> is a frequent service call we handle throughout the city. Fontana's water is high in dissolved minerals that coat the inside of pipes over time. Our team uses professional drain snaking for straightforward blockages and high-pressure hydrojetting for persistent clogs.</p><p style=\"font-size:15px;color:#4B5563;line-height:1.8;margin-bottom:18px;\">For <strong>slab leak Fontana</strong> diagnosis, we use electronic leak detection equipment that pinpoints the exact location of underground pipe failures without tearing up your entire floor. Our <strong>water heater repair Fontana CA</strong> team handles everything from simple thermostat replacements to full tankless system conversions.</p>"
+          }
+        }
+      ]
+    },
+    {
+      "id": "foai01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F3F4F6",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "24",
+          "bottom": "80",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "foai02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Common Questions",
+            "header_size": "p",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "500",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": 3
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#B91C1C"
+          }
+        },
+        {
+          "id": "foai03",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Fontana Plumbing FAQs",
+            "header_size": "h2",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 36
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#2D2D2D"
+          }
+        },
+        {
+          "id": "foai04",
+          "elType": "widget",
+          "widgetType": "divider",
+          "settings": {
+            "color": "#B91C1C",
+            "weight": {
+              "unit": "px",
+              "size": 4
+            },
+            "width": {
+              "unit": "%",
+              "size": 8
+            },
+            "align": "center"
+          }
+        },
+        {
+          "id": "foai05",
+          "elType": "widget",
+          "widgetType": "accordion",
+          "settings": {
+            "tabs": [
+              {
+                "faq_question": "How fast can you get to Fontana for an emergency?",
+                "faq_answer": "We typically reach Fontana within 45–60 minutes of your call. Our technicians are regularly working in the area — servicing Fontana, Rancho Cucamonga, Rialto, and Ontario — so we're never far away when you need us."
+              },
+              {
+                "faq_question": "Do you serve all of Fontana, including South Fontana and Sierra Lakes?",
+                "faq_answer": "Yes — we serve all of Fontana, from South Fontana and the industrial corridor near I-10 up through Sierra Lakes, North Fontana, and the Catawba community near the foothills."
+              },
+              {
+                "faq_question": "Why do so many Fontana homes have slab leak problems?",
+                "faq_answer": "Many Fontana homes built in the 1970s and 1980s used copper supply pipes embedded directly in concrete slabs. Over the decades, Fontana's mineral-rich water has corroded these pipes from the inside, and soil movement has stressed them from the outside."
+              },
+              {
+                "faq_question": "What's the difference between snaking and hydrojetting for Fontana drains?",
+                "faq_answer": "Drain snaking breaks up clogs with a rotating cable — effective for soft blockages like hair and grease. Hydrojetting uses high-pressure water to scour the entire pipe wall, removing mineral scale and debris. For Fontana's hard water conditions, hydrojetting often provides a much longer-lasting result."
+              },
+              {
+                "faq_question": "Can you fix a sewer line in Fontana without digging up my yard?",
+                "faq_answer": "In many cases, yes. We offer trenchless sewer line repair options for Fontana properties — pipe lining and pipe bursting methods that repair or replace damaged sewer lines with minimal excavation."
+              }
+            ],
+            "title_html_tag": "h3",
+            "border_width": {
+              "unit": "px",
+              "size": 1
+            },
+            "border_color": "#D1D5DB",
+            "title_color": "#2D2D2D",
+            "title_active_color": "#B91C1C",
+            "title_typography_typography": "custom",
+            "title_typography_font_family": "Oswald",
+            "title_typography_font_weight": "600",
+            "title_typography_font_size": {
+              "unit": "px",
+              "size": 15
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "foaj01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#B91C1C",
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "24",
+          "bottom": "64",
+          "left": "24",
+          "isLinked": false
+        },
+        "text_align": "center"
+      },
+      "elements": [
+        {
+          "id": "foaj02",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Need a Plumber in Fontana? We're Ready Now",
+            "header_size": "h2",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 42
+            },
+            "typography_text_transform": "uppercase",
+            "title_color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "foaj03",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style=\"text-align:center;font-size:16px;color:rgba(255,255,255,0.85);\">24/7 emergency and same-day service throughout Fontana, CA</p>"
+          }
+        },
+        {
+          "id": "foaj04",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "<a href=\"tel:9096004561\" style=\"color:#FFFFFF;\">(909) 600-4561</a>",
+            "header_size": "h2",
+            "align": "center",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 50
+            },
+            "title_color": "#FFFFFF"
+          }
+        },
+        {
+          "id": "foaj05",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Call Now",
+            "link": {
+              "url": "tel:9096004561"
+            },
+            "background_color": "#FFFFFF",
+            "button_text_color": "#B91C1C",
+            "typography_font_family": "Oswald",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 15
+            },
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": 2,
+              "right": 2,
+              "bottom": 2,
+              "left": 2,
+              "isLinked": true
+            },
+            "border_color": "#FFFFFF",
+            "border_radius": {
+              "unit": "px",
+              "top": 4,
+              "right": 4,
+              "bottom": 4,
+              "left": 4,
+              "isLinked": true
+            },
+            "align": "center",
+            "size": "lg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "foak01",
+      "elType": "container",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#2D2D2D",
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "24",
+          "bottom": "24",
+          "left": "24",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "foak02",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "gap": {
+              "unit": "px",
+              "size": 48
+            },
+            "_element_width": "initial"
+          },
+          "elements": [
+            {
+              "id": "foak03",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "_element_width": "25%"
+              },
+              "elements": [
+                {
+                  "id": "foak04",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Regal Plumbing &amp; Rooter",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#FFFFFF"
+                  }
+                },
+                {
+                  "id": "foak05",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"font-size:13px;color:#9CA3AF;line-height:1.6;\">Honest, professional plumbing &amp; rooter services for the Inland Empire &amp; San Gabriel Valley.</p>"
+                  }
+                },
+                {
+                  "id": "foak06",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"display:inline-block;background:rgba(185,28,28,0.2);border:1px solid rgba(185,28,28,0.4);color:#fca5a5;font-size:11.5px;font-family:Oswald,sans-serif;letter-spacing:1px;padding:4px 10px;border-radius:3px;\">CA License #1097482</p>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "foak07",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "_element_width": "15%"
+              },
+              "elements": [
+                {
+                  "id": "foak08",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Services",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.5
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#FFFFFF"
+                  }
+                },
+                {
+                  "id": "foak09",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style=\"list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:9px;\"><li><a href=\"/emergency-plumbing/\" style=\"font-size:13.5px;color:#9CA3AF;\">Emergency Plumbing</a></li><li><a href=\"/drain-cleaning/\" style=\"font-size:13.5px;color:#9CA3AF;\">Drain Cleaning</a></li><li><a href=\"/sewer-line-repair/\" style=\"font-size:13.5px;color:#9CA3AF;\">Sewer Line Repair</a></li><li><a href=\"/water-heater-services/\" style=\"font-size:13.5px;color:#9CA3AF;\">Water Heater Services</a></li><li><a href=\"/slab-leak-detection/\" style=\"font-size:13.5px;color:#9CA3AF;\">Slab Leak Detection</a></li><li><a href=\"/hydrojetting/\" style=\"font-size:13.5px;color:#9CA3AF;\">Hydrojetting</a></li><li><a href=\"/gas-leak-detection/\" style=\"font-size:13.5px;color:#9CA3AF;\">Gas Leak Detection</a></li><li><a href=\"/water-filtration/\" style=\"font-size:13.5px;color:#9CA3AF;\">Water Filtration</a></li></ul>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "foak10",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "_element_width": "15%"
+              },
+              "elements": [
+                {
+                  "id": "foak11",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Service Area",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.5
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#FFFFFF"
+                  }
+                },
+                {
+                  "id": "foak12",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style=\"list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:9px;\"><li><a href=\"/service-area/ontario-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Ontario</a></li><li><a href=\"/service-area/rancho-cucamonga-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Rancho Cucamonga</a></li><li><a href=\"/service-area/fontana-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Fontana</a></li><li><a href=\"/service-area/pomona-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Pomona</a></li><li><a href=\"/service-area/chino-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Chino</a></li><li><a href=\"/service-area/corona-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Corona</a></li><li><a href=\"/service-area/upland-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">Upland</a></li><li><a href=\"/service-area/west-covina-ca/\" style=\"font-size:13.5px;color:#9CA3AF;\">West Covina</a></li></ul>"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "foak13",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "_element_width": "20%"
+              },
+              "elements": [
+                {
+                  "id": "foak14",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Contact Us",
+                    "typography_font_family": "Oswald",
+                    "typography_font_weight": "600",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": 1.5
+                    },
+                    "typography_text_transform": "uppercase",
+                    "title_color": "#FFFFFF"
+                  }
+                },
+                {
+                  "id": "foak15",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<ul style=\"list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:12px;\"><li style=\"font-size:13.5px;color:#9CA3AF;\">2141 E Philadelphia St, Suite R<br>Ontario, CA 91761</li><li><a href=\"tel:9096004561\" style=\"font-size:13.5px;color:#9CA3AF;\">(909) 600-4561</a></li><li><a href=\"mailto:info@regalplumbingservices.com\" style=\"font-size:13.5px;color:#9CA3AF;\">info@regalplumbingservices.com</a></li><li style=\"font-size:13.5px;color:#9CA3AF;\">24/7 Emergency | Mon–Sat: 7am–7pm</li></ul>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "foak16",
+          "elType": "widget",
+          "widgetType": "divider",
+          "settings": {
+            "color": "rgba(255,255,255,0.10)",
+            "weight": {
+              "unit": "px",
+              "size": 1
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            }
+          }
+        },
+        {
+          "id": "foak17",
+          "elType": "container",
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "padding": {
+              "unit": "px",
+              "top": "18",
+              "right": "0",
+              "bottom": "18",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "foak18",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:12.5px;color:#6B7280;\">&copy; 2025 Regal Plumbing &amp; Rooter. All Rights Reserved. CA License #1097482</p>"
+              }
+            },
+            {
+              "id": "foak19",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"font-size:12.5px;color:#6B7280;\"><a href=\"/privacy-policy/\" style=\"color:#6B7280;\">Privacy Policy</a> &nbsp; <a href=\"/terms-of-service/\" style=\"color:#6B7280;\">Terms of Service</a></p>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
