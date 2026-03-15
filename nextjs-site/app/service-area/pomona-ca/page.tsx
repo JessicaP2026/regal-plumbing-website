@@ -5,7 +5,7 @@ import CityPageTemplate from '@/components/CityPageTemplate'
 const city = CITIES.find((c) => c.slug === 'pomona-ca')!
 
 export const metadata = generatePageMetadata({
-  title: 'Plumber in Pomona, CA \u2014 24/7 Service | Regal Plumbing & Rooter',
+  title: 'Plumber in Pomona, CA - 24/7 Service | Regal Plumbing & Rooter',
   description: 'Licensed plumber in Pomona CA. Emergency plumbing, drain cleaning, sewer repair & more. Call (909) 600-4561.',
   path: '/service-area/pomona-ca',
 })
@@ -19,13 +19,13 @@ export default function PomonaCityPage() {
         'Regal Plumbing & Rooter serves all of Pomona with fast, professional plumbing services. Our Ontario-based team knows the area well and responds quickly to both emergency and scheduled service calls throughout the city.',
       ]}
       serviceDescriptions={[
-        { slug: 'emergency-plumbing', description: 'Emergency plumbing for Pomona \u2014 we respond to burst pipes, sewage backups, and major leaks day or night.' },
+        { slug: 'emergency-plumbing', description: 'Emergency plumbing for Pomona - we respond to burst pipes, sewage backups, and major leaks day or night.' },
         { slug: 'drain-cleaning', description: "Pomona's aging drain systems benefit from professional cleaning. We clear blockages in kitchens, bathrooms, and main lines." },
         { slug: 'sewer-line-repair', description: "Many Pomona homes have older sewer infrastructure. We provide camera inspection and cost-effective repair solutions." },
-        { slug: 'water-heater-services', description: 'Water heater repair and installation throughout Pomona \u2014 tank, tankless, and heat pump systems.' },
+        { slug: 'water-heater-services', description: 'Water heater repair and installation throughout Pomona - tank, tankless, and heat pump systems.' },
         { slug: 'slab-leak-detection', description: "Pomona's clay soil conditions put stress on underground pipes. Our electronic detection finds slab leaks with minimal disruption." },
-        { slug: 'hydrojetting', description: 'High-pressure pipe cleaning for Pomona homes and businesses \u2014 clearing grease, roots, and mineral scale.' },
-        { slug: 'gas-leak-detection', description: "Licensed gas leak detection and repair for Pomona's diverse housing stock \u2014 from older homes to newer construction." },
+        { slug: 'hydrojetting', description: 'High-pressure pipe cleaning for Pomona homes and businesses - clearing grease, roots, and mineral scale.' },
+        { slug: 'gas-leak-detection', description: "Licensed gas leak detection and repair for Pomona's diverse housing stock - from older homes to newer construction." },
         { slug: 'water-filtration', description: 'Improve your Pomona home\'s water quality with whole-home softeners and filtration systems.' },
       ]}
       whyCards={[
@@ -41,10 +41,10 @@ export default function PomonaCityPage() {
       ]}
       faqs={[
         { question: 'How fast can you reach my Pomona home?', answer: 'Our Ontario-based team typically reaches Pomona locations within 35\u201350 minutes. Emergency calls receive priority dispatch.' },
-        { question: 'Do you serve all Pomona neighborhoods?', answer: 'Yes \u2014 we serve all of Pomona, including Phillips Ranch, downtown, Ganesha Park area, and every neighborhood in between.' },
+        { question: 'Do you serve all Pomona neighborhoods?', answer: 'Yes - we serve all of Pomona, including Phillips Ranch, downtown, Ganesha Park area, and every neighborhood in between.' },
         { question: 'What are common plumbing issues in Pomona?', answer: 'Aging sewer lines, drain blockages, slab leaks, and water heater failures are the most common issues we address in Pomona homes.' },
         { question: 'Do you offer same-day service in Pomona?', answer: 'Yes. We offer same-day scheduled service for most plumbing needs in Pomona, subject to availability.' },
-        { question: 'Is emergency plumbing available 24/7 in Pomona?', answer: 'Yes. Call (909) 600-4561 any time for emergency plumbing service in Pomona \u2014 including nights, weekends, and holidays.' },
+        { question: 'Is emergency plumbing available 24/7 in Pomona?', answer: 'Yes. Call (909) 600-4561 any time for emergency plumbing service in Pomona - including nights, weekends, and holidays.' },
       ]}
       ctaHeading="Need a Plumber in Pomona? Call Us Now"
       ctaSubtext="24/7 emergency and same-day plumbing service throughout Pomona, CA"

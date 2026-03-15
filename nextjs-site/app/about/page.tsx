@@ -8,7 +8,7 @@ import HeroSection from '@/components/HeroSection'
 import EmergencyCTABanner from '@/components/EmergencyCTABanner'
 
 export const metadata = generatePageMetadata({
-  title: 'About Us \u2014 Regal Plumbing & Rooter',
+  title: 'About Us - Regal Plumbing & Rooter',
   description: 'Family-owned plumbing company in Ontario, CA. Licensed, insured, and serving 32+ cities across the Inland Empire & San Gabriel Valley since 2022.',
   path: '/about',
 })
@@ -22,17 +22,17 @@ const TEAM = [
 ]
 
 const VALUES = [
-  { icon: '\uD83E\uDD1D', title: 'Honesty & Transparency', desc: 'We believe every customer deserves clear, upfront pricing and honest advice \u2014 even when that means recommending a less expensive solution. We never upsell work that isn\u2019t needed.' },
+  { icon: '\uD83E\uDD1D', title: 'Honesty & Transparency', desc: 'We believe every customer deserves clear, upfront pricing and honest advice - even when that means recommending a less expensive solution. We never upsell work that isn\u2019t needed.' },
   { icon: '\uD83D\uDD27', title: 'Quality Craftsmanship', desc: 'We take pride in doing the job right the first time. Our work is done to last, using quality materials and proven techniques. We stand behind everything we install or repair.' },
-  { icon: '\u2764\uFE0F', title: 'Community Commitment', desc: 'We\u2019re not just serving homes \u2014 we\u2019re building relationships in the communities where we live and work. Supporting our neighbors is at the heart of everything Regal does.' },
+  { icon: '\u2764\uFE0F', title: 'Community Commitment', desc: 'We\u2019re not just serving homes - we\u2019re building relationships in the communities where we live and work. Supporting our neighbors is at the heart of everything Regal does.' },
 ]
 
 const CREDENTIALS = [
   { icon: '\uD83D\uDCCB', title: "California Contractor's License #1097482", desc: 'Fully licensed by the California Contractors State License Board (CSLB). Our license number is verifiable at cslb.ca.gov. We maintain all required continuing education and renewals.' },
   { icon: '\uD83D\uDEE1\uFE0F', title: 'Fully Insured & Bonded', desc: 'Regal Plumbing & Rooter carries comprehensive general liability insurance and workers\u2019 compensation coverage, protecting you and your property on every job.' },
-  { icon: '\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC67', title: 'Family Owned & Operated', desc: 'We are a locally owned, family-operated business \u2014 not a franchise or corporate chain. Every decision is made with our customers and community in mind, not shareholder returns.' },
+  { icon: '\uD83D\uDC68\u200D\uD83D\uDC69\u200D\uD83D\uDC67', title: 'Family Owned & Operated', desc: 'We are a locally owned, family-operated business - not a franchise or corporate chain. Every decision is made with our customers and community in mind, not shareholder returns.' },
   { icon: '\u23F0', title: '24/7 Emergency Availability', desc: 'Plumbing emergencies don\u2019t follow business hours. Our team is on-call around the clock, every day of the year, ready to respond when you need help most.' },
-  { icon: '\uD83D\uDCCD', title: 'Locally Based in Ontario, CA', desc: 'Our shop is located at 2141 E Philadelphia St, Suite R, Ontario, CA 91761 \u2014 right in the heart of the Inland Empire. Local means fast response and community accountability.' },
+  { icon: '\uD83D\uDCCD', title: 'Locally Based in Ontario, CA', desc: 'Our shop is located at 2141 E Philadelphia St, Suite R, Ontario, CA 91761 - right in the heart of the Inland Empire. Local means fast response and community accountability.' },
   { icon: '\u2B50', title: '4+ Years of Proven Service', desc: 'Since our founding, we\u2019ve built a track record of five-star reviews and satisfied customers across Southern California. Our reputation is built one job at a time.' },
 ]
 
@@ -60,7 +60,7 @@ export default function AboutPage() {
             <div>
               <Image
                 src="/images/regal-plumbing-rooter-office-ontario-ca.webp"
-                alt="Regal Plumbing & Rooter \u2014 Ontario, CA Office"
+                alt="Regal Plumbing & Rooter - Ontario, CA Office"
                 width={600}
                 height={400}
                 className="rounded-lg shadow-xl w-full"
@@ -174,7 +174,7 @@ export default function AboutPage() {
                 <div className="relative w-full aspect-[3/4] rounded-lg overflow-hidden mb-3.5">
                   <Image
                     src={member.image}
-                    alt={`${member.name} \u2014 ${member.role}`}
+                    alt={`${member.name} - ${member.role}`}
                     fill
                     className="object-cover object-top"
                     sizes="(max-width: 640px) 50vw, (max-width: 900px) 33vw, 20vw"
@@ -200,8 +200,8 @@ export default function AboutPage() {
               <div className="w-14 h-1 bg-red rounded mb-7" />
               <ul className="flex flex-col gap-5">
                 {[
-                  { icon: '\uD83D\uDCB0', title: 'Upfront Pricing \u2014 Always', desc: 'You\u2019ll know the full cost before we begin any work. No hidden fees, no surprise invoices. Our quotes are clear and honest.' },
-                  { icon: '\uD83C\uDFAF', title: 'First-Time Fixes', desc: 'We properly diagnose problems before starting work, so we fix it right the first time \u2014 saving you time and money.' },
+                  { icon: '\uD83D\uDCB0', title: 'Upfront Pricing - Always', desc: 'You\u2019ll know the full cost before we begin any work. No hidden fees, no surprise invoices. Our quotes are clear and honest.' },
+                  { icon: '\uD83C\uDFAF', title: 'First-Time Fixes', desc: 'We properly diagnose problems before starting work, so we fix it right the first time - saving you time and money.' },
                   { icon: '\uD83E\uDDF9', title: 'Respect for Your Home', desc: 'Our technicians wear shoe covers, protect your floors, and leave the work area cleaner than we found it. Always.' },
                   { icon: '\uD83D\uDCDE', title: 'Real People, Real Answers', desc: 'When you call us, a real person answers. We communicate clearly at every step and follow up after the job is done.' },
                 ].map((item, i) => (
@@ -230,7 +230,7 @@ export default function AboutPage() {
 
       <EmergencyCTABanner
         heading="Ready to Work With Us?"
-        subtext="Call now for a free quote \u2014 or reach out anytime for emergency service"
+        subtext="Call now for a free quote - or reach out anytime for emergency service"
       />
     </>
   )

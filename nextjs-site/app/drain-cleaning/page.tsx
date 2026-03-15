@@ -2,7 +2,7 @@ import { generatePageMetadata } from '@/lib/metadata'
 import ServicePageTemplate from '@/components/ServicePageTemplate'
 
 export const metadata = generatePageMetadata({
-  title: 'Drain Cleaning Services \u2014 Regal Plumbing & Rooter',
+  title: 'Drain Cleaning Services - Regal Plumbing & Rooter',
   description: 'Professional drain cleaning for kitchen, bathroom, and main sewer lines. Residential & commercial. Call (909) 600-4561.',
   path: '/drain-cleaning',
 })
@@ -17,7 +17,7 @@ export default function DrainCleaningPage() {
       heroImage="/images/drain-cleaning-shower-upland-ca.webp"
       overviewEyebrow="Restore Full Flow"
       overviewTitle="Professional Drain Cleaning Services"
-      overviewBody="Slow or blocked drains are more than an inconvenience \u2014 they can signal deeper plumbing issues. Our drain cleaning services clear everything from minor kitchen clogs to severe main line blockages, using professional-grade equipment to restore full flow and prevent future buildup."
+      overviewBody="Slow or blocked drains are more than an inconvenience - they can signal deeper plumbing issues. Our drain cleaning services clear everything from minor kitchen clogs to severe main line blockages, using professional-grade equipment to restore full flow and prevent future buildup."
       overviewFeatures={[
         'Kitchen and bathroom drain clearing',
         'Main sewer line snaking',

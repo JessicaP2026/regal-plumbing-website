@@ -8,7 +8,7 @@ import EmergencyCTABanner from '@/components/EmergencyCTABanner'
 import Link from 'next/link'
 
 export const metadata = generatePageMetadata({
-  title: 'Contact Us \u2014 Regal Plumbing & Rooter | Call (909) 600-4561',
+  title: 'Contact Us - Regal Plumbing & Rooter | Call (909) 600-4561',
   description: 'Contact Regal Plumbing & Rooter for 24/7 emergency plumbing or schedule service. Call (909) 600-4561 or fill out our contact form.',
   path: '/contact',
 })
@@ -25,7 +25,7 @@ export default function ContactPage() {
 
       <HeroSection
         title="Contact Regal Plumbing & Rooter"
-        subtitle="Call now for immediate service or fill out the form below \u2014 we'll get back to you fast."
+        subtitle="Call now for immediate service or fill out the form below - we'll get back to you fast."
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Contact Us' }]}
       />
 
@@ -125,7 +125,7 @@ export default function ContactPage() {
       </section>
 
       <EmergencyCTABanner
-        heading="Plumbing Emergency? Don't Wait \u2014 Call Now"
+        heading="Plumbing Emergency? Don't Wait - Call Now"
         subtext="We're available 24/7 for emergency plumbing across Southern California"
       />
     </>

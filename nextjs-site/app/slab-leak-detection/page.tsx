@@ -2,7 +2,7 @@ import { generatePageMetadata } from '@/lib/metadata'
 import ServicePageTemplate from '@/components/ServicePageTemplate'
 
 export const metadata = generatePageMetadata({
-  title: 'Slab Leak Detection \u2014 Non-Invasive | Regal Plumbing & Rooter',
+  title: 'Slab Leak Detection - Non-Invasive | Regal Plumbing & Rooter',
   description: 'Electronic slab leak detection with minimal disruption. Spot repair, re-routing & epoxy lining. Call (909) 600-4561.',
   path: '/slab-leak-detection',
 })
@@ -12,14 +12,14 @@ export default function SlabLeakDetectionPage() {
     <ServicePageTemplate
       slug="slab-leak-detection"
       heroTitle="Slab Leak Detection"
-      heroSubtitle="Non-invasive electronic leak detection beneath concrete slabs \u2014 saving your home from hidden water damage"
+      heroSubtitle="Non-invasive electronic leak detection beneath concrete slabs - saving your home from hidden water damage"
       badge="Non-Invasive Technology"
       heroImage="/images/leak-repair-wall-open-ontario-ca.webp"
       overviewEyebrow="Find It Fast, Fix It Right"
       overviewTitle="Slab Leak Detection & Repair"
-      overviewBody="Slab leaks are among the most damaging \u2014 and hardest to find \u2014 plumbing problems a homeowner can face. We use electronic detection equipment to precisely locate leaks beneath your concrete slab without unnecessary excavation, saving you time, money, and the headache of major property disruption."
+      overviewBody="Slab leaks are among the most damaging - and hardest to find - plumbing problems a homeowner can face. We use electronic detection equipment to precisely locate leaks beneath your concrete slab without unnecessary excavation, saving you time, money, and the headache of major property disruption."
       overviewFeatures={[
-        'Electronic leak detection \u2014 no guesswork',
+        'Electronic leak detection - no guesswork',
         'Spot repair and re-routing options',
         'Epoxy pipe lining (non-invasive)',
         'Post-repair pressure testing',

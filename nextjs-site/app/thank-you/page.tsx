@@ -3,7 +3,7 @@ import { BUSINESS } from '@/lib/constants'
 import { generatePageMetadata } from '@/lib/metadata'
 
 export const metadata = generatePageMetadata({
-  title: 'Thank You \u2014 Regal Plumbing & Rooter',
+  title: 'Thank You - Regal Plumbing & Rooter',
   description: 'Thank you for contacting Regal Plumbing & Rooter. We will be in touch shortly.',
   path: '/thank-you',
   noindex: true,

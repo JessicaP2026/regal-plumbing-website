@@ -65,7 +65,7 @@ export default function CityPageTemplate({
 
       <HeroSection
         title={city.hero}
-        subtitle={`Licensed, local plumbing services for ${city.name} homeowners and businesses \u2014 available 24/7 for emergencies and same-day scheduled work.`}
+        subtitle={`Licensed, local plumbing services for ${city.name} homeowners and businesses - available 24/7 for emergencies and same-day scheduled work.`}
         breadcrumbs={[
           { label: 'Home', href: '/' },
           { label: 'Service Area', href: '/service-area' },
@@ -85,7 +85,7 @@ export default function CityPageTemplate({
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title={`Plumber in ${city.name} CA \u2014 Regal Plumbing Service Area`}
+                title={`Plumber in ${city.name} CA - Regal Plumbing Service Area`}
               />
             </div>
             <div>

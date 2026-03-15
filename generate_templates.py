@@ -14,7 +14,7 @@ def uid():
 SCHEMA = "{\"@context\":\"https://schema.org\",\"@type\":\"Plumber\",\"name\":\"Regal Plumbing & Rooter\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"2141 E Philadelphia St Suite R\",\"addressLocality\":\"Ontario\",\"addressRegion\":\"CA\",\"postalCode\":\"91761\"},\"telephone\":\"+19096004561\",\"openingHours\":\"Mo-Sa 07:00-19:00\",\"areaServed\":\"Inland Empire CA\"}"
 
 EMERGENCY_BAR = """<style>.emergency-bar{background:#2D2D2D;color:#fff;text-align:center;padding:9px 16px;font-size:13.5px;font-weight:600;font-family:'Open Sans',sans-serif;letter-spacing:.3px}.emergency-bar a{color:#fca5a5;text-decoration:underline;text-underline-offset:2px}</style>
-<div class="emergency-bar">24/7 Emergency Service Available \u2014 Call <a href="tel:9096004561">(909) 600-4561</a></div>"""
+<div class="emergency-bar">24/7 Emergency Service Available - Call <a href="tel:9096004561">(909) 600-4561</a></div>"""
 
 def header_html(active=""):
     nav_links = [

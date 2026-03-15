@@ -35,7 +35,7 @@ export const SERVICES: Service[] = [
   {
     name: 'Emergency Plumbing',
     slug: 'emergency-plumbing',
-    description: 'Rapid-response emergency plumbing for the Inland Empire \u2014 we\u2019re on call around the clock.',
+    description: 'Rapid-response emergency plumbing for the Inland Empire - we\u2019re on call around the clock.',
     image: '/images/pipe-repair-leak-detection-chino-hills-ca.webp',
     alt: 'Emergency plumbing service',
     badge: '24/7 Available',
@@ -166,7 +166,7 @@ export const REVIEWS = [
 export const FAQS_HOME = [
   {
     question: 'Do you offer 24/7 emergency plumbing service?',
-    answer: 'Yes. Our emergency plumbing line is staffed 24 hours a day, 7 days a week, 365 days a year. Call (909) 600-4561 any time \u2014 a real person will answer and dispatch a technician.',
+    answer: 'Yes. Our emergency plumbing line is staffed 24 hours a day, 7 days a week, 365 days a year. Call (909) 600-4561 any time - a real person will answer and dispatch a technician.',
   },
   {
     question: 'How fast can you get to my home?',

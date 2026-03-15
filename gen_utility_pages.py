@@ -72,7 +72,7 @@ def emerg_bar(p):
     return {
         "id": f"{p}aa01", "elType": "container",
         "settings": {"background_background":"classic","background_color":"#2D2D2D","padding":{"unit":"px","top":"9","right":"16","bottom":"9","left":"16","isLinked":False}},
-        "elements": [{"id":f"{p}aa02","elType":"widget","widgetType":"text-editor","settings":{"editor":"<p style=\"text-align:center;color:#ffffff;font-size:13.5px;font-weight:600;\">24/7 Emergency Service Available \u2014 Call <a href=\"tel:9096004561\" style=\"color:#fca5a5;\">(909) 600-4561</a></p>"}}]
+        "elements": [{"id":f"{p}aa02","elType":"widget","widgetType":"text-editor","settings":{"editor":"<p style=\"text-align:center;color:#ffffff;font-size:13.5px;font-weight:600;\">24/7 Emergency Service Available - Call <a href=\"tel:9096004561\" style=\"color:#fca5a5;\">(909) 600-4561</a></p>"}}]
     }
 
 def header_container(p):

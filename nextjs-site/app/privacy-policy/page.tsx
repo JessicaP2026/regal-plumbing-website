@@ -3,7 +3,7 @@ import { generatePageMetadata } from '@/lib/metadata'
 import HeroSection from '@/components/HeroSection'
 
 export const metadata = generatePageMetadata({
-  title: 'Privacy Policy \u2014 Regal Plumbing & Rooter',
+  title: 'Privacy Policy - Regal Plumbing & Rooter',
   description: 'Privacy policy for Regal Plumbing & Rooter. Learn how we collect, use, and protect your personal information.',
   path: '/privacy-policy',
 })

@@ -8,8 +8,8 @@ import HeroSection from '@/components/HeroSection'
 import EmergencyCTABanner from '@/components/EmergencyCTABanner'
 
 export const metadata = generatePageMetadata({
-  title: 'Plumbing Services \u2014 Regal Plumbing & Rooter',
-  description: 'Comprehensive residential and commercial plumbing services \u2014 emergency plumbing, drain cleaning, sewer repair, water heaters & more. Available 24/7.',
+  title: 'Plumbing Services - Regal Plumbing & Rooter',
+  description: 'Comprehensive residential and commercial plumbing services - emergency plumbing, drain cleaning, sewer repair, water heaters & more. Available 24/7.',
   path: '/services',
 })
 
@@ -20,8 +20,8 @@ const SERVICE_DETAILS = [
     badge: '24/7 Available',
     image: '/images/pipe-repair-leak-detection-chino-hills-ca.webp',
     alt: 'Emergency plumbing service',
-    description: 'Plumbing emergencies don\u2019t wait for business hours, and neither do we. Regal Plumbing & Rooter provides rapid-response emergency plumbing services around the clock. Whether it\u2019s a burst pipe, severe water leak, or overflowing fixture \u2014 our team mobilizes fast to minimize damage and restore your home.',
-    features: ['Rapid response \u2014 typically on-site within the hour', 'Burst pipe repair and water shut-off', 'Severe clog and overflow emergencies', '24/7 availability, including holidays'],
+    description: 'Plumbing emergencies don\u2019t wait for business hours, and neither do we. Regal Plumbing & Rooter provides rapid-response emergency plumbing services around the clock. Whether it\u2019s a burst pipe, severe water leak, or overflowing fixture - our team mobilizes fast to minimize damage and restore your home.',
+    features: ['Rapid response - typically on-site within the hour', 'Burst pipe repair and water shut-off', 'Severe clog and overflow emergencies', '24/7 availability, including holidays'],
     isEmergency: true,
   },
   {
@@ -30,7 +30,7 @@ const SERVICE_DETAILS = [
     badge: 'Residential & Commercial',
     image: '/images/drain-cleaning-shower-upland-ca.webp',
     alt: 'Drain cleaning service',
-    description: 'Slow or blocked drains are more than an inconvenience \u2014 they can signal deeper plumbing issues. Our drain cleaning services clear everything from minor kitchen clogs to severe main line blockages, using professional-grade equipment to restore full flow and prevent future buildup.',
+    description: 'Slow or blocked drains are more than an inconvenience - they can signal deeper plumbing issues. Our drain cleaning services clear everything from minor kitchen clogs to severe main line blockages, using professional-grade equipment to restore full flow and prevent future buildup.',
     features: ['Kitchen and bathroom drain clearing', 'Main sewer line snaking', 'Floor drain and utility sink cleaning', 'Preventative maintenance plans available'],
   },
   {
@@ -39,7 +39,7 @@ const SERVICE_DETAILS = [
     badge: 'Expert Diagnosis',
     image: '/images/sewer-line-repair-excavation-fontana-ca.webp',
     alt: 'Sewer line repair',
-    description: 'Sewer line problems can cause serious damage if left untreated. We use camera inspection technology to accurately diagnose sewer line issues \u2014 root intrusion, cracks, bellied pipes, and more \u2014 then provide the most cost-effective repair solution, including trenchless options when available.',
+    description: 'Sewer line problems can cause serious damage if left untreated. We use camera inspection technology to accurately diagnose sewer line issues - root intrusion, cracks, bellied pipes, and more - then provide the most cost-effective repair solution, including trenchless options when available.',
     features: ['Camera video inspection and diagnosis', 'Pipe bursting and trenchless repair', 'Root intrusion removal', 'Full sewer line replacement when needed'],
   },
   {
@@ -48,7 +48,7 @@ const SERVICE_DETAILS = [
     badge: 'All Types & Brands',
     image: '/images/sink-faucet-installation-ontario-ca.webp',
     alt: 'Water heater installation',
-    description: 'No hot water? We install and repair all types of water heaters \u2014 traditional tank units, tankless (on-demand) systems, and hybrid heat pump models. Our technicians are experienced with all major brands and can help you choose the right system for your household\u2019s needs and budget.',
+    description: 'No hot water? We install and repair all types of water heaters - traditional tank units, tankless (on-demand) systems, and hybrid heat pump models. Our technicians are experienced with all major brands and can help you choose the right system for your household\u2019s needs and budget.',
     features: ['Traditional tank water heater install & repair', 'Tankless water heater installation', 'Heat pump water heater systems', 'Anode rod replacement and flushing'],
   },
   {
@@ -57,8 +57,8 @@ const SERVICE_DETAILS = [
     badge: 'Non-Invasive Technology',
     image: '/images/leak-repair-wall-open-ontario-ca.webp',
     alt: 'Slab leak detection',
-    description: 'Slab leaks are among the most damaging \u2014 and hardest to find \u2014 plumbing problems a homeowner can face. We use electronic detection equipment to precisely locate leaks beneath your concrete slab without unnecessary excavation, saving you time, money, and the headache of major property disruption.',
-    features: ['Electronic leak detection \u2014 no guesswork', 'Spot repair and re-routing options', 'Epoxy pipe lining (non-invasive)', 'Post-repair pressure testing'],
+    description: 'Slab leaks are among the most damaging - and hardest to find - plumbing problems a homeowner can face. We use electronic detection equipment to precisely locate leaks beneath your concrete slab without unnecessary excavation, saving you time, money, and the headache of major property disruption.',
+    features: ['Electronic leak detection - no guesswork', 'Spot repair and re-routing options', 'Epoxy pipe lining (non-invasive)', 'Post-repair pressure testing'],
   },
   {
     slug: 'hydrojetting',
@@ -66,7 +66,7 @@ const SERVICE_DETAILS = [
     badge: 'High-Pressure Cleaning',
     image: '/images/hydro-jetting-roof-rancho-cucamonga-ca.webp',
     alt: 'Hydrojetting service',
-    description: 'When snaking isn\u2019t enough, hydrojetting is the most effective method for clearing stubborn grease, scale, and root intrusion from drain and sewer lines. Using water at up to 4,000 PSI, hydrojetting scours pipe walls clean and restores full pipe capacity \u2014 ideal for commercial properties and recurring residential blockages.',
+    description: 'When snaking isn\u2019t enough, hydrojetting is the most effective method for clearing stubborn grease, scale, and root intrusion from drain and sewer lines. Using water at up to 4,000 PSI, hydrojetting scours pipe walls clean and restores full pipe capacity - ideal for commercial properties and recurring residential blockages.',
     features: ['Clears grease, scale, and hardened buildup', 'Removes tree root intrusion', 'Ideal for commercial kitchens and restaurants', 'Extends the life of your plumbing system'],
   },
   {
@@ -102,7 +102,7 @@ export default function ServicesPage() {
 
       <HeroSection
         title="Plumbing Services"
-        subtitle="Comprehensive residential and commercial plumbing solutions \u2014 available 24/7 across Southern California."
+        subtitle="Comprehensive residential and commercial plumbing solutions - available 24/7 across Southern California."
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Services' }]}
         navyBg
       />

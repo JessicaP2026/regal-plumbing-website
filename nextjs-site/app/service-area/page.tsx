@@ -7,7 +7,7 @@ import HeroSection from '@/components/HeroSection'
 import EmergencyCTABanner from '@/components/EmergencyCTABanner'
 
 export const metadata = generatePageMetadata({
-  title: 'Service Area \u2014 Regal Plumbing & Rooter | Inland Empire & San Gabriel Valley',
+  title: 'Service Area - Regal Plumbing & Rooter | Inland Empire & San Gabriel Valley',
   description: 'Regal Plumbing serves 32+ cities in the Inland Empire & San Gabriel Valley. Fast, local plumbers available 24/7. Call (909) 600-4561.',
   path: '/service-area',
 })
@@ -24,7 +24,7 @@ export default function ServiceAreaPage() {
 
       <HeroSection
         title="Plumbing Services Across Southern California"
-        subtitle="Serving 32+ cities in the Inland Empire and San Gabriel Valley \u2014 fast, local plumbers available 24/7."
+        subtitle="Serving 32+ cities in the Inland Empire and San Gabriel Valley - fast, local plumbers available 24/7."
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Service Area' }]}
         navyBg
       />

@@ -24,7 +24,7 @@ const openSans = Open_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: `${BUSINESS.name} \u2014 24/7 Plumber | Inland Empire & San Gabriel Valley`,
+    default: `${BUSINESS.name} - 24/7 Plumber | Inland Empire & San Gabriel Valley`,
     template: `%s | ${BUSINESS.name}`,
   },
   description: 'Licensed 24/7 plumber serving 32+ cities in the Inland Empire & San Gabriel Valley. Emergency plumbing, drain cleaning, slab leak detection & more. Call (909) 600-4561.',

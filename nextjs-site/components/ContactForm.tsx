@@ -134,7 +134,7 @@ export default function ContactForm() {
         <textarea
           id="message"
           rows={5}
-          placeholder="Tell us a bit about what's going on \u2014 the more detail, the better we can prepare..."
+          placeholder="Tell us a bit about what's going on - the more detail, the better we can prepare..."
           {...register('message')}
           className="w-full px-3.5 py-3 border-[1.5px] border-gray-300 rounded text-sm text-dark-grey bg-white focus:border-red focus:ring-2 focus:ring-red/10 outline-none transition-all resize-y min-h-[120px]"
         />

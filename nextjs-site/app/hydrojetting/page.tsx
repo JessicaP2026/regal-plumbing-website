@@ -2,7 +2,7 @@ import { generatePageMetadata } from '@/lib/metadata'
 import ServicePageTemplate from '@/components/ServicePageTemplate'
 
 export const metadata = generatePageMetadata({
-  title: 'Hydrojetting Services \u2014 High-Pressure Pipe Cleaning | Regal Plumbing & Rooter',
+  title: 'Hydrojetting Services - High-Pressure Pipe Cleaning | Regal Plumbing & Rooter',
   description: 'High-pressure hydrojetting for drain and sewer lines. Clears grease, roots & scale buildup. Call (909) 600-4561.',
   path: '/hydrojetting',
 })
@@ -17,14 +17,14 @@ export default function HydrojettingPage() {
       heroImage="/images/hydro-jetting-roof-rancho-cucamonga-ca.webp"
       overviewEyebrow="The Most Effective Pipe Cleaning"
       overviewTitle="Professional Hydrojetting Services"
-      overviewBody="When snaking isn't enough, hydrojetting is the most effective method for clearing stubborn grease, scale, and root intrusion from drain and sewer lines. Using water at up to 4,000 PSI, hydrojetting scours pipe walls clean and restores full pipe capacity \u2014 ideal for commercial properties and recurring residential blockages."
+      overviewBody="When snaking isn't enough, hydrojetting is the most effective method for clearing stubborn grease, scale, and root intrusion from drain and sewer lines. Using water at up to 4,000 PSI, hydrojetting scours pipe walls clean and restores full pipe capacity - ideal for commercial properties and recurring residential blockages."
       overviewFeatures={[
         'Clears grease, scale, and hardened buildup',
         'Removes tree root intrusion',
         'Ideal for commercial kitchens and restaurants',
         'Extends the life of your plumbing system',
         'Pre-jetting camera inspection included',
-        'Environmentally friendly \u2014 water only',
+        'Environmentally friendly - water only',
       ]}
       overviewImage="/images/camera-inspection-drain-cleaning-san-bernardino-ca.webp"
       overviewImageAlt="Hydrojetting equipment"

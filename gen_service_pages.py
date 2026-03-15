@@ -12,7 +12,7 @@ def emerg_bar(p):
         },
         "elements": [{
             "id": f"{p}aa02", "elType": "widget", "widgetType": "text-editor",
-            "settings": {"editor": "<p style=\"text-align:center;color:#ffffff;font-size:13.5px;font-weight:600;\">24/7 Emergency Service Available \u2014 Call <a href=\"tel:9096004561\" style=\"color:#fca5a5;\">(909) 600-4561</a></p>"}
+            "settings": {"editor": "<p style=\"text-align:center;color:#ffffff;font-size:13.5px;font-weight:600;\">24/7 Emergency Service Available - Call <a href=\"tel:9096004561\" style=\"color:#fca5a5;\">(909) 600-4561</a></p>"}
         }]
     }
 

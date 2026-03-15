@@ -3,7 +3,7 @@ import { generatePageMetadata } from '@/lib/metadata'
 import HeroSection from '@/components/HeroSection'
 
 export const metadata = generatePageMetadata({
-  title: 'Terms of Service \u2014 Regal Plumbing & Rooter',
+  title: 'Terms of Service - Regal Plumbing & Rooter',
   description: 'Terms of service for Regal Plumbing & Rooter. Read about our service agreements, warranties, and policies.',
   path: '/terms-of-service',
 })

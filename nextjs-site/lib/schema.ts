@@ -80,7 +80,7 @@ export function generateCitySchema(city: City) {
   return {
     '@context': 'https://schema.org',
     '@type': 'Plumber',
-    name: `${BUSINESS.name} \u2014 ${city.name}, CA`,
+    name: `${BUSINESS.name} - ${city.name}, CA`,
     telephone: BUSINESS.phone,
     url: `${BUSINESS.url}/service-area/${city.slug}`,
     address: {

@@ -2,7 +2,7 @@ import { generatePageMetadata } from '@/lib/metadata'
 import ServicePageTemplate from '@/components/ServicePageTemplate'
 
 export const metadata = generatePageMetadata({
-  title: 'Water Filtration & Softeners \u2014 Regal Plumbing & Rooter',
+  title: 'Water Filtration & Softeners - Regal Plumbing & Rooter',
   description: 'Whole-home water softeners, reverse osmosis, and filtration systems. Cleaner, softer water for your home. Call (909) 600-4561.',
   path: '/water-filtration',
 })
@@ -12,7 +12,7 @@ export default function WaterFiltrationPage() {
     <ServicePageTemplate
       slug="water-filtration"
       heroTitle="Water Filtration"
-      heroSubtitle="Cleaner, softer water for your entire home \u2014 water softeners, reverse osmosis, and whole-home filtration systems"
+      heroSubtitle="Cleaner, softer water for your entire home - water softeners, reverse osmosis, and whole-home filtration systems"
       badge="Cleaner, Softer Water"
       heroImage="/images/pipe-replacement-copper-ontario-ca.webp"
       overviewEyebrow="Better Water, Better Living"
@@ -31,7 +31,7 @@ export default function WaterFiltrationPage() {
       covers={[
         { icon: '\uD83D\uDCA7', title: 'Water Softeners', description: 'Whole-home water softeners remove calcium and magnesium, protecting your appliances and leaving skin and hair feeling softer.' },
         { icon: '\uD83E\uDDEA', title: 'Reverse Osmosis', description: 'Under-sink RO systems provide pure, great-tasting drinking water by removing contaminants, chlorine, and dissolved solids.' },
-        { icon: '\uD83C\uDFE0', title: 'Whole-Home Filtration', description: 'Comprehensive filtration systems that treat all water entering your home \u2014 every faucet, shower, and appliance gets clean water.' },
+        { icon: '\uD83C\uDFE0', title: 'Whole-Home Filtration', description: 'Comprehensive filtration systems that treat all water entering your home - every faucet, shower, and appliance gets clean water.' },
       ]}
       ctaHeading="Better Water Starts with One Call"
       ctaSubtext="Free water quality assessment and expert filtration recommendations"

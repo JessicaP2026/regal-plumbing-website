@@ -11,7 +11,7 @@ import FAQAccordion from '@/components/FAQAccordion'
 import EmergencyCTABanner from '@/components/EmergencyCTABanner'
 
 export const metadata = generatePageMetadata({
-  title: `${BUSINESS.name} \u2014 24/7 Plumber | Inland Empire & San Gabriel Valley`,
+  title: `${BUSINESS.name} - 24/7 Plumber | Inland Empire & San Gabriel Valley`,
   description: 'Licensed 24/7 plumber serving 32+ cities in the Inland Empire & San Gabriel Valley. Emergency plumbing, drain cleaning, slab leak detection & more. Call (909) 600-4561.',
   path: '/',
 })
@@ -156,7 +156,7 @@ export default function HomePage() {
       {/* Emergency CTA */}
       <EmergencyCTABanner
         heading="Plumbing Emergency? Don't Wait"
-        subtext="Our emergency team is standing by 24/7 \u2014 including weekends and holidays"
+        subtext="Our emergency team is standing by 24/7 - including weekends and holidays"
       />
     </>
   )
