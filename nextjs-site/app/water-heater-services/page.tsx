@@ -2,7 +2,7 @@ import { generatePageMetadata } from '@/lib/metadata'
 import ServicePageTemplate from '@/components/ServicePageTemplate'
 
 export const metadata = generatePageMetadata({
-  title: 'Water Heater Services - Install & Repair | Regal Plumbing & Rooter',
+  title: 'Water Heater Services - Install & Repair ',
   description: 'Water heater installation and repair - tank, tankless & heat pump models. All major brands. Call (909) 600-4561.',
   path: '/water-heater-services',
 })

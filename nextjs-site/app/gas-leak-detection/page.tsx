@@ -2,7 +2,7 @@ import { generatePageMetadata } from '@/lib/metadata'
 import ServicePageTemplate from '@/components/ServicePageTemplate'
 
 export const metadata = generatePageMetadata({
-  title: 'Gas Leak Detection - Safety Critical | Regal Plumbing & Rooter',
+  title: 'Gas Leak Detection - Safety Critical ',
   description: 'Licensed gas leak detection, repair, and pressure testing. If you smell gas, call 911 first, then call us at (909) 600-4561.',
   path: '/gas-leak-detection',
 })

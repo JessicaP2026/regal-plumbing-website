@@ -5,7 +5,7 @@ import CityPageTemplate from '@/components/CityPageTemplate'
 const city = CITIES.find((c) => c.slug === 'upland-ca')!
 
 export const metadata = generatePageMetadata({
-  title: 'Plumber in Upland, CA - 24/7 Service | Regal Plumbing & Rooter',
+  title: 'Plumber in Upland, CA - 24/7 Service ',
   description: 'Licensed plumber in Upland CA. Emergency plumbing, drain cleaning, sewer repair & water heaters. Call (909) 600-4561.',
   path: '/service-area/upland-ca',
 })

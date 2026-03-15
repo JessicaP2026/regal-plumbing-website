@@ -5,7 +5,7 @@ import CityPageTemplate from '@/components/CityPageTemplate'
 const city = CITIES.find((c) => c.slug === 'pomona-ca')!
 
 export const metadata = generatePageMetadata({
-  title: 'Plumber in Pomona, CA - 24/7 Service | Regal Plumbing & Rooter',
+  title: 'Plumber in Pomona, CA - 24/7 Service ',
   description: 'Licensed plumber in Pomona CA. Emergency plumbing, drain cleaning, sewer repair & more. Call (909) 600-4561.',
   path: '/service-area/pomona-ca',
 })

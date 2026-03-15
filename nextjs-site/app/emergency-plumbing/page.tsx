@@ -2,7 +2,7 @@ import { generatePageMetadata } from '@/lib/metadata'
 import ServicePageTemplate from '@/components/ServicePageTemplate'
 
 export const metadata = generatePageMetadata({
-  title: 'Emergency Plumbing Services - 24/7 | Regal Plumbing & Rooter',
+  title: 'Emergency Plumbing Services - 24/7 ',
   description: 'Rapid-response 24/7 emergency plumbing for the Inland Empire. Burst pipes, sewage backups, major leaks. Call (909) 600-4561 now.',
   path: '/emergency-plumbing',
 })

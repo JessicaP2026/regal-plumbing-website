@@ -5,7 +5,7 @@ import CityPageTemplate from '@/components/CityPageTemplate'
 const city = CITIES.find((c) => c.slug === 'ontario-ca')!
 
 export const metadata = generatePageMetadata({
-  title: 'Plumber in Ontario, CA - 24/7 Emergency Service | Regal Plumbing & Rooter',
+  title: 'Plumber in Ontario, CA - 24/7 Emergency Service ',
   description: 'Expert plumber in Ontario CA - drain cleaning, slab leak detection & water heater repair. 24/7 emergency service available. Call (909) 600-4561.',
   path: '/service-area/ontario-ca',
 })

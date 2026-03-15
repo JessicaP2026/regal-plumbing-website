@@ -5,7 +5,7 @@ import CityPageTemplate from '@/components/CityPageTemplate'
 const city = CITIES.find((c) => c.slug === 'rancho-cucamonga-ca')!
 
 export const metadata = generatePageMetadata({
-  title: 'Plumber in Rancho Cucamonga, CA - 24/7 Service | Regal Plumbing & Rooter',
+  title: 'Plumber in Rancho Cucamonga, CA - 24/7 Service ',
   description: 'Licensed plumber in Rancho Cucamonga CA. Emergency plumbing, drain cleaning, slab leak detection & water heater repair. Call (909) 600-4561.',
   path: '/service-area/rancho-cucamonga-ca',
 })

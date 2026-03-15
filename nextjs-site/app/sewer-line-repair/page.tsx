@@ -2,7 +2,7 @@ import { generatePageMetadata } from '@/lib/metadata'
 import ServicePageTemplate from '@/components/ServicePageTemplate'
 
 export const metadata = generatePageMetadata({
-  title: 'Sewer Line Repair - Camera Inspection & Trenchless | Regal Plumbing & Rooter',
+  title: 'Sewer Line Repair - Camera Inspection & Trenchless ',
   description: 'Expert sewer line repair with camera inspection and trenchless options. Root intrusion, cracked pipes & more. Call (909) 600-4561.',
   path: '/sewer-line-repair',
 })

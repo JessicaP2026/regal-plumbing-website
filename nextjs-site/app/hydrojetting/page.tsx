@@ -2,7 +2,7 @@ import { generatePageMetadata } from '@/lib/metadata'
 import ServicePageTemplate from '@/components/ServicePageTemplate'
 
 export const metadata = generatePageMetadata({
-  title: 'Hydrojetting Services - High-Pressure Pipe Cleaning | Regal Plumbing & Rooter',
+  title: 'Hydrojetting Services - High-Pressure Pipe Cleaning ',
   description: 'High-pressure hydrojetting for drain and sewer lines. Clears grease, roots & scale buildup. Call (909) 600-4561.',
   path: '/hydrojetting',
 })

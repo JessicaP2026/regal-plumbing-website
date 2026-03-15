@@ -5,7 +5,7 @@ import CityPageTemplate from '@/components/CityPageTemplate'
 const city = CITIES.find((c) => c.slug === 'chino-ca')!
 
 export const metadata = generatePageMetadata({
-  title: 'Plumber in Chino, CA - 24/7 Service | Regal Plumbing & Rooter',
+  title: 'Plumber in Chino, CA - 24/7 Service ',
   description: 'Licensed plumber in Chino CA. Emergency plumbing, drain cleaning, sewer repair & water heaters. Call (909) 600-4561.',
   path: '/service-area/chino-ca',
 })
