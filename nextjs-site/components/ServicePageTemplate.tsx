@@ -123,6 +123,7 @@ export default function ServicePageTemplate({
                 src={overviewImage}
                 alt={overviewImageAlt}
                 fill
+                unoptimized
                 className="object-cover"
                 sizes="(max-width: 900px) 100vw, 50vw"
               />
@@ -171,6 +172,7 @@ export default function ServicePageTemplate({
                       alt={photo.alt}
                       width={600}
                       height={400}
+                      unoptimized
                       className="w-full object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                   </div>
@@ -203,6 +205,7 @@ export default function ServicePageTemplate({
                       src={item.src}
                       alt={item.alt}
                       fill
+                      unoptimized
                       className="object-cover"
                       sizes="(max-width: 768px) 100vw, 50vw"
                     />
