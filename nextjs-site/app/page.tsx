@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { BUSINESS, SERVICES, REVIEWS, FAQS_HOME } from '@/lib/constants'
+import { BUSINESS, SERVICES, CITIES, REVIEWS, FAQS_HOME } from '@/lib/constants'
 import { generatePageMetadata } from '@/lib/metadata'
 import { generateFAQSchema } from '@/lib/schema'
 import SchemaMarkup from '@/components/SchemaMarkup'
@@ -150,6 +150,49 @@ export default function HomePage() {
             <div className="w-14 h-1 bg-red rounded mx-auto" />
           </div>
           <FAQAccordion faqs={FAQS_HOME} />
+        </div>
+      </section>
+
+      {/* Service Areas */}
+      <section className="py-20 px-6 bg-white">
+        <div className="max-w-content mx-auto">
+          <div className="text-center mb-12">
+            <p className="font-oswald font-medium text-xs tracking-[3px] uppercase text-red mb-2">
+              Where We Work
+            </p>
+            <h2 className="font-oswald font-bold text-[clamp(26px,3.5vw,38px)] uppercase tracking-wide mb-3">
+              Service Areas
+            </h2>
+            <div className="w-14 h-1 bg-red rounded mx-auto" />
+            <p className="text-base text-gray-500 max-w-[520px] mx-auto mt-4 leading-relaxed">
+              Based in Ontario, CA &mdash; serving 32+ cities across the Inland Empire and San Gabriel Valley.
+            </p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            {CITIES.map((city) => (
+              <Link
+                key={city.slug}
+                href={`/service-area/${city.slug}`}
+                className="flex items-center gap-3 bg-light-grey border border-gray-200 rounded-lg px-5 py-4 hover:shadow-md hover:border-red transition-all group"
+              >
+                <div className="w-2.5 h-2.5 bg-red rounded-full flex-shrink-0" />
+                <div>
+                  <div className="font-oswald font-semibold text-[15px] tracking-wide text-dark-grey group-hover:text-red transition-colors">
+                    {city.name}, CA
+                  </div>
+                  <div className="text-[12px] text-gray-400 mt-0.5">Local Plumber</div>
+                </div>
+              </Link>
+            ))}
+          </div>
+          <div className="text-center">
+            <Link
+              href="/service-area"
+              className="inline-flex items-center gap-2 font-oswald font-semibold text-sm tracking-wider uppercase text-red border-b-2 border-transparent hover:border-red transition-all"
+            >
+              View All 32+ Cities We Serve &rarr;
+            </Link>
+          </div>
         </div>
       </section>
 

@@ -1,4 +1,5 @@
-import { BUSINESS, SERVICES, type City } from '@/lib/constants'
+import Link from 'next/link'
+import { BUSINESS, SERVICES, CITIES, type City } from '@/lib/constants'
 import { generateCitySchema, generateBreadcrumbSchema, generateFAQSchema } from '@/lib/schema'
 import SchemaMarkup from './SchemaMarkup'
 import HeroSection from './HeroSection'
@@ -174,6 +175,74 @@ export default function CityPageTemplate({
             <div className="w-14 h-1 bg-red rounded mx-auto" />
           </div>
           <FAQAccordion faqs={faqs} />
+        </div>
+      </section>
+
+      {/* Our Services in [City] */}
+      <section className="py-20 px-6 bg-white">
+        <div className="max-w-content mx-auto">
+          <div className="text-center mb-10">
+            <p className="font-oswald font-medium text-xs tracking-[3px] uppercase text-red mb-2">What We Offer</p>
+            <h2 className="font-oswald font-bold text-[clamp(26px,3.5vw,38px)] uppercase tracking-wide mb-3">
+              Our Services in {city.name}
+            </h2>
+            <div className="w-14 h-1 bg-red rounded mx-auto" />
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+            {SERVICES.map((s) => (
+              <Link
+                key={s.slug}
+                href={`/${s.slug}`}
+                className="bg-light-grey border border-gray-200 rounded-lg px-5 py-4 hover:shadow-md hover:border-red transition-all block group"
+              >
+                <h3 className="font-oswald font-semibold text-[15px] uppercase tracking-wide text-dark-grey mb-1 group-hover:text-red transition-colors">
+                  {s.name} in {city.name}
+                </h3>
+                <p className="text-[13px] text-gray-500 leading-relaxed mb-2.5">{s.description}</p>
+                <span className="font-oswald font-medium text-xs tracking-wider uppercase text-red">
+                  Learn More &rarr;
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Nearby Cities We Serve */}
+      <section className="py-20 px-6 bg-light-grey">
+        <div className="max-w-content mx-auto">
+          <div className="text-center mb-10">
+            <p className="font-oswald font-medium text-xs tracking-[3px] uppercase text-red mb-2">Service Area</p>
+            <h2 className="font-oswald font-bold text-[clamp(26px,3.5vw,38px)] uppercase tracking-wide mb-3">
+              Nearby Cities We Serve
+            </h2>
+            <div className="w-14 h-1 bg-red rounded mx-auto" />
+            <p className="text-[15px] text-gray-500 max-w-[500px] mx-auto mt-4 leading-relaxed">
+              We cover the entire Inland Empire and San Gabriel Valley &mdash; with fast response times throughout the region.
+            </p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            {CITIES.filter((c) => c.slug !== city.slug).map((c) => (
+              <Link
+                key={c.slug}
+                href={`/service-area/${c.slug}`}
+                className="flex items-center gap-2.5 bg-white border border-gray-200 px-4 py-3 rounded hover:bg-red hover:border-red transition-colors group"
+              >
+                <div className="w-2 h-2 bg-red rounded-full flex-shrink-0 group-hover:bg-white transition-colors" />
+                <span className="font-oswald font-medium text-[14.5px] tracking-wide text-dark-grey group-hover:text-white transition-colors">
+                  Plumber in {c.name}, CA
+                </span>
+              </Link>
+            ))}
+          </div>
+          <div className="text-center mt-8">
+            <Link
+              href="/service-area"
+              className="inline-flex items-center gap-2 font-oswald font-semibold text-sm tracking-wider uppercase text-red border-b-2 border-transparent hover:border-red transition-all"
+            >
+              View Full Service Area &rarr;
+            </Link>
+          </div>
         </div>
       </section>
 

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { BUSINESS } from '@/lib/constants'
+import { BUSINESS, CITIES } from '@/lib/constants'
 import { generatePageMetadata } from '@/lib/metadata'
 import { generateBreadcrumbSchema } from '@/lib/schema'
 import SchemaMarkup from '@/components/SchemaMarkup'
@@ -90,8 +90,24 @@ export default function AboutPage() {
               <p className="text-[15.5px] text-gray-600 leading-relaxed mb-4">
                 As a family-owned business based in Ontario, CA, we take pride in building real relationships with our customers. When you call Regal, you&apos;re not calling a call center &mdash; you&apos;re calling a local team that genuinely cares about your home and your family&apos;s wellbeing. We treat every job as if it were our own home.
               </p>
-              <p className="text-[15.5px] text-gray-600 leading-relaxed mb-6">
+              <p className="text-[15.5px] text-gray-600 leading-relaxed mb-4">
                 Licensed, insured, and serving over 32 cities across the Inland Empire and San Gabriel Valley, Regal Plumbing &amp; Rooter has become a trusted name in Southern California plumbing. From routine drain cleaning to complex slab leak repairs, we bring the same dedication to quality to every call.
+              </p>
+              <p className="text-[15.5px] text-gray-600 leading-relaxed mb-6">
+                We proudly serve{' '}
+                {CITIES.slice(0, 4).map((city, i) => (
+                  <span key={city.slug}>
+                    <Link href={`/service-area/${city.slug}`} className="text-red font-medium hover:underline">
+                      {city.name}
+                    </Link>
+                    {i < 3 ? ', ' : ''}
+                  </span>
+                ))}
+                {' '}and dozens more communities across Southern California. Visit our{' '}
+                <Link href="/service-area" className="text-red font-medium hover:underline">
+                  full service area page
+                </Link>{' '}
+                to find your city.
               </p>
               <div className="flex flex-wrap items-center gap-4">
                 <a

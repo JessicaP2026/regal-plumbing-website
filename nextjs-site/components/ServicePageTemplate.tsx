@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { BUSINESS, SERVICES } from '@/lib/constants'
+import { BUSINESS, SERVICES, CITIES } from '@/lib/constants'
 import SchemaMarkup from './SchemaMarkup'
 import HeroSection from './HeroSection'
 import EmergencyCTABanner from './EmergencyCTABanner'
@@ -175,6 +175,34 @@ export default function ServicePageTemplate({
                 <h3 className="font-oswald font-semibold text-[15px] uppercase tracking-wide text-dark-grey mb-1.5">{s.name}</h3>
                 <p className="text-[13px] text-gray-500 leading-relaxed mb-3">{s.description}</p>
                 <span className="font-oswald font-medium text-xs tracking-wider uppercase text-red">Learn More &rarr;</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Cities We Serve */}
+      <section className="py-20 px-6 bg-light-grey">
+        <div className="max-w-content mx-auto">
+          <div className="text-center mb-10">
+            <p className="font-oswald font-medium text-xs tracking-[3px] uppercase text-red mb-2">Service Coverage</p>
+            <h2 className="font-oswald font-bold text-[clamp(26px,3.5vw,38px)] uppercase tracking-wide mb-3">Cities We Serve</h2>
+            <div className="w-14 h-1 bg-red rounded mx-auto" />
+            <p className="text-[15px] text-gray-500 max-w-[500px] mx-auto mt-4 leading-relaxed">
+              We provide fast, local plumbing service throughout the Inland Empire and San Gabriel Valley.
+            </p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            {CITIES.map((city) => (
+              <Link
+                key={city.slug}
+                href={`/service-area/${city.slug}`}
+                className="flex items-center gap-2.5 bg-white border border-gray-200 px-4 py-3 rounded hover:bg-red hover:border-red hover:text-white transition-colors group"
+              >
+                <div className="w-2 h-2 bg-red rounded-full flex-shrink-0 group-hover:bg-white transition-colors" />
+                <span className="font-oswald font-medium text-[14.5px] tracking-wide text-dark-grey group-hover:text-white transition-colors">
+                  Plumber in {city.name}, CA
+                </span>
               </Link>
             ))}
           </div>
