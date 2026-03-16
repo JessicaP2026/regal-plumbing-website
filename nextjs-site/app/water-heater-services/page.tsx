@@ -34,27 +34,31 @@ export default function WaterHeaterServicesPage() {
         { icon: '\u26A1', title: 'Tankless Systems', description: 'On-demand hot water with tankless systems. We size, install, and service all major tankless brands.' },
         { icon: '\uD83D\uDD27', title: 'Repairs & Tune-Ups', description: 'Thermostat issues, pilot lights, anode rods, and sediment buildup - we diagnose and repair all water heater problems.' },
       ]}
-      galleryHeading="Our Recent Water Heater Work"
-      photoGallery={[
+      recentWorkHeading="Our Recent Water Heater Work"
+      recentWork={[
         {
           src: '/images/water-heater-installation-ontario-ca.webp',
-          alt: 'Water heater installation Ontario CA - Regal Plumbing & Rooter',
-          caption: 'New Installation — Ontario, CA',
+          alt: 'Tank water heater installation Ontario CA - Regal Plumbing & Rooter',
+          title: 'Tank Water Heater Installation',
+          description: 'New 50-gallon gas water heater installed for a homeowner in Ontario, CA. Replaced a failing 15-year-old unit with same-day service.',
         },
         {
           src: '/images/water-heater-installation-rancho-cucamonga-ca.webp',
           alt: 'Water heater replacement Rancho Cucamonga CA - Regal Plumbing & Rooter',
-          caption: 'Water Heater Replacement — Rancho Cucamonga, CA',
+          title: 'Water Heater Replacement',
+          description: 'Full water heater replacement in Rancho Cucamonga, CA. Old unit removed and new energy-efficient model installed within hours.',
         },
         {
           src: '/images/water-heater-repair-upland-ca.webp',
-          alt: 'Water heater repair Upland CA - Regal Plumbing & Rooter',
-          caption: 'Repair Service — Upland, CA',
+          alt: 'Emergency water heater repair Upland CA - Regal Plumbing & Rooter',
+          title: 'Emergency Water Heater Repair',
+          description: 'Emergency repair call in Upland, CA. Diagnosed a failed heating element and restored hot water the same day.',
         },
         {
           src: '/images/water-heater-replacement-fontana-ca.webp',
           alt: 'Water heater replacement Fontana CA - Regal Plumbing & Rooter',
-          caption: 'Water Heater Replacement — Fontana, CA',
+          title: 'Water Heater Replacement — Fontana',
+          description: 'Water heater replacement in Fontana, CA. Customer had no hot water — we arrived within the hour and completed the job same day.',
         },
       ]}
       ctaHeading="No Hot Water? We Can Help Today"

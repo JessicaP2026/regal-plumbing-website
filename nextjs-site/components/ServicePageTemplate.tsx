@@ -19,6 +19,13 @@ interface GalleryPhoto {
   caption: string
 }
 
+interface RecentWorkItem {
+  src: string
+  alt: string
+  title: string
+  description: string
+}
+
 interface ServicePageTemplateProps {
   slug: string
   heroTitle: string
@@ -34,6 +41,8 @@ interface ServicePageTemplateProps {
   covers: CoverCard[]
   galleryHeading?: string
   photoGallery?: GalleryPhoto[]
+  recentWorkHeading?: string
+  recentWork?: RecentWorkItem[]
   ctaHeading: string
   ctaSubtext: string
 }
@@ -53,6 +62,8 @@ export default function ServicePageTemplate({
   covers,
   galleryHeading,
   photoGallery,
+  recentWorkHeading,
+  recentWork,
   ctaHeading,
   ctaSubtext,
 }: ServicePageTemplateProps) {
@@ -165,6 +176,42 @@ export default function ServicePageTemplate({
                   </div>
                   <div className="px-5 py-3.5 flex items-center gap-2.5 border-t-[3px] border-t-red">
                     <p className="font-oswald font-medium text-[14.5px] text-dark-grey tracking-wide">{photo.caption}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Recent Work (optional) */}
+      {recentWork && recentWork.length > 0 && (
+        <section className="py-20 px-6 bg-light-grey">
+          <div className="max-w-content mx-auto">
+            <div className="text-center mb-12">
+              <p className="font-oswald font-medium text-xs tracking-[3px] uppercase text-red mb-2">Recent Work</p>
+              <h2 className="font-oswald font-bold text-[clamp(26px,3.5vw,38px)] uppercase tracking-wide text-dark-grey mb-3">
+                {recentWorkHeading || 'Our Recent Work'}
+              </h2>
+              <div className="w-14 h-1 bg-red rounded mx-auto" />
+            </div>
+            <div className="flex flex-col gap-6">
+              {recentWork.map((item, i) => (
+                <div key={i} className="grid grid-cols-1 md:grid-cols-2 rounded-lg overflow-hidden shadow-md bg-white">
+                  <div className="relative h-[280px] md:h-[260px] overflow-hidden">
+                    <Image
+                      src={item.src}
+                      alt={item.alt}
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                    />
+                  </div>
+                  <div className="p-8 flex flex-col justify-center border-l-[4px] border-l-red">
+                    <h3 className="font-oswald font-bold text-[21px] text-dark-grey uppercase tracking-wide mb-3">
+                      {item.title}
+                    </h3>
+                    <p className="text-[15.5px] text-gray-600 leading-relaxed">{item.description}</p>
                   </div>
                 </div>
               ))}
