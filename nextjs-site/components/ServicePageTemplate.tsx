@@ -13,6 +13,12 @@ interface CoverCard {
   description: string
 }
 
+interface GalleryPhoto {
+  src: string
+  alt: string
+  caption: string
+}
+
 interface ServicePageTemplateProps {
   slug: string
   heroTitle: string
@@ -26,6 +32,8 @@ interface ServicePageTemplateProps {
   overviewImage: string
   overviewImageAlt: string
   covers: CoverCard[]
+  galleryHeading?: string
+  photoGallery?: GalleryPhoto[]
   ctaHeading: string
   ctaSubtext: string
 }
@@ -43,6 +51,8 @@ export default function ServicePageTemplate({
   overviewImage,
   overviewImageAlt,
   covers,
+  galleryHeading,
+  photoGallery,
   ctaHeading,
   ctaSubtext,
 }: ServicePageTemplateProps) {
@@ -129,6 +139,40 @@ export default function ServicePageTemplate({
           </div>
         </div>
       </section>
+
+      {/* Photo Gallery (optional) */}
+      {photoGallery && photoGallery.length > 0 && (
+        <section className="py-20 px-6 bg-dark-grey">
+          <div className="max-w-content mx-auto">
+            <div className="text-center mb-12">
+              <p className="font-oswald font-medium text-xs tracking-[3px] uppercase text-red-light mb-2">Recent Work</p>
+              <h2 className="font-oswald font-bold text-[clamp(26px,3.5vw,38px)] uppercase tracking-wide text-white mb-3">
+                {galleryHeading || 'Our Recent Work'}
+              </h2>
+              <div className="w-14 h-1 bg-red rounded mx-auto" />
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+              {photoGallery.map((photo, i) => (
+                <div key={i} className="group rounded-lg overflow-hidden bg-white/[0.04] border border-white/10 hover:border-red transition-colors">
+                  <div className="relative aspect-[4/3] overflow-hidden">
+                    <Image
+                      src={photo.src}
+                      alt={photo.alt}
+                      fill
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                      sizes="(max-width: 640px) 100vw, 50vw"
+                    />
+                  </div>
+                  <div className="px-5 py-3.5 flex items-center gap-2.5">
+                    <div className="w-1.5 h-1.5 bg-red rounded-full flex-shrink-0" />
+                    <p className="font-oswald font-medium text-[14.5px] text-gray-300 tracking-wide">{photo.caption}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Why Choose Regal */}
       <section className="py-20 px-6 bg-navy">

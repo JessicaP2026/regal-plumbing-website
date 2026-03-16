@@ -15,7 +15,7 @@ export default function WaterHeaterServicesPage() {
       heroTitle="Water Heater Services"
       heroSubtitle="Installation and repair of all water heater types - tank, tankless, and heat pump systems"
       badge="All Types & Brands"
-      heroImage="/images/sink-faucet-installation-ontario-ca.webp"
+      heroImage="/images/water-heater-installation-ontario-ca.webp"
       overviewEyebrow="Hot Water When You Need It"
       overviewTitle="Water Heater Install & Repair"
       overviewBody={<>No hot water? We install and repair all types of water heaters &mdash; traditional tank units, tankless (on-demand) systems, and hybrid heat pump models. Our technicians are experienced with all major brands and can help you choose the right system for your household&apos;s needs and budget.{' '}We serve homeowners in{' '}<Link href="/service-area/rancho-cucamonga-ca" className="text-red font-medium hover:underline">Rancho Cucamonga</Link>,{' '}<Link href="/service-area/west-covina-ca" className="text-red font-medium hover:underline">West Covina</Link>, and{' '}<Link href="/service-area/corona-ca" className="text-red font-medium hover:underline">Corona</Link>, as well as throughout Southern California.</>}
@@ -33,6 +33,29 @@ export default function WaterHeaterServicesPage() {
         { icon: '\uD83C\uDFED', title: 'Tank Water Heaters', description: 'Installation, repair, and replacement of traditional tank water heaters in all sizes - 40, 50, and 75+ gallon units.' },
         { icon: '\u26A1', title: 'Tankless Systems', description: 'On-demand hot water with tankless systems. We size, install, and service all major tankless brands.' },
         { icon: '\uD83D\uDD27', title: 'Repairs & Tune-Ups', description: 'Thermostat issues, pilot lights, anode rods, and sediment buildup - we diagnose and repair all water heater problems.' },
+      ]}
+      galleryHeading="Our Recent Water Heater Work"
+      photoGallery={[
+        {
+          src: '/images/water-heater-installation-ontario-ca.webp',
+          alt: 'Water heater installation Ontario CA - Regal Plumbing & Rooter',
+          caption: 'New Water Heater Installation — Ontario, CA',
+        },
+        {
+          src: '/images/water-heater-installation-rancho-cucamonga-ca.webp',
+          alt: 'Water heater replacement Rancho Cucamonga CA - Regal Plumbing & Rooter',
+          caption: 'Water Heater Replacement — Rancho Cucamonga, CA',
+        },
+        {
+          src: '/images/water-heater-repair-upland-ca.webp',
+          alt: 'Water heater repair Upland CA - Regal Plumbing & Rooter',
+          caption: 'Water Heater Repair — Upland, CA',
+        },
+        {
+          src: '/images/water-heater-replacement-fontana-ca.webp',
+          alt: 'Water heater replacement Fontana CA - Regal Plumbing & Rooter',
+          caption: 'Water Heater Replacement — Fontana, CA',
+        },
       ]}
       ctaHeading="No Hot Water? We Can Help Today"
       ctaSubtext="Same-day water heater repair and installation across Southern California"
