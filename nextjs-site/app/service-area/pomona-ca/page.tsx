@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { generatePageMetadata } from '@/lib/metadata'
 import { CITIES } from '@/lib/constants'
 import CityPageTemplate from '@/components/CityPageTemplate'
@@ -16,7 +17,7 @@ export default function PomonaCityPage() {
       city={city}
       introText={[
         "Pomona is a historic San Gabriel Valley city with a diverse mix of residential neighborhoods, from the tree-lined streets near Ganesha Park to the growing developments in Phillips Ranch and Diamond Bar adjacent areas. Many Pomona homes feature older plumbing systems that require specialized knowledge to maintain and repair.",
-        'Regal Plumbing & Rooter serves all of Pomona with fast, professional plumbing services. Our Ontario-based team knows the area well and responds quickly to both emergency and scheduled service calls throughout the city.',
+        <>Regal Plumbing &amp; Rooter serves all of Pomona with fast, professional plumbing services. Our Ontario-based team handles{' '}<Link href="/drain-cleaning" className="text-red font-medium hover:underline">drain cleaning</Link>,{' '}<Link href="/sewer-line-repair" className="text-red font-medium hover:underline">sewer line repair</Link>,{' '}<Link href="/gas-leak-detection" className="text-red font-medium hover:underline">gas leak detection</Link>, and{' '}<Link href="/emergency-plumbing" className="text-red font-medium hover:underline">emergency plumbing</Link>{' '}throughout the city &mdash; and responds quickly to both urgent and scheduled calls.</>,
       ]}
       serviceDescriptions={[
         { slug: 'emergency-plumbing', description: 'Emergency plumbing for Pomona - we respond to burst pipes, sewage backups, and major leaks day or night.' },
@@ -35,8 +36,8 @@ export default function PomonaCityPage() {
       ]}
       seoContent={[
         'When you need a dependable <strong>plumber in Pomona CA</strong>, Regal Plumbing & Rooter delivers licensed, professional service. We serve all Pomona neighborhoods, from <strong>Phillips Ranch</strong> and <strong>Ganesha Park</strong> area to <strong>downtown Pomona</strong> and the surrounding communities.',
-        'Our <strong>emergency plumbing Pomona</strong> team is on call around the clock. Whether it\'s a weekend sewage backup or a midnight burst pipe, we dispatch fast and arrive prepared to resolve the problem.',
-        'Many Pomona homes have older plumbing infrastructure that requires experienced hands. Our technicians regularly handle <strong>sewer line repair</strong>, <strong>drain cleaning</strong>, and <strong>slab leak detection</strong> in homes throughout the city, using modern techniques to solve problems in aging systems.',
+        'Our <a href="/emergency-plumbing" class="text-red font-medium hover:underline"><strong>emergency plumbing in Pomona</strong></a> team is on call around the clock. Whether it\'s a weekend sewage backup or a midnight burst pipe, we dispatch fast and arrive prepared to resolve the problem.',
+        'Many Pomona homes have older plumbing infrastructure that requires experienced hands. Our technicians regularly handle <a href="/sewer-line-repair" class="text-red font-medium hover:underline"><strong>sewer line repair</strong></a>, <a href="/drain-cleaning" class="text-red font-medium hover:underline"><strong>drain cleaning</strong></a>, <a href="/slab-leak-detection" class="text-red font-medium hover:underline"><strong>slab leak detection</strong></a>, and <a href="/gas-leak-detection" class="text-red font-medium hover:underline"><strong>gas leak detection</strong></a> in homes throughout the city, using modern techniques to solve problems in aging systems.',
         'For reliable <strong>plumbing services in Pomona CA</strong>, call <strong>(909) 600-4561</strong>. We provide same-day appointments and 24/7 emergency response.',
       ]}
       faqs={[

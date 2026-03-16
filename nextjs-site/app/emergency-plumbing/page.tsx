@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { generatePageMetadata } from '@/lib/metadata'
 import ServicePageTemplate from '@/components/ServicePageTemplate'
 
@@ -17,7 +18,7 @@ export default function EmergencyPlumbingPage() {
       heroImage="/images/pipe-repair-leak-detection-chino-hills-ca.webp"
       overviewEyebrow="When Every Minute Counts"
       overviewTitle="24/7 Emergency Plumbing Response"
-      overviewBody="When a plumbing emergency strikes - a burst pipe, major leak, or sewage backup - every minute matters. Regal Plumbing & Rooter provides rapid-response emergency service around the clock, 365 days a year. We mobilize fast, arrive with the right equipment, and get the problem under control before it causes serious damage to your home or property."
+      overviewBody={<>When a plumbing emergency strikes &mdash; a burst pipe, major leak, or sewage backup &mdash; every minute matters. Regal Plumbing &amp; Rooter provides rapid-response emergency service around the clock, 365 days a year. We mobilize fast, arrive with the right equipment, and get the problem under control before it causes serious damage to your home or property.{' '}We serve the entire region, including{' '}<Link href="/service-area/ontario-ca" className="text-red font-medium hover:underline">emergency plumbing in Ontario</Link>,{' '}<Link href="/service-area/rancho-cucamonga-ca" className="text-red font-medium hover:underline">Rancho Cucamonga</Link>, and{' '}<Link href="/service-area/fontana-ca" className="text-red font-medium hover:underline">Fontana</Link>.</>}
       overviewFeatures={[
         'Typically on-site within the hour',
         'Burst pipe detection and emergency shutoff',

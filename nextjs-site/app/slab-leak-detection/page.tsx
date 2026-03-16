@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { generatePageMetadata } from '@/lib/metadata'
 import ServicePageTemplate from '@/components/ServicePageTemplate'
 
@@ -17,7 +18,7 @@ export default function SlabLeakDetectionPage() {
       heroImage="/images/leak-repair-wall-open-ontario-ca.webp"
       overviewEyebrow="Find It Fast, Fix It Right"
       overviewTitle="Slab Leak Detection & Repair"
-      overviewBody="Slab leaks are among the most damaging - and hardest to find - plumbing problems a homeowner can face. We use electronic detection equipment to precisely locate leaks beneath your concrete slab without unnecessary excavation, saving you time, money, and the headache of major property disruption."
+      overviewBody={<>Slab leaks are among the most damaging &mdash; and hardest to find &mdash; plumbing problems a homeowner can face. We use electronic detection equipment to precisely locate leaks beneath your concrete slab without unnecessary excavation, saving you time, money, and the headache of major property disruption.{' '}Our slab leak detection team serves{' '}<Link href="/service-area/ontario-ca" className="text-red font-medium hover:underline">Ontario</Link>,{' '}<Link href="/service-area/chino-ca" className="text-red font-medium hover:underline">Chino</Link>, and{' '}<Link href="/service-area/corona-ca" className="text-red font-medium hover:underline">Corona</Link>, and throughout Southern California.</>}
       overviewFeatures={[
         'Electronic leak detection - no guesswork',
         'Spot repair and re-routing options',

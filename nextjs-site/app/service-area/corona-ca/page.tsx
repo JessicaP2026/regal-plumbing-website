@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { generatePageMetadata } from '@/lib/metadata'
 import { CITIES } from '@/lib/constants'
 import CityPageTemplate from '@/components/CityPageTemplate'
@@ -16,7 +17,7 @@ export default function CoronaCityPage() {
       city={city}
       introText={[
         "Corona, known as the Circle City, is a thriving Riverside County community with diverse residential areas ranging from the historic homes near Grand Boulevard to newer developments in South Corona and the Skyline area. The city's rapid growth has created demand for reliable, licensed plumbing services that understand both new and established infrastructure.",
-        'Regal Plumbing & Rooter brings fast, professional plumbing service to all Corona neighborhoods. From our Ontario base, we serve Corona with emergency and scheduled plumbing covering everything from drain cleaning to complete sewer line replacement.',
+        <>Regal Plumbing &amp; Rooter brings fast, professional plumbing service to all Corona neighborhoods. From our Ontario base, we serve Corona with{' '}<Link href="/emergency-plumbing" className="text-red font-medium hover:underline">emergency plumbing</Link>,{' '}<Link href="/drain-cleaning" className="text-red font-medium hover:underline">drain cleaning</Link>, complete{' '}<Link href="/sewer-line-repair" className="text-red font-medium hover:underline">sewer line replacement</Link>, and more &mdash; available 24/7.</>,
       ]}
       serviceDescriptions={[
         { slug: 'emergency-plumbing', description: 'Corona emergency plumbing - burst pipes, sewage backups, and major leaks handled 24/7 with rapid response.' },
@@ -35,8 +36,8 @@ export default function CoronaCityPage() {
       ]}
       seoContent={[
         'For professional <strong>plumbing services in Corona CA</strong>, Regal Plumbing & Rooter is your trusted local choice. We serve all Corona neighborhoods, from the <strong>historic Grand Boulevard</strong> corridor to <strong>South Corona</strong> and the <strong>Skyline</strong> area developments.',
-        'Our <strong>emergency plumber Corona CA</strong> service operates 24/7. When plumbing emergencies strike - burst pipes, sewer backups, or gas leaks - we respond fast and arrive prepared.',
-        'Corona homeowners rely on us for <strong>drain cleaning</strong>, <strong>water heater repair</strong>, <strong>slab leak detection</strong>, and more. Our licensed technicians understand the plumbing needs of both newer and older Corona homes.',
+        'Our <a href="/emergency-plumbing" class="text-red font-medium hover:underline"><strong>emergency plumber in Corona CA</strong></a> service operates 24/7. When plumbing emergencies strike - burst pipes, sewer backups, or gas leaks - we respond fast and arrive prepared.',
+        'Corona homeowners rely on us for <a href="/drain-cleaning" class="text-red font-medium hover:underline"><strong>drain cleaning</strong></a>, <a href="/water-heater-services" class="text-red font-medium hover:underline"><strong>water heater repair</strong></a>, <a href="/slab-leak-detection" class="text-red font-medium hover:underline"><strong>slab leak detection in Corona</strong></a>, and more. We also install <a href="/water-filtration" class="text-red font-medium hover:underline">whole-home water filtration systems</a> to address the area\'s hard water. Our licensed technicians understand the plumbing needs of both newer and older Corona homes.',
         'Call <strong>(909) 600-4561</strong> for same-day plumbing service or 24/7 emergency response in Corona, CA.',
       ]}
       faqs={[

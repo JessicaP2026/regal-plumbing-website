@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { BUSINESS, SERVICES, CITIES } from '@/lib/constants'
@@ -20,7 +21,7 @@ interface ServicePageTemplateProps {
   heroImage: string
   overviewEyebrow: string
   overviewTitle: string
-  overviewBody: string
+  overviewBody: ReactNode
   overviewFeatures: string[]
   overviewImage: string
   overviewImageAlt: string

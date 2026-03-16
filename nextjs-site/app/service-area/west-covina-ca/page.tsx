@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { generatePageMetadata } from '@/lib/metadata'
 import { CITIES } from '@/lib/constants'
 import CityPageTemplate from '@/components/CityPageTemplate'
@@ -16,7 +17,7 @@ export default function WestCovinaCityPage() {
       city={city}
       introText={[
         "West Covina is a vibrant San Gabriel Valley city with a diverse mix of residential neighborhoods, from the established areas near the Eastland Shopping Center to the hillside homes in South Hills and the Galster Park area. The city's varied housing stock - ranging from 1950s-era ranch homes to modern developments - creates a broad range of plumbing service needs.",
-        'Regal Plumbing & Rooter provides professional plumbing services throughout West Covina. Our Ontario base allows us to respond to all West Covina neighborhoods with the speed and expertise that homeowners expect from a trusted local plumber.',
+        <>Regal Plumbing &amp; Rooter provides professional plumbing services throughout West Covina. Our Ontario base allows us to respond to all West Covina neighborhoods with the speed and expertise homeowners expect &mdash; covering{' '}<Link href="/water-heater-services" className="text-red font-medium hover:underline">water heater services</Link>,{' '}<Link href="/drain-cleaning" className="text-red font-medium hover:underline">drain cleaning</Link>,{' '}<Link href="/emergency-plumbing" className="text-red font-medium hover:underline">emergency plumbing</Link>, and{' '}<Link href="/water-filtration" className="text-red font-medium hover:underline">water filtration</Link>.</>,
       ]}
       serviceDescriptions={[
         { slug: 'emergency-plumbing', description: 'West Covina emergency plumbing - rapid 24/7 response to burst pipes, sewage backups, and major water leaks.' },
@@ -35,8 +36,8 @@ export default function WestCovinaCityPage() {
       ]}
       seoContent={[
         'For dependable <strong>plumbing services in West Covina CA</strong>, homeowners trust Regal Plumbing & Rooter. We serve all West Covina neighborhoods, from <strong>South Hills</strong> and the <strong>Galster Park</strong> area to the commercial corridors near <strong>Eastland Shopping Center</strong>.',
-        'Our <strong>emergency plumber West Covina</strong> service is available around the clock. Burst pipes, sewer backups, and water heater failures don\'t wait for business hours - and neither do we.',
-        'West Covina\'s diverse housing stock means varied plumbing needs. We handle <strong>drain cleaning</strong> in homes with aging pipes, <strong>slab leak detection</strong> in properties with shifting foundations, and <strong>water heater installation</strong> in both older and newer West Covina homes.',
+        'Our <a href="/emergency-plumbing" class="text-red font-medium hover:underline"><strong>emergency plumber in West Covina</strong></a> service is available around the clock. Burst pipes, sewer backups, and water heater failures don\'t wait for business hours - and neither do we.',
+        'West Covina\'s diverse housing stock means varied plumbing needs. We handle <a href="/drain-cleaning" class="text-red font-medium hover:underline"><strong>drain cleaning</strong></a> in homes with aging pipes, <a href="/slab-leak-detection" class="text-red font-medium hover:underline"><strong>slab leak detection</strong></a> in properties with shifting foundations, and <a href="/water-heater-services" class="text-red font-medium hover:underline"><strong>water heater installation</strong></a> in both older and newer West Covina homes. We also offer <a href="/water-filtration" class="text-red font-medium hover:underline">water filtration systems</a> to improve the area\'s notoriously hard water.',
         'Call <strong>(909) 600-4561</strong> for professional plumbing service in West Covina - same-day appointments and 24/7 emergency response available.',
       ]}
       faqs={[

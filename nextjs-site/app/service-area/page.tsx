@@ -76,34 +76,54 @@ export default function ServiceAreaPage() {
         </div>
       </section>
 
-      {/* Cities Grid */}
+      {/* Primary Service Areas */}
+      <section className="py-20 px-6 bg-navy">
+        <div className="max-w-content mx-auto">
+          <div className="text-center mb-12">
+            <p className="font-oswald font-medium text-xs tracking-[3px] uppercase text-red-light mb-2">Primary Coverage</p>
+            <h2 className="font-oswald font-bold text-[clamp(26px,3.5vw,38px)] uppercase tracking-wide text-white mb-3">Primary Service Areas</h2>
+            <div className="w-14 h-1 bg-red rounded mx-auto" />
+            <p className="text-[15px] text-blue-200 max-w-[500px] mx-auto mt-4 leading-relaxed">
+              We provide dedicated service in these eight core communities across the Inland Empire and San Gabriel Valley.
+            </p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
+            {CITIES.map((city) => (
+              <Link
+                key={city.slug}
+                href={`/service-area/${city.slug}`}
+                className="bg-white/[0.06] border border-white/20 rounded-lg p-6 hover:bg-white/[0.12] hover:border-red transition-all group block"
+              >
+                <h3 className="font-oswald font-bold text-[18px] text-white uppercase tracking-wide mb-1 group-hover:text-red-light transition-colors">
+                  {city.name}, CA
+                </h3>
+                <span className="font-oswald font-medium text-xs tracking-wider uppercase text-red-light group-hover:text-white transition-colors">
+                  View Service Area &rarr;
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Additional Cities */}
       <section className="py-20 px-6 bg-light-grey">
         <div className="max-w-content mx-auto">
           <div className="text-center mb-12">
-            <p className="font-oswald font-medium text-xs tracking-[3px] uppercase text-red mb-2">Full Coverage List</p>
-            <h2 className="font-oswald font-bold text-[clamp(26px,3.5vw,38px)] uppercase tracking-wide mb-3">Cities We Serve</h2>
+            <p className="font-oswald font-medium text-xs tracking-[3px] uppercase text-red mb-2">Extended Coverage</p>
+            <h2 className="font-oswald font-bold text-[clamp(26px,3.5vw,38px)] uppercase tracking-wide mb-3">Additional Cities We Serve</h2>
             <div className="w-14 h-1 bg-red rounded mx-auto" />
             <p className="text-[15px] text-gray-500 max-w-[500px] mx-auto mt-4 leading-relaxed">
               Don&apos;t see your city? Call us &mdash; our service area is always expanding.
             </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4">
-            {ALL_CITIES.map((city) => {
-              const cityData = CITIES.find((c) => c.name === city)
-              const content = (
-                <div className="flex items-center gap-2.5 bg-white border border-gray-200 px-4.5 py-3.5 hover:bg-red-50 hover:border-red-light transition-colors">
-                  <div className="w-2 h-2 bg-red rounded-full flex-shrink-0" />
-                  <span className="font-oswald font-medium text-[15px] text-dark-grey tracking-wide">{city}</span>
-                </div>
-              )
-              return cityData ? (
-                <Link key={city} href={`/service-area/${cityData.slug}`}>
-                  {content}
-                </Link>
-              ) : (
-                <div key={city}>{content}</div>
-              )
-            })}
+            {ALL_CITIES.filter((city) => !CITIES.find((c) => c.name === city)).map((city) => (
+              <div key={city} className="flex items-center gap-2.5 bg-white border border-gray-200 px-4.5 py-3.5 hover:bg-red-50 hover:border-red-light transition-colors">
+                <div className="w-2 h-2 bg-red rounded-full flex-shrink-0" />
+                <span className="font-oswald font-medium text-[15px] text-dark-grey tracking-wide">{city}</span>
+              </div>
+            ))}
           </div>
         </div>
       </section>

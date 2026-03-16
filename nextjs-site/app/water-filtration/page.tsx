@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { generatePageMetadata } from '@/lib/metadata'
 import ServicePageTemplate from '@/components/ServicePageTemplate'
 
@@ -17,7 +18,7 @@ export default function WaterFiltrationPage() {
       heroImage="/images/pipe-replacement-copper-ontario-ca.webp"
       overviewEyebrow="Better Water, Better Living"
       overviewTitle="Water Filtration & Softener Installation"
-      overviewBody="Southern California water is notoriously hard. Mineral buildup damages appliances, leaves residue on fixtures, and affects the taste and quality of your water. We install whole-home water softeners, under-sink filters, and reverse osmosis systems to give you cleaner, softer water throughout your home."
+      overviewBody={<>Southern California water is notoriously hard. Mineral buildup damages appliances, leaves residue on fixtures, and affects the taste and quality of your water. We install whole-home water softeners, under-sink filters, and reverse osmosis systems to give you cleaner, softer water throughout your home.{' '}Hard water affects the entire region &mdash; we install filtration systems in{' '}<Link href="/service-area/ontario-ca" className="text-red font-medium hover:underline">Ontario</Link>,{' '}<Link href="/service-area/rancho-cucamonga-ca" className="text-red font-medium hover:underline">Rancho Cucamonga</Link>,{' '}<Link href="/service-area/fontana-ca" className="text-red font-medium hover:underline">Fontana</Link>,{' '}<Link href="/service-area/pomona-ca" className="text-red font-medium hover:underline">Pomona</Link>,{' '}<Link href="/service-area/chino-ca" className="text-red font-medium hover:underline">Chino</Link>,{' '}<Link href="/service-area/corona-ca" className="text-red font-medium hover:underline">Corona</Link>,{' '}<Link href="/service-area/upland-ca" className="text-red font-medium hover:underline">Upland</Link>, and{' '}<Link href="/service-area/west-covina-ca" className="text-red font-medium hover:underline">West Covina</Link>.</>}
       overviewFeatures={[
         'Whole-home water softener installation',
         'Under-sink reverse osmosis systems',

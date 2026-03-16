@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { generatePageMetadata } from '@/lib/metadata'
 import ServicePageTemplate from '@/components/ServicePageTemplate'
 
@@ -17,7 +18,7 @@ export default function GasLeakDetectionPage() {
       heroImage="/images/camera-inspection-drain-cleaning-san-bernardino-ca.webp"
       overviewEyebrow="Safety First, Always"
       overviewTitle="Gas Leak Detection & Repair"
-      overviewBody="A gas leak is a serious safety emergency. If you smell gas, leave the building immediately and call 911 first. Then call us. Our licensed plumbers perform precise gas leak detection and repair, ensuring your home or business is safe before restoring service. Never ignore a suspected gas leak."
+      overviewBody={<>A gas leak is a serious safety emergency. If you smell gas, leave the building immediately and call 911 first. Then call us. Our licensed plumbers perform precise gas leak detection and repair, ensuring your home or business is safe before restoring service. Never ignore a suspected gas leak.{' '}Our licensed gas leak team serves{' '}<Link href="/service-area/ontario-ca" className="text-red font-medium hover:underline">Ontario</Link>,{' '}<Link href="/service-area/pomona-ca" className="text-red font-medium hover:underline">Pomona</Link>,{' '}<Link href="/service-area/fontana-ca" className="text-red font-medium hover:underline">Fontana</Link>, and communities throughout Southern California.</>}
       overviewFeatures={[
         'Electronic gas leak detection equipment',
         'Gas line repair and re-piping',

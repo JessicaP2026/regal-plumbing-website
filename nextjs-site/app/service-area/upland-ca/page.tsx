@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { generatePageMetadata } from '@/lib/metadata'
 import { CITIES } from '@/lib/constants'
 import CityPageTemplate from '@/components/CityPageTemplate'
@@ -16,7 +17,7 @@ export default function UplandCityPage() {
       city={city}
       introText={[
         "Upland is a charming foothill community known for its tree-lined streets, historic downtown along Euclid Avenue, and family-oriented neighborhoods. From the older Craftsman-style homes near downtown to the newer developments in the northern foothills, Upland's housing variety creates diverse plumbing service needs.",
-        "Regal Plumbing & Rooter serves all of Upland with professional, licensed plumbing services. Our Ontario base means fast response times to every Upland neighborhood, whether you're dealing with a plumbing emergency or scheduling routine maintenance.",
+        <>Regal Plumbing &amp; Rooter serves all of Upland with professional, licensed plumbing services. Our Ontario base means fast response times to every Upland neighborhood, whether you&apos;re dealing with a{' '}<Link href="/emergency-plumbing" className="text-red font-medium hover:underline">plumbing emergency</Link>{' '}or scheduling{' '}<Link href="/drain-cleaning" className="text-red font-medium hover:underline">drain cleaning</Link>,{' '}<Link href="/hydrojetting" className="text-red font-medium hover:underline">hydrojetting</Link>, or{' '}<Link href="/sewer-line-repair" className="text-red font-medium hover:underline">sewer line repair</Link>.</>,
       ]}
       serviceDescriptions={[
         { slug: 'emergency-plumbing', description: 'Emergency plumbing for Upland homes - 24/7 response to burst pipes, sewage backups, and water damage emergencies.' },
@@ -35,8 +36,8 @@ export default function UplandCityPage() {
       ]}
       seoContent={[
         'Looking for a reliable <strong>plumber in Upland CA</strong>? Regal Plumbing & Rooter provides expert plumbing service throughout Upland. From the <strong>historic downtown</strong> along Euclid Avenue to the <strong>northern foothill</strong> neighborhoods, we handle all residential and commercial plumbing needs.',
-        'Our <strong>emergency plumber Upland CA</strong> service runs 24/7. When a plumbing crisis hits your Upland home, we dispatch immediately from our nearby Ontario base.',
-        'Upland\'s mix of historic and modern homes creates unique plumbing challenges. Our team regularly handles <strong>sewer line repair</strong> in older downtown homes, <strong>water heater upgrades</strong> in foothill properties, and <strong>drain cleaning</strong> throughout the city.',
+        'Our <a href="/emergency-plumbing" class="text-red font-medium hover:underline"><strong>emergency plumber in Upland CA</strong></a> service runs 24/7. When a plumbing crisis hits your Upland home, we dispatch immediately from our nearby Ontario base.',
+        'Upland\'s mix of historic and modern homes creates unique plumbing challenges. Our team regularly handles <a href="/sewer-line-repair" class="text-red font-medium hover:underline"><strong>sewer line repair</strong></a> in older downtown homes, <a href="/water-heater-services" class="text-red font-medium hover:underline"><strong>water heater upgrades</strong></a> in foothill properties, <a href="/drain-cleaning" class="text-red font-medium hover:underline"><strong>drain cleaning</strong></a> throughout the city, and <a href="/hydrojetting" class="text-red font-medium hover:underline"><strong>hydrojetting</strong></a> for persistent drain issues.',
         'Call <strong>(909) 600-4561</strong> for fast, honest plumbing service in Upland, CA - available 24 hours a day.',
       ]}
       faqs={[

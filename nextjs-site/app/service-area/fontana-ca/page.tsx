@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { generatePageMetadata } from '@/lib/metadata'
 import { CITIES } from '@/lib/constants'
 import CityPageTemplate from '@/components/CityPageTemplate'
@@ -16,7 +17,7 @@ export default function FontanaCityPage() {
       city={city}
       introText={[
         "Fontana is one of the largest cities in San Bernardino County, with rapid residential growth stretching from the older neighborhoods near downtown to the sprawling master-planned communities in the south. This growth brings plumbing challenges - new construction with high water pressure issues and older homes with aging galvanized and cast iron pipe systems.",
-        "Regal Plumbing & Rooter serves all of Fontana from our nearby Ontario base, providing fast response times across the city. Whether it's a sewer line emergency near Sierra Avenue or a water heater replacement in Southridge Village, our licensed team is ready.",
+        <>Regal Plumbing &amp; Rooter serves all of Fontana from our nearby Ontario base, providing fast response times across the city. Whether it&apos;s a{' '}<Link href="/sewer-line-repair" className="text-red font-medium hover:underline">sewer line emergency</Link>{' '}near Sierra Avenue, a{' '}<Link href="/water-heater-services" className="text-red font-medium hover:underline">water heater replacement</Link>{' '}in Southridge Village, or{' '}<Link href="/hydrojetting" className="text-red font-medium hover:underline">hydrojetting</Link>{' '}to clear a blocked main line, our licensed team is ready.</>,
       ]}
       serviceDescriptions={[
         { slug: 'emergency-plumbing', description: 'Emergency plumbing in Fontana - burst pipes, sewage backups, and major leaks handled immediately, day or night.' },
@@ -35,9 +36,9 @@ export default function FontanaCityPage() {
       ]}
       seoContent={[
         'Need a trusted <strong>plumber in Fontana CA</strong>? Regal Plumbing & Rooter provides licensed, professional plumbing services throughout Fontana. From the established neighborhoods near <strong>Sierra Avenue</strong> and <strong>Foothill Boulevard</strong> to the newer communities in <strong>Southridge Village</strong> and surrounding areas, we handle every type of plumbing challenge.',
-        'Our <strong>emergency plumbing Fontana</strong> service runs 24/7. Burst pipes, sewage backups, and major leaks are handled with urgency - we dispatch fast from our Ontario base to minimize damage and get your home back to normal.',
-        '<strong>Sewer line repair in Fontana</strong> is a frequent need, especially in older neighborhoods where clay and cast iron pipes have deteriorated over decades. We use camera inspection to diagnose problems accurately and offer trenchless repair options to minimize yard disruption.',
-        'For all your Fontana plumbing needs - from <strong>drain cleaning</strong> and <strong>water heater installation</strong> to <strong>slab leak detection</strong> - call <strong>(909) 600-4561</strong> for fast, honest service.',
+        'Our <a href="/emergency-plumbing" class="text-red font-medium hover:underline"><strong>emergency plumbing in Fontana</strong></a> service runs 24/7. Burst pipes, sewage backups, and major leaks are handled with urgency - we dispatch fast from our Ontario base to minimize damage and get your home back to normal.',
+        '<a href="/sewer-line-repair" class="text-red font-medium hover:underline"><strong>Sewer line repair in Fontana</strong></a> is a frequent need, especially in older neighborhoods where clay and cast iron pipes have deteriorated over decades. We use camera inspection to diagnose problems accurately and offer trenchless repair options to minimize yard disruption.',
+        'For all your Fontana plumbing needs - from <a href="/drain-cleaning" class="text-red font-medium hover:underline"><strong>drain cleaning</strong></a> and <a href="/water-heater-services" class="text-red font-medium hover:underline"><strong>water heater installation</strong></a> to <a href="/slab-leak-detection" class="text-red font-medium hover:underline"><strong>slab leak detection</strong></a> - call <strong>(909) 600-4561</strong> for fast, honest service.',
       ]}
       faqs={[
         { question: 'How fast can you get to my Fontana home?', answer: 'From our Ontario base, we typically reach Fontana locations within 30\u201345 minutes. Emergency calls receive top priority dispatch.' },

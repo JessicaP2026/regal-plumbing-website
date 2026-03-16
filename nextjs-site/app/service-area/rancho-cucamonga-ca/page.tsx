@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { generatePageMetadata } from '@/lib/metadata'
 import { CITIES } from '@/lib/constants'
 import CityPageTemplate from '@/components/CityPageTemplate'
@@ -16,7 +17,7 @@ export default function RanchoCucamongaCityPage() {
       city={city}
       introText={[
         "Rancho Cucamonga is one of the Inland Empire's most desirable communities, with neighborhoods ranging from the established homes near Foothill Boulevard to newer developments along Day Creek and Victoria Gardens. The city's diverse housing stock brings a wide range of plumbing challenges - from aging galvanized pipes in older neighborhoods to high water pressure issues in hillside homes near the foothills.",
-        'Regal Plumbing & Rooter is based just minutes away in Ontario, giving us fast response times to all Rancho Cucamonga neighborhoods. Whether you need emergency plumbing at 2 AM or a scheduled water heater installation, our licensed technicians arrive quickly and get the job done right.',
+        <>Regal Plumbing &amp; Rooter is based just minutes away in Ontario, giving us fast response times to all Rancho Cucamonga neighborhoods. Whether you need{' '}<Link href="/emergency-plumbing" className="text-red font-medium hover:underline">emergency plumbing</Link>{' '}at 2 AM, a scheduled{' '}<Link href="/water-heater-services" className="text-red font-medium hover:underline">water heater installation</Link>, or{' '}<Link href="/hydrojetting" className="text-red font-medium hover:underline">hydrojetting</Link>{' '}to clear stubborn buildup, our licensed technicians arrive quickly and get the job done right.</>,
       ]}
       serviceDescriptions={[
         { slug: 'emergency-plumbing', description: 'Burst pipe or sewage backup in Rancho Cucamonga? We dispatch immediately - our Ontario base means we reach most RC locations in under an hour.' },
@@ -35,9 +36,9 @@ export default function RanchoCucamongaCityPage() {
       ]}
       seoContent={[
         'Looking for a reliable <strong>plumber in Rancho Cucamonga CA</strong>? Regal Plumbing & Rooter serves all of Rancho Cucamonga with professional, licensed plumbing services. From the established neighborhoods near <strong>Foothill Boulevard</strong> to the newer communities along <strong>Day Creek</strong> and near <strong>Victoria Gardens</strong>, we understand the unique plumbing needs of RC homeowners.',
-        'Our <strong>emergency plumbing Rancho Cucamonga</strong> service is available 24/7. Whether it\'s a burst pipe in the middle of the night or a sewage backup on a holiday weekend, our team dispatches fast from our Ontario base to get your plumbing emergency under control.',
-        '<strong>Drain cleaning Rancho Cucamonga</strong> is one of our most common services. The hard water throughout the Inland Empire accelerates mineral buildup inside drain pipes, leading to slow flow and eventual blockages. Our professional snaking and hydrojetting services restore full drain function.',
-        'For <strong>slab leak detection</strong> and <strong>water heater services in Rancho Cucamonga</strong>, trust the local experts who know the area. Call <strong>(909) 600-4561</strong> for same-day service or 24/7 emergency response.',
+        'Our <a href="/emergency-plumbing" class="text-red font-medium hover:underline"><strong>emergency plumbing in Rancho Cucamonga</strong></a> service is available 24/7. Whether it\'s a burst pipe in the middle of the night or a sewage backup on a holiday weekend, our team dispatches fast from our Ontario base to get your plumbing emergency under control.',
+        '<a href="/drain-cleaning" class="text-red font-medium hover:underline"><strong>Drain cleaning in Rancho Cucamonga</strong></a> is one of our most common services. The hard water throughout the Inland Empire accelerates mineral buildup inside drain pipes, leading to slow flow and eventual blockages. Our professional snaking and <a href="/hydrojetting" class="text-red font-medium hover:underline">hydrojetting services</a> restore full drain function.',
+        'For <a href="/slab-leak-detection" class="text-red font-medium hover:underline"><strong>slab leak detection</strong></a> and <a href="/water-heater-services" class="text-red font-medium hover:underline"><strong>water heater services in Rancho Cucamonga</strong></a>, trust the local experts who know the area. We also install <a href="/water-filtration" class="text-red font-medium hover:underline">water filtration systems</a> to combat the region\'s hard water. Call <strong>(909) 600-4561</strong> for same-day service or 24/7 emergency response.',
       ]}
       faqs={[
         { question: 'How quickly can you reach Rancho Cucamonga?', answer: 'Based in nearby Ontario, our technicians can reach most Rancho Cucamonga locations within 30\u201350 minutes. Emergency calls are prioritized for fastest possible dispatch.' },

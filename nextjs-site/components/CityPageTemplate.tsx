@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react'
 import Link from 'next/link'
 import { BUSINESS, SERVICES, CITIES, type City } from '@/lib/constants'
 import { generateCitySchema, generateBreadcrumbSchema, generateFAQSchema } from '@/lib/schema'
@@ -26,7 +27,7 @@ interface WhyCard {
 
 interface CityPageTemplateProps {
   city: City
-  introText: string[]
+  introText: ReactNode[]
   serviceDescriptions: CityServiceDesc[]
   whyCards: WhyCard[]
   seoContent: string[]

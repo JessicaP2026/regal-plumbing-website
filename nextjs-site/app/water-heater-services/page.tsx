@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { generatePageMetadata } from '@/lib/metadata'
 import ServicePageTemplate from '@/components/ServicePageTemplate'
 
@@ -17,7 +18,7 @@ export default function WaterHeaterServicesPage() {
       heroImage="/images/sink-faucet-installation-ontario-ca.webp"
       overviewEyebrow="Hot Water When You Need It"
       overviewTitle="Water Heater Install & Repair"
-      overviewBody="No hot water? We install and repair all types of water heaters - traditional tank units, tankless (on-demand) systems, and hybrid heat pump models. Our technicians are experienced with all major brands and can help you choose the right system for your household's needs and budget."
+      overviewBody={<>No hot water? We install and repair all types of water heaters &mdash; traditional tank units, tankless (on-demand) systems, and hybrid heat pump models. Our technicians are experienced with all major brands and can help you choose the right system for your household&apos;s needs and budget.{' '}We serve homeowners in{' '}<Link href="/service-area/rancho-cucamonga-ca" className="text-red font-medium hover:underline">Rancho Cucamonga</Link>,{' '}<Link href="/service-area/west-covina-ca" className="text-red font-medium hover:underline">West Covina</Link>, and{' '}<Link href="/service-area/corona-ca" className="text-red font-medium hover:underline">Corona</Link>, as well as throughout Southern California.</>}
       overviewFeatures={[
         'Traditional tank water heater install & repair',
         'Tankless water heater installation',

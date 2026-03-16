@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { generatePageMetadata } from '@/lib/metadata'
 import ServicePageTemplate from '@/components/ServicePageTemplate'
 
@@ -17,7 +18,7 @@ export default function SewerLineRepairPage() {
       heroImage="/images/sewer-line-repair-excavation-fontana-ca.webp"
       overviewEyebrow="Expert Diagnosis & Repair"
       overviewTitle="Sewer Line Repair & Replacement"
-      overviewBody="Sewer line problems can cause serious damage if left untreated. We use camera inspection technology to accurately diagnose sewer line issues - root intrusion, cracks, bellied pipes, and more - then provide the most cost-effective repair solution, including trenchless options when available."
+      overviewBody={<>Sewer line problems can cause serious damage if left untreated. We use camera inspection technology to accurately diagnose sewer line issues &mdash; root intrusion, cracks, bellied pipes, and more &mdash; then provide the most cost-effective repair solution, including trenchless options when available.{' '}We handle sewer line repairs throughout the Inland Empire, including{' '}<Link href="/service-area/fontana-ca" className="text-red font-medium hover:underline">sewer line repair in Fontana</Link>,{' '}<Link href="/service-area/ontario-ca" className="text-red font-medium hover:underline">Ontario</Link>, and{' '}<Link href="/service-area/pomona-ca" className="text-red font-medium hover:underline">Pomona</Link>.</>}
       overviewFeatures={[
         'Camera video inspection and diagnosis',
         'Pipe bursting and trenchless repair',

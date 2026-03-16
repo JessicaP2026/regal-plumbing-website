@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { generatePageMetadata } from '@/lib/metadata'
 import ServicePageTemplate from '@/components/ServicePageTemplate'
 
@@ -17,7 +18,7 @@ export default function HydrojettingPage() {
       heroImage="/images/hydro-jetting-roof-rancho-cucamonga-ca.webp"
       overviewEyebrow="The Most Effective Pipe Cleaning"
       overviewTitle="Professional Hydrojetting Services"
-      overviewBody="When snaking isn't enough, hydrojetting is the most effective method for clearing stubborn grease, scale, and root intrusion from drain and sewer lines. Using water at up to 4,000 PSI, hydrojetting scours pipe walls clean and restores full pipe capacity - ideal for commercial properties and recurring residential blockages."
+      overviewBody={<>When snaking isn&apos;t enough, hydrojetting is the most effective method for clearing stubborn grease, scale, and root intrusion from drain and sewer lines. Using water at up to 4,000 PSI, hydrojetting scours pipe walls clean and restores full pipe capacity &mdash; ideal for commercial properties and recurring residential blockages.{' '}We provide hydrojetting service across the Inland Empire, including{' '}<Link href="/service-area/rancho-cucamonga-ca" className="text-red font-medium hover:underline">Rancho Cucamonga</Link>,{' '}<Link href="/service-area/fontana-ca" className="text-red font-medium hover:underline">Fontana</Link>, and{' '}<Link href="/service-area/upland-ca" className="text-red font-medium hover:underline">Upland</Link>.</>}
       overviewFeatures={[
         'Clears grease, scale, and hardened buildup',
         'Removes tree root intrusion',

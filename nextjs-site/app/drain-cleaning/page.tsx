@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { generatePageMetadata } from '@/lib/metadata'
 import ServicePageTemplate from '@/components/ServicePageTemplate'
 
@@ -17,7 +18,7 @@ export default function DrainCleaningPage() {
       heroImage="/images/drain-cleaning-shower-upland-ca.webp"
       overviewEyebrow="Restore Full Flow"
       overviewTitle="Professional Drain Cleaning Services"
-      overviewBody="Slow or blocked drains are more than an inconvenience - they can signal deeper plumbing issues. Our drain cleaning services clear everything from minor kitchen clogs to severe main line blockages, using professional-grade equipment to restore full flow and prevent future buildup."
+      overviewBody={<>Slow or blocked drains are more than an inconvenience &mdash; they can signal deeper plumbing issues. Our drain cleaning services clear everything from minor kitchen clogs to severe main line blockages, using professional-grade equipment to restore full flow and prevent future buildup.{' '}We provide{' '}<Link href="/service-area/upland-ca" className="text-red font-medium hover:underline">drain cleaning in Upland</Link>,{' '}<Link href="/service-area/chino-ca" className="text-red font-medium hover:underline">Chino</Link>, and{' '}<Link href="/service-area/pomona-ca" className="text-red font-medium hover:underline">Pomona</Link>, as well as throughout the entire service area.</>}
       overviewFeatures={[
         'Kitchen and bathroom drain clearing',
         'Main sewer line snaking',

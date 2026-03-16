@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { generatePageMetadata } from '@/lib/metadata'
 import { CITIES } from '@/lib/constants'
 import CityPageTemplate from '@/components/CityPageTemplate'
@@ -16,7 +17,7 @@ export default function ChinoCityPage() {
       city={city}
       introText={[
         "Chino is a growing city in San Bernardino County known for its family-friendly neighborhoods and mix of established and new construction homes. Areas like The Preserve, College Park, and neighborhoods near Chino Airport each present unique plumbing considerations - from newer homes with high-efficiency systems to older properties with aging copper and galvanized pipes.",
-        'Regal Plumbing & Rooter provides fast, reliable plumbing services to all Chino neighborhoods from our Ontario home base. We understand the local water conditions and infrastructure challenges that Chino homeowners face.',
+        <>Regal Plumbing &amp; Rooter provides fast, reliable plumbing services to all Chino neighborhoods from our Ontario home base. We specialize in{' '}<Link href="/slab-leak-detection" className="text-red font-medium hover:underline">slab leak detection</Link>,{' '}<Link href="/water-filtration" className="text-red font-medium hover:underline">water filtration systems</Link>,{' '}<Link href="/drain-cleaning" className="text-red font-medium hover:underline">drain cleaning</Link>, and{' '}<Link href="/water-heater-services" className="text-red font-medium hover:underline">water heater services</Link>{' '}for Chino homeowners &mdash; and we understand the local water conditions and infrastructure challenges they face.</>,
       ]}
       serviceDescriptions={[
         { slug: 'emergency-plumbing', description: 'Emergency plumbing in Chino - rapid response to burst pipes, sewage backups, and leaks around the clock.' },
@@ -36,7 +37,7 @@ export default function ChinoCityPage() {
       seoContent={[
         'Searching for a quality <strong>plumber in Chino CA</strong>? Regal Plumbing & Rooter delivers expert plumbing services throughout Chino. Whether you live in <strong>The Preserve</strong>, <strong>College Park</strong>, or near <strong>Chino Airport</strong>, our licensed technicians handle every plumbing need with professionalism and care.',
         'Our <strong>emergency plumbing Chino</strong> service is available 24 hours a day, 7 days a week. From burst pipes to sewer backups, we respond quickly from our nearby Ontario location.',
-        'Chino homeowners frequently call us for <strong>drain cleaning</strong>, <strong>water heater services</strong>, and <strong>slab leak detection</strong>. The area\'s hard water and soil conditions create recurring plumbing challenges that we\'re well-equipped to handle.',
+        'Chino homeowners frequently call us for <a href="/drain-cleaning" class="text-red font-medium hover:underline"><strong>drain cleaning</strong></a>, <a href="/water-heater-services" class="text-red font-medium hover:underline"><strong>water heater services</strong></a>, and <a href="/slab-leak-detection" class="text-red font-medium hover:underline"><strong>slab leak detection in Chino</strong></a>. The area\'s hard water and soil conditions create recurring plumbing challenges that we\'re well-equipped to handle. We also install <a href="/water-filtration" class="text-red font-medium hover:underline">whole-home water filtration systems</a> to protect Chino pipes from hard water damage.',
         'Trust the local experts for your <strong>Chino plumbing needs</strong>. Call <strong>(909) 600-4561</strong> for same-day or emergency service.',
       ]}
       faqs={[
