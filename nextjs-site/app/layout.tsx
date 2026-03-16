@@ -29,6 +29,14 @@ export const metadata: Metadata = {
   },
   description: 'Licensed 24/7 plumber serving 32+ cities in the Inland Empire & San Gabriel Valley. Emergency plumbing, drain cleaning, slab leak detection & more. Call (909) 600-4561.',
   metadataBase: new URL(BUSINESS.url),
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
+    other: [
+      { rel: 'icon', url: '/icon-192x192.png', sizes: '192x192' },
+      { rel: 'icon', url: '/icon-512x512.png', sizes: '512x512' },
+    ],
+  },
 }
 
 export default function RootLayout({
