@@ -39,7 +39,7 @@ export default function WaterHeaterServicesPage() {
         {
           src: '/images/water-heater-installation-ontario-ca.webp',
           alt: 'Water heater installation Ontario CA - Regal Plumbing & Rooter',
-          caption: 'New Water Heater Installation — Ontario, CA',
+          caption: 'New Installation — Ontario, CA',
         },
         {
           src: '/images/water-heater-installation-rancho-cucamonga-ca.webp',
@@ -49,7 +49,7 @@ export default function WaterHeaterServicesPage() {
         {
           src: '/images/water-heater-repair-upland-ca.webp',
           alt: 'Water heater repair Upland CA - Regal Plumbing & Rooter',
-          caption: 'Water Heater Repair — Upland, CA',
+          caption: 'Repair Service — Upland, CA',
         },
         {
           src: '/images/water-heater-replacement-fontana-ca.webp',
