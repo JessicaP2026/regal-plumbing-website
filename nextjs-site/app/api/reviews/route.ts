@@ -17,7 +17,7 @@ export async function GET() {
     const data = await res.json()
 
     if (data.status !== 'OK') {
-      return NextResponse.json({ error: data.status }, { status: 502 })
+      return NextResponse.json({ error: data.status, message: data.error_message, fullResponse: data }, { status: 502 })
     }
 
     const { rating, user_ratings_total, reviews = [] } = data.result
@@ -33,7 +33,7 @@ export async function GET() {
       reviews: filtered,
       googleMapsUrl: `https://www.google.com/maps/place/?q=place_id:${placeId}`,
     })
-  } catch {
-    return NextResponse.json({ error: 'Failed to fetch reviews' }, { status: 500 })
+  } catch (error) {
+    return NextResponse.json({ error: 'Failed to fetch reviews', details: String(error) }, { status: 500 })
   }
 }
