@@ -1,11 +1,11 @@
 import type { ReactNode } from 'react'
+import Image from 'next/image'
 import Link from 'next/link'
 import { BUSINESS, SERVICES, CITIES, type City } from '@/lib/constants'
 import { generateCitySchema, generateBreadcrumbSchema, generateFAQSchema } from '@/lib/schema'
 import SchemaMarkup from './SchemaMarkup'
 import HeroSection from './HeroSection'
 import TrustBar from './TrustBar'
-import ServiceCard from './ServiceCard'
 import FAQAccordion from './FAQAccordion'
 import EmergencyCTABanner from './EmergencyCTABanner'
 
@@ -121,7 +121,31 @@ export default function CityPageTemplate({
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {servicesWithCityDesc.map((s) => (
-              <ServiceCard key={s.slug} {...s} />
+              <Link
+                key={s.slug}
+                href={`/${s.slug}`}
+                className="group bg-white border border-gray-200 rounded-lg overflow-hidden transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl block"
+              >
+                <div className="h-[180px] overflow-hidden relative">
+                  <Image
+                    src={s.image}
+                    alt={s.alt}
+                    fill
+                    className="object-cover transition-transform duration-400 group-hover:scale-105"
+                    sizes="(max-width: 640px) 50vw, (max-width: 900px) 50vw, 25vw"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="p-4 pb-5">
+                  <h3 className="font-oswald font-semibold text-[17px] tracking-wide text-dark-grey mb-1.5">
+                    {s.name} in {city.name}
+                  </h3>
+                  <p className="text-[13.5px] text-gray-500 leading-relaxed mb-3.5">{s.description}</p>
+                  <span className="font-oswald font-medium text-[13px] tracking-wider uppercase text-red inline-flex items-center gap-1.5">
+                    Learn More &rarr;
+                  </span>
+                </div>
+              </Link>
             ))}
           </div>
         </div>
@@ -176,36 +200,6 @@ export default function CityPageTemplate({
             <div className="w-14 h-1 bg-red rounded mx-auto" />
           </div>
           <FAQAccordion faqs={faqs} />
-        </div>
-      </section>
-
-      {/* Our Services in [City] */}
-      <section className="py-20 px-6 bg-white">
-        <div className="max-w-content mx-auto">
-          <div className="text-center mb-10">
-            <p className="font-oswald font-medium text-xs tracking-[3px] uppercase text-red mb-2">What We Offer</p>
-            <h2 className="font-oswald font-bold text-[clamp(26px,3.5vw,38px)] uppercase tracking-wide mb-3">
-              Our Services in {city.name}
-            </h2>
-            <div className="w-14 h-1 bg-red rounded mx-auto" />
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-            {SERVICES.map((s) => (
-              <Link
-                key={s.slug}
-                href={`/${s.slug}`}
-                className="bg-light-grey border border-gray-200 rounded-lg px-5 py-4 hover:shadow-md hover:border-red transition-all block group"
-              >
-                <h3 className="font-oswald font-semibold text-[15px] uppercase tracking-wide text-dark-grey mb-1 group-hover:text-red transition-colors">
-                  {s.name} in {city.name}
-                </h3>
-                <p className="text-[13px] text-gray-500 leading-relaxed mb-2.5">{s.description}</p>
-                <span className="font-oswald font-medium text-xs tracking-wider uppercase text-red">
-                  Learn More &rarr;
-                </span>
-              </Link>
-            ))}
-          </div>
         </div>
       </section>
 
