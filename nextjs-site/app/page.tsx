@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { BUSINESS, SERVICES, CITIES, REVIEWS, FAQS_HOME } from '@/lib/constants'
+import { BUSINESS, SERVICES, CITIES, FAQS_HOME } from '@/lib/constants'
 import { generatePageMetadata } from '@/lib/metadata'
 import { generateFAQSchema } from '@/lib/schema'
 import SchemaMarkup from '@/components/SchemaMarkup'
 import TrustBar from '@/components/TrustBar'
 import ServiceCard from '@/components/ServiceCard'
-import ReviewCard from '@/components/ReviewCard'
+import GoogleReviews from '@/components/GoogleReviews'
 import FAQAccordion from '@/components/FAQAccordion'
 import EmergencyCTABanner from '@/components/EmergencyCTABanner'
 
@@ -117,25 +117,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Reviews */}
-      <section className="py-20 px-6 bg-white">
-        <div className="max-w-content mx-auto">
-          <div className="text-center mb-14">
-            <p className="font-oswald font-medium text-xs tracking-[3px] uppercase text-red mb-2">
-              Customer Reviews
-            </p>
-            <h2 className="font-oswald font-bold text-[clamp(26px,3.5vw,38px)] uppercase tracking-wide mb-3">
-              What Our Customers Say
-            </h2>
-            <div className="w-14 h-1 bg-red rounded mx-auto" />
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {REVIEWS.map((r, i) => (
-              <ReviewCard key={i} {...r} />
-            ))}
-          </div>
-        </div>
-      </section>
+      <GoogleReviews />
 
       {/* FAQ */}
       <section className="py-20 px-6 bg-light-grey">

@@ -5,6 +5,7 @@ import { generatePageMetadata } from '@/lib/metadata'
 import { generateBreadcrumbSchema } from '@/lib/schema'
 import SchemaMarkup from '@/components/SchemaMarkup'
 import HeroSection from '@/components/HeroSection'
+import GoogleReviews from '@/components/GoogleReviews'
 import EmergencyCTABanner from '@/components/EmergencyCTABanner'
 
 export const metadata = generatePageMetadata({
@@ -172,6 +173,8 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      <GoogleReviews bgClass="bg-light-grey" />
 
       {/* Meet the Team */}
       <section className="py-20 px-6 bg-white">

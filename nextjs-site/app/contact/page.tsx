@@ -4,6 +4,7 @@ import { generateBreadcrumbSchema } from '@/lib/schema'
 import SchemaMarkup from '@/components/SchemaMarkup'
 import HeroSection from '@/components/HeroSection'
 import ContactForm from '@/components/ContactForm'
+import GoogleReviews from '@/components/GoogleReviews'
 import EmergencyCTABanner from '@/components/EmergencyCTABanner'
 import Link from 'next/link'
 
@@ -28,6 +29,8 @@ export default function ContactPage() {
         subtitle="Call now for immediate service or fill out the form below - we'll get back to you fast."
         breadcrumbs={[{ label: 'Home', href: '/' }, { label: 'Contact Us' }]}
       />
+
+      <GoogleReviews bgClass="bg-light-grey" />
 
       <section className="py-20 px-6 bg-white">
         <div className="max-w-content mx-auto">
